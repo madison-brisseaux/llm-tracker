@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LLM Release Tracker
 
-## Getting Started
+Tracks major language model releases from OpenAI, Anthropic, Google, Meta, and Mistral — with daily auto-updates via Vercel Cron + Claude API.
 
-First, run the development server:
+## Deploy to Vercel (5 min)
 
+### 1. Push to GitHub
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git add .
+git commit -m "Initial commit"
+gh repo create llm-tracker --public --push --source .
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Deploy with Vercel CLI
+```bash
+vercel login       # Opens browser for auth
+vercel --prod      # Deploy — answer prompts, accept all defaults
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Add environment variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+In Vercel dashboard → Project → Settings → Environment Variables:
 
-## Learn More
+| Variable | Where to get it |
+|---|---|
+| `ANTHROPIC_API_KEY` | [console.anthropic.com](https://console.anthropic.com) |
+| `CRON_SECRET` | Any random string: `openssl rand -hex 32` |
+| `BLOB_READ_WRITE_TOKEN` | See step 4 |
 
-To learn more about Next.js, take a look at the following resources:
+### 4. Enable Blob Storage (for auto-updates)
+```bash
+vercel storage create   # Choose "Blob" → link to your project
+```
+Or: Vercel Dashboard → Storage → Create → Blob → Link to Project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 5. Redeploy
+```bash
+vercel --prod
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The cron job runs daily at 06:00 UTC and uses Claude to scan provider changelogs for new releases.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Local Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
+
+### Manual update script
+```bash
+cp .env.example .env.local   # add your ANTHROPIC_API_KEY
+npm run update-models        # checks all providers, updates data/models.json
+```
+
+---
+
+## Project Structure
+
+```
+├── app/
+│   ├── page.tsx                  # Server component, loads model data
+│   └── api/update/route.ts      # Cron endpoint (daily auto-updates)
+├── components/
+│   └── ModelTable.tsx            # Table with search, filter, sort
+├── data/
+│   └── models.json               # Seed data (30+ releases)
+├── lib/
+│   ├── models.ts                 # Types + sort/format utilities
+│   └── storage.ts                # Reads Blob → falls back to JSON
+├── scripts/
+│   └── check-releases.mjs        # Local manual update script
+└── vercel.json                   # Cron: daily at 06:00 UTC
+```
+
+## How auto-updates work
+
+1. Vercel Cron calls `GET /api/update` daily at 06:00 UTC
+2. Fetches changelog pages from all 5 providers
+3. Claude (Haiku) identifies new model releases not yet tracked
+4. Merges into existing data and saves to Vercel Blob
+5. Page revalidates within 1 hour via ISR

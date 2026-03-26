@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Evertune brand colors */
+  --coral:            #F7594E;
+  --deep-coral:       #E14539;
+  --peach-haze:       #FCC7BE;
+  --light-peach:      #FEEEED;
+  --gold-horizon:     #FC9F29;
+  --teal-insight:     #00DEE6;
+  --blue-vision:      #214FD1;
+  --midnight:         #022460;
+  --emerald:          #005B5B;
+  --rose-aperture:    #B21B59;
+  --orchid:           #FFBCF1;
+  --lavender:         #A78FFF;
+  --purple-beacon:    #C938F5;
+  --yellow:           #F2F528;
+  --black-carbon:     #000000;
+  --white-light:      #FFFFFF;
+  --light-gray:       #F6F6F6;
+  --gray-fog:         #DFD8D8;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-dm-sans);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--white-light);
+  color: var(--black-carbon);
+  font-family: var(--font-dm-sans), 'DM Sans', sans-serif;
 }
