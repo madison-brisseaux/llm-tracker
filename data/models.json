@@ -16,22 +16,6 @@
     "link": "https://ai.meta.com/blog/meta-llama-3-1/"
   },
   {
-    "id": "mistral-large2-2024",
-    "provider": "Mistral",
-    "model": "Mistral Large 2",
-    "releaseDate": "2024-07-24",
-    "notes": "128K context, strong coding and multilingual capabilities. 123B parameters. Apache 2.0 license.",
-    "link": "https://mistral.ai/news/mistral-large-2407/"
-  },
-  {
-    "id": "mistral-pixtral12b-2024",
-    "provider": "Mistral",
-    "model": "Pixtral 12B",
-    "releaseDate": "2024-09-11",
-    "notes": "First multimodal model from Mistral. 12B parameters with vision capabilities. Apache 2.0 license.",
-    "link": "https://mistral.ai/news/pixtral-12b/"
-  },
-  {
     "id": "openai-o1preview-2024",
     "provider": "OpenAI",
     "model": "o1-preview",
@@ -72,14 +56,6 @@
     "link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
   },
   {
-    "id": "mistral-pixtral-large-2024",
-    "provider": "Mistral",
-    "model": "Pixtral Large",
-    "releaseDate": "2024-11-07",
-    "notes": "124B parameter multimodal model. Strong document understanding, charts, and scientific diagrams. Available via API.",
-    "link": "https://mistral.ai/news/pixtral-large/"
-  },
-  {
     "id": "anthropic-claude35haiku-2024",
     "provider": "Anthropic",
     "model": "Claude 3.5 Haiku",
@@ -112,22 +88,6 @@
     "link": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/"
   },
   {
-    "id": "mistral-codestral2501-2025",
-    "provider": "Mistral",
-    "model": "Codestral 25.01",
-    "releaseDate": "2025-01-13",
-    "notes": "Updated code generation model. 256K context window, supports 80+ programming languages. Available via API.",
-    "link": "https://mistral.ai/news/codestral-2501/"
-  },
-  {
-    "id": "mistral-small3-2025",
-    "provider": "Mistral",
-    "model": "Mistral Small 3",
-    "releaseDate": "2025-01-15",
-    "notes": "24B parameter model with 81% MMLU. Apache 2.0 license. Best-in-class small model for latency-sensitive tasks.",
-    "link": "https://mistral.ai/news/mistral-small-3/"
-  },
-  {
     "id": "openai-o3mini-2025",
     "provider": "OpenAI",
     "model": "o3-mini",
@@ -142,14 +102,6 @@
     "releaseDate": "2025-02-24",
     "notes": "First hybrid reasoning model. Switchable extended thinking mode. Top scores on SWE-bench Verified (70.3%).",
     "link": "https://www.anthropic.com/news/claude-3-7-sonnet"
-  },
-  {
-    "id": "mistral-saba-2025",
-    "provider": "Mistral",
-    "model": "Mistral Saba",
-    "releaseDate": "2025-02-17",
-    "notes": "Specialized for Arabic and South Asian languages. Strong Middle East/North Africa cultural context understanding.",
-    "link": "https://mistral.ai/news/mistral-saba/"
   },
   {
     "id": "google-gemini20flash-ga-2025",
@@ -184,14 +136,6 @@
     "link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
   },
   {
-    "id": "mistral-small31-2025",
-    "provider": "Mistral",
-    "model": "Mistral Small 3.1",
-    "releaseDate": "2025-03-17",
-    "notes": "Updated small model with vision capabilities added. 24B parameters, 128K context. Apache 2.0 license.",
-    "link": "https://mistral.ai/news/mistral-small-3-1/"
-  },
-  {
     "id": "openai-o3-2025",
     "provider": "OpenAI",
     "model": "o3",
@@ -214,6 +158,46 @@
     "releaseDate": "2025-04-05",
     "notes": "MoE architecture models: Scout (17Bx16E) and Maverick (17Bx128E). Native multimodal, 10M context window.",
     "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  },
+  {
+    "id": "openai-gpt41-2025",
+    "provider": "OpenAI",
+    "model": "GPT-4.1",
+    "releaseDate": "2025-04-14",
+    "notes": "Specialized for coding and instruction-following. Stronger than GPT-4o at precise web dev tasks. API-only release.",
+    "link": "https://openai.com/blog/gpt-4-1"
+  },
+  {
+    "id": "openai-gpt41mini-2025",
+    "provider": "OpenAI",
+    "model": "GPT-4.1 mini",
+    "releaseDate": "2025-04-14",
+    "notes": "Fast, capable small model. Replaces GPT-4o mini for paid users. Significant improvements in coding and instruction-following.",
+    "link": "https://openai.com/blog/gpt-4-1"
+  },
+  {
+    "id": "google-gemini25flash-2025",
+    "provider": "Google",
+    "model": "Gemini 2.5 Flash",
+    "releaseDate": "2025-06-17",
+    "notes": "Efficient version of Gemini 2.5 (GA). Controllable thinking budget. Best price-performance in Gemini family.",
+    "link": "https://developers.googleblog.com/en/gemini-2-5-flash-updates/"
+  },
+  {
+    "id": "google-gemini25flashlite-2025",
+    "provider": "Google",
+    "model": "Gemini 2.5 Flash-Lite",
+    "releaseDate": "2025-06-17",
+    "notes": "Ultra-efficient Gemini 2.5 variant optimized for speed and cost. Lowest latency in the Gemini 2.5 family.",
+    "link": "https://ai.google.dev/gemini-api/docs/models"
+  },
+  {
+    "id": "openai-o3pro-2025",
+    "provider": "OpenAI",
+    "model": "o3-pro",
+    "releaseDate": "2025-06-10",
+    "notes": "Extended-thinking version of o3. Thinks longer for more reliable responses on the hardest tasks. ChatGPT Pro and API.",
+    "link": "https://openai.com/blog/o3-pro"
   },
   {
     "id": "anthropic-claude-sonnet4-2025",
@@ -240,46 +224,6 @@
     "link": "https://openai.com/blog/gpt-5"
   },
   {
-    "id": "google-gemini25flash-2025",
-    "provider": "Google",
-    "model": "Gemini 2.5 Flash",
-    "releaseDate": "2025-06-17",
-    "notes": "Efficient version of Gemini 2.5 (GA). Controllable thinking budget. Best price-performance in Gemini family.",
-    "link": "https://developers.googleblog.com/en/gemini-2-5-flash-updates/"
-  },
-  {
-    "id": "openai-gpt41-2025",
-    "provider": "OpenAI",
-    "model": "GPT-4.1",
-    "releaseDate": "2025-04-14",
-    "notes": "Specialized for coding and instruction-following. Stronger than GPT-4o at precise web dev tasks. API-only release.",
-    "link": "https://openai.com/blog/gpt-4-1"
-  },
-  {
-    "id": "openai-gpt41mini-2025",
-    "provider": "OpenAI",
-    "model": "GPT-4.1 mini",
-    "releaseDate": "2025-04-14",
-    "notes": "Fast, capable small model. Replaces GPT-4o mini for paid users. Significant improvements in coding and instruction-following.",
-    "link": "https://openai.com/blog/gpt-4-1"
-  },
-  {
-    "id": "openai-o3pro-2025",
-    "provider": "OpenAI",
-    "model": "o3-pro",
-    "releaseDate": "2025-06-10",
-    "notes": "Extended-thinking version of o3. Thinks longer for more reliable responses on the hardest tasks. ChatGPT Pro and API.",
-    "link": "https://openai.com/blog/o3-pro"
-  },
-  {
-    "id": "google-gemini25flashlite-2025",
-    "provider": "Google",
-    "model": "Gemini 2.5 Flash-Lite",
-    "releaseDate": "2025-06-17",
-    "notes": "Ultra-efficient Gemini 2.5 variant optimized for speed and cost. Lowest latency in the Gemini 2.5 family.",
-    "link": "https://ai.google.dev/gemini-api/docs/models"
-  },
-  {
     "id": "google-gemini25flashimage-2025",
     "provider": "Google",
     "model": "Gemini 2.5 Flash Image",
@@ -288,12 +232,36 @@
     "link": "https://blog.google/products/gemini/"
   },
   {
+    "id": "anthropic-claude-opus41-2025",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.1",
+    "releaseDate": "2025-08-05",
+    "notes": "Drop-in replacement for Opus 4 with superior performance. Handles complex multi-step agentic tasks with more rigor.",
+    "link": "https://www.anthropic.com/news/claude-opus-4-1"
+  },
+  {
+    "id": "anthropic-claude-sonnet45-2025",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4.5",
+    "releaseDate": "2025-09-29",
+    "notes": "Best coding model at launch with 77.2% on SWE-bench Verified. 30+ hour autonomous task horizon.",
+    "link": "https://www.anthropic.com/news/claude-sonnet-4-5"
+  },
+  {
     "id": "anthropic-claude-haiku45-2025",
     "provider": "Anthropic",
     "model": "Claude Haiku 4.5",
     "releaseDate": "2025-10-15",
     "notes": "Fast and affordable Claude 4 family model. Targets latency-sensitive applications. Available on Claude.ai and mobile.",
     "link": "https://www.anthropic.com/news/claude-haiku-4-5"
+  },
+  {
+    "id": "openai-gpt51-2025",
+    "provider": "OpenAI",
+    "model": "GPT-5.1",
+    "releaseDate": "2025-11-12",
+    "notes": "Warmer personality, improved instruction-following. Adds shopping research and 8 personality options. Retired March 2026.",
+    "link": "https://openai.com/index/gpt-5-1/"
   },
   {
     "id": "anthropic-claude-opus45-2025",
@@ -312,20 +280,28 @@
     "link": "https://blog.google/products/gemini/gemini-3/"
   },
   {
-    "id": "mistral-large3-2025",
-    "provider": "Mistral",
-    "model": "Mistral Large 3",
-    "releaseDate": "2025-12-02",
-    "notes": "MoE architecture: 41B active / 675B total parameters. Multimodal, 256K context. Apache 2.0. #2 on LMArena OSS leaderboard.",
-    "link": "https://mistral.ai/news/mistral-3"
+    "id": "google-gemini3deepthink-2025",
+    "provider": "Google",
+    "model": "Gemini 3 Deep Think",
+    "releaseDate": "2025-12-04",
+    "notes": "Extended-thinking version of Gemini 3 Pro. Rolled out to Ultra subscribers. Designed for the hardest reasoning tasks.",
+    "link": "https://deepmind.google/models/gemini/"
   },
   {
-    "id": "mistral-ministral3-2025",
-    "provider": "Mistral",
-    "model": "Ministral 3 (3B/8B/14B)",
-    "releaseDate": "2025-12-02",
-    "notes": "Family of dense small models in 3 sizes × 3 variants (Base/Instruct/Reasoning). Runs on 4GB VRAM. Apache 2.0 license.",
-    "link": "https://mistral.ai/news/mistral-3"
+    "id": "openai-gpt52-2025",
+    "provider": "OpenAI",
+    "model": "GPT-5.2",
+    "releaseDate": "2025-12-11",
+    "notes": "Next upgrade to the GPT-5 series. Smarter and more useful for work and learning. 400K context, 128K output.",
+    "link": "https://openai.com/index/introducing-gpt-5-2/"
+  },
+  {
+    "id": "openai-gpt52codex-2025",
+    "provider": "OpenAI",
+    "model": "GPT-5.2-Codex",
+    "releaseDate": "2025-12-18",
+    "notes": "Agentic coding model optimized for long-horizon task completion. 56.4% on SWE-Bench Pro, 64.0% on Terminal-Bench 2.0.",
+    "link": "https://openai.com/index/introducing-gpt-5-2-codex/"
   },
   {
     "id": "google-gemini3flash-2025",
@@ -336,20 +312,20 @@
     "link": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/"
   },
   {
+    "id": "openai-gpt53codex-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.3-Codex",
+    "releaseDate": "2026-02-05",
+    "notes": "Most capable agentic coding model to date. 25% faster than GPT-5.2-Codex. State-of-the-art on SWE-Bench Pro and Terminal-Bench.",
+    "link": "https://openai.com/index/introducing-gpt-5-3-codex/"
+  },
+  {
     "id": "anthropic-claude-opus46-2026",
     "provider": "Anthropic",
     "model": "Claude Opus 4.6",
     "releaseDate": "2026-02-05",
     "notes": "1M token context window. 14.5-hour task completion horizon. Top Finance Agent benchmark. Stronger coding and planning.",
     "link": "https://www.anthropic.com/news/claude-opus-4-6"
-  },
-  {
-    "id": "google-gemini31pro-2026",
-    "provider": "Google",
-    "model": "Gemini 3.1 Pro",
-    "releaseDate": "2026-02-19",
-    "notes": "Advanced reasoning over complex problems. 77.1% on ARC-AGI-2. Available via Gemini API, Vertex AI, and NotebookLM.",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
   },
   {
     "id": "anthropic-claude-sonnet46-2026",
@@ -360,6 +336,22 @@
     "link": "https://www.anthropic.com/news/claude-sonnet-4-6"
   },
   {
+    "id": "google-gemini31pro-2026",
+    "provider": "Google",
+    "model": "Gemini 3.1 Pro",
+    "releaseDate": "2026-02-19",
+    "notes": "Advanced reasoning over complex problems. 77.1% on ARC-AGI-2. Available via Gemini API, Vertex AI, and NotebookLM.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+  },
+  {
+    "id": "google-gemini31flashimage-2026",
+    "provider": "Google",
+    "model": "Gemini 3.1 Flash Image",
+    "releaseDate": "2026-02-26",
+    "notes": "Faster image generation with 4K resolution, improved text rendering, and multi-language support. #1 on Artificial Analysis Image Arena at launch.",
+    "link": "https://techcrunch.com/2026/02/26/google-launches-nano-banana-2-model-with-faster-image-generation/"
+  },
+  {
     "id": "google-gemini31flashlite-2026",
     "provider": "Google",
     "model": "Gemini 3.1 Flash Lite",
@@ -368,12 +360,12 @@
     "link": "https://ai.google.dev/gemini-api/docs/models"
   },
   {
-    "id": "mistral-small4-2026",
-    "provider": "Mistral",
-    "model": "Mistral Small 4",
-    "releaseDate": "2026-03-17",
-    "notes": "Unified model combining text, vision, reasoning, and coding. MoE 119B total / 6B active params. 256K context. Apache 2.0.",
-    "link": "https://mistral.ai/news/mistral-small-4"
+    "id": "openai-gpt53instant-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.3 Instant",
+    "releaseDate": "2026-03-03",
+    "notes": "Smoother, more helpful everyday conversations. 400K context. 26.8% fewer hallucinations than GPT-5.2 with web search.",
+    "link": "https://openai.com/index/gpt-5-3-instant/"
   },
   {
     "id": "openai-gpt54-2026",
@@ -398,93 +390,5 @@
     "releaseDate": "2026-03-17",
     "notes": "Smallest and cheapest OpenAI model. Optimized for classification, data extraction, ranking, and coding subagents.",
     "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
-  },
-  {
-    "id": "openai-gpt53instant-2026",
-    "provider": "OpenAI",
-    "model": "GPT-5.3 Instant",
-    "releaseDate": "2026-03-03",
-    "notes": "Smoother, more helpful everyday conversations. 400K context. 26.8% fewer hallucinations than GPT-5.2 with web search. Reduces unnecessary refusals and moralizing preambles.",
-    "link": "https://openai.com/index/gpt-5-3-instant/"
-  },
-  {
-    "id": "openai-gpt53codex-2026",
-    "provider": "OpenAI",
-    "model": "GPT-5.3-Codex",
-    "releaseDate": "2026-02-05",
-    "notes": "Most capable agentic coding model to date. 25% faster than GPT-5.2-Codex. First OpenAI model instrumental in creating itself. State-of-the-art on SWE-Bench Pro and Terminal-Bench.",
-    "link": "https://openai.com/index/introducing-gpt-5-3-codex/"
-  },
-  {
-    "id": "openai-gpt52codex-2025",
-    "provider": "OpenAI",
-    "model": "GPT-5.2-Codex",
-    "releaseDate": "2025-12-18",
-    "notes": "Agentic coding model optimized for long-horizon task completion. Context compaction for multi-window workflows. 56.4% on SWE-Bench Pro, 64.0% on Terminal-Bench 2.0.",
-    "link": "https://openai.com/index/introducing-gpt-5-2-codex/"
-  },
-  {
-    "id": "openai-gpt52-2025",
-    "provider": "OpenAI",
-    "model": "GPT-5.2",
-    "releaseDate": "2025-12-11",
-    "notes": "Next upgrade to the GPT-5 series. Smarter and more useful for work and learning. 400K context, 128K output. Available in Instant, Thinking, and Pro variants.",
-    "link": "https://openai.com/index/introducing-gpt-5-2/"
-  },
-  {
-    "id": "openai-gpt51-2025",
-    "provider": "OpenAI",
-    "model": "GPT-5.1",
-    "releaseDate": "2025-11-12",
-    "notes": "Warmer personality, improved instruction-following. Adds shopping research and 8 personality options. Available in Instant, Thinking, and Pro variants. Retired March 2026.",
-    "link": "https://openai.com/index/gpt-5-1/"
-  },
-  {
-    "id": "anthropic-claude-opus41-2025",
-    "provider": "Anthropic",
-    "model": "Claude Opus 4.1",
-    "releaseDate": "2025-08-05",
-    "notes": "Drop-in replacement for Opus 4 with superior performance. Handles complex multi-step agentic tasks with more rigor. Improved precision for real-world coding workflows.",
-    "link": "https://www.anthropic.com/news/claude-opus-4-1"
-  },
-  {
-    "id": "anthropic-claude-sonnet45-2025",
-    "provider": "Anthropic",
-    "model": "Claude Sonnet 4.5",
-    "releaseDate": "2025-09-29",
-    "notes": "Best coding model at launch with 77.2% on SWE-bench Verified. 30+ hour autonomous task horizon. Launched alongside Claude Agent SDK and Claude Code 2.0.",
-    "link": "https://www.anthropic.com/news/claude-sonnet-4-5"
-  },
-  {
-    "id": "mistral-magistralsmall-2025",
-    "provider": "Mistral",
-    "model": "Magistral Small",
-    "releaseDate": "2025-06-10",
-    "notes": "Mistral's first reasoning model with chain-of-thought capabilities. 24B parameters, open-source under Apache 2.0. Released alongside Magistral Medium.",
-    "link": "https://mistral.ai/news/magistral"
-  },
-  {
-    "id": "mistral-small32-2025",
-    "provider": "Mistral",
-    "model": "Mistral Small 3.2",
-    "releaseDate": "2025-06-20",
-    "notes": "24B parameter open-weight model (Apache 2.0). Improved instruction following and function calling over v3.1. 84.78% on Mistral internal benchmark.",
-    "link": "https://mistral.ai/news/mistral-small-3-2"
-  },
-  {
-    "id": "google-gemini3deepthink-2025",
-    "provider": "Google",
-    "model": "Gemini 3 Deep Think",
-    "releaseDate": "2025-12-04",
-    "notes": "Extended-thinking version of Gemini 3 Pro. Rolled out to Ultra subscribers. Designed for the hardest reasoning tasks requiring longer deliberation.",
-    "link": "https://deepmind.google/models/gemini/"
-  },
-  {
-    "id": "google-gemini31flashimage-2026",
-    "provider": "Google",
-    "model": "Gemini 3.1 Flash Image",
-    "releaseDate": "2026-02-26",
-    "notes": "Faster image generation with 4K resolution, improved text rendering, and multi-language support. #1 on Artificial Analysis Image Arena at launch. Default in Gemini app, Search, and Lens across 141 countries.",
-    "link": "https://techcrunch.com/2026/02/26/google-launches-nano-banana-2-model-with-faster-image-generation/"
   }
 ]
