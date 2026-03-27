@@ -120,7 +120,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
       </div>
 
       {/* Filters + table */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-3">
         <div className="flex flex-col sm:flex-row gap-3 mb-5">
           {/* Search */}
           <div className="relative max-w-xs">

@@ -7,7 +7,7 @@ export interface Model {
   link?: string;
 }
 
-export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'Mistral'] as const;
+export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta'] as const;
 export type Provider = (typeof PROVIDERS)[number];
 
 // Evertune brand palette — product usage colors
