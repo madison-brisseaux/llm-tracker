@@ -4,7 +4,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek Coder",
     "releaseDate": "2023-11-02",
-    "notes": "DeepSeek's first model. Code-focused, trained on 2T tokens of code and natural language. Available in 1B, 6.7B, 33B sizes. State-of-the-art on code benchmarks at release.",
+    "notes": "DeepSeek's first model, built specifically for writing and understanding code. Came in multiple sizes to fit different hardware setups. One of the strongest open-source coding models at the time of release.",
     "link": "https://github.com/deepseek-ai/DeepSeek-Coder"
   },
   {
@@ -12,7 +12,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek LLM",
     "releaseDate": "2023-11-29",
-    "notes": "General-purpose LLM series in 7B and 67B sizes. Trained on 2T tokens. Competitive with LLaMA 2 70B on reasoning and coding benchmarks.",
+    "notes": "DeepSeek's first general-purpose model for everyday tasks like writing, reasoning, and answering questions. Competitive with Meta's Llama 2 at the time, and fully open to download and use.",
     "link": "https://github.com/deepseek-ai/DeepSeek-LLM"
   },
   {
@@ -20,7 +20,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V2",
     "releaseDate": "2024-05-07",
-    "notes": "236B MoE model with only 21B active parameters. 128K context. Outperforms GPT-4 Turbo on several benchmarks at a fraction of the inference cost.",
+    "notes": "A much more efficient model — delivers GPT-4 Turbo-level performance at a fraction of the running cost. Significant milestone for affordable, high-quality AI.",
     "link": "https://github.com/deepseek-ai/DeepSeek-V2"
   },
   {
@@ -28,7 +28,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-Coder V2",
     "releaseDate": "2024-06-17",
-    "notes": "236B MoE code model. Surpasses GPT-4 Turbo on coding benchmarks. Supports 338 programming languages, 128K context. Open-source under DeepSeek license.",
+    "notes": "Surpassed GPT-4 Turbo on coding tasks at release. Supports over 300 programming languages and handles very long code files. Fully open-source.",
     "link": "https://github.com/deepseek-ai/DeepSeek-Coder-V2"
   },
   {
@@ -36,7 +36,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V2.5",
     "releaseDate": "2024-09-05",
-    "notes": "Merged upgrade combining V2-Chat and V2-Coder. Improved alignment, instruction following, and writing quality. 128K context, API available.",
+    "notes": "Combined the best of DeepSeek's chat and coding models into one. Better at following instructions, writing clearly, and staying on topic. Available via API.",
     "link": "https://github.com/deepseek-ai/DeepSeek-V2.5"
   },
   {
@@ -44,7 +44,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-R1-Lite Preview",
     "releaseDate": "2024-11-20",
-    "notes": "First preview of DeepSeek's reasoning model with chain-of-thought capabilities. Available via chat interface only. Precursor to the full R1 release.",
+    "notes": "An early preview of DeepSeek's first reasoning model — one that shows its work step-by-step before giving a final answer. Available in the chat interface only. A teaser of the full R1 release.",
     "link": "https://www.deepseek.com"
   },
   {
@@ -52,7 +52,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V3",
     "releaseDate": "2024-12-26",
-    "notes": "671B MoE model, 37B active parameters. Trained for just $6M. Matches GPT-4o and Claude 3.5 Sonnet on benchmarks. MIT license. Caused significant industry attention.",
+    "notes": "The model that shocked the industry — trained for just $6M yet matched GPT-4o and Claude 3.5 Sonnet on real-world tasks. Fully open-source under MIT license. Sparked a global conversation about the true cost of building AI.",
     "link": "https://github.com/deepseek-ai/DeepSeek-V3"
   },
   {
@@ -60,7 +60,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-R1",
     "releaseDate": "2025-01-20",
-    "notes": "Open-source reasoning model matching OpenAI o1 performance. MIT license. Trained with pure RL (no supervised fine-tuning). Triggered broad industry discussion on AI cost efficiency.",
+    "notes": "Open-source reasoning model that matched OpenAI's o1 on difficult problem-solving tasks. Fully free to use and modify. Intensified the industry debate around AI development costs and who can compete.",
     "link": "https://github.com/deepseek-ai/DeepSeek-R1"
   },
   {
@@ -68,7 +68,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V3-0324",
     "releaseDate": "2025-03-24",
-    "notes": "Updated V3 with improved post-training using RL techniques from R1. Better reasoning, coding, and tool-use. Same base architecture as V3.",
+    "notes": "An updated version of V3 that borrowed reasoning techniques from R1. Noticeably better at logic, coding, and using tools — without changing the core model architecture.",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
   },
   {
@@ -76,7 +76,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-R1-0528",
     "releaseDate": "2025-05-28",
-    "notes": "Major upgrade to R1 with stronger reasoning and inference via more compute and advanced post-training. Built on V3 base. Significantly improved math and coding scores.",
+    "notes": "A major upgrade to the R1 reasoning model. Noticeably stronger at math and coding, with more reliable step-by-step problem solving. Built on the same foundation as V3.",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
   },
   {
@@ -84,7 +84,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V3.1",
     "releaseDate": "2025-08-14",
-    "notes": "Hybrid model combining V3 and R1 into one. Switches between thinking (chain-of-thought) and non-thinking modes via chat template. 671B total / 37B active params, 128K context.",
+    "notes": "First DeepSeek model that combines fast chat and deep reasoning in one. You can ask it to think through a problem carefully or just get a quick answer — same model, your choice. Fully open-source.",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
   },
   {
@@ -92,7 +92,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V3.2",
     "releaseDate": "2025-12-10",
-    "notes": "Successor to V3.1 with architectural improvements. Stronger benchmark performance across reasoning, math, and coding. Open weights released alongside API.",
+    "notes": "Successor to V3.1 with across-the-board improvements in reasoning, math, and coding. Open weights released at the same time as the API, keeping DeepSeek's commitment to open-source development.",
     "link": "https://huggingface.co/deepseek-ai"
   },
   {
@@ -100,7 +100,7 @@
     "provider": "OpenAI",
     "model": "GPT-4o mini",
     "releaseDate": "2024-07-18",
-    "notes": "Most capable and cost-efficient small model at release. Surpasses GPT-3.5 Turbo on academic benchmarks across textual intelligence and multimodal reasoning. Supports vision, function calling, and long-context tasks across the same languages as GPT-4o.",
+    "notes": "A smaller, faster, cheaper version of GPT-4o — without a big drop in quality. Understands images as well as text, supports many languages, and is designed for apps that need quick, cost-efficient responses.",
     "link": "https://openai.com/blog/gpt-4o-mini-advancing-cost-efficient-intelligence"
   },
   {
@@ -108,7 +108,7 @@
     "provider": "Meta",
     "model": "Llama 3.1",
     "releaseDate": "2024-07-23",
-    "notes": "The moment open-source AI caught up to the big players. For the first time, a freely available model could go toe-to-toe with GPT-4 and Claude on real tasks. Comes in small, medium, and large sizes so teams can pick the right fit for their hardware.",
+    "notes": "The moment open-source AI caught up to the big players. For the first time, a freely available model could go toe-to-toe with GPT-4 and Claude on real tasks. Comes in small, medium, and large sizes so teams can pick the right fit for their setup.",
     "link": "https://ai.meta.com/blog/meta-llama-3-1/"
   },
   {
@@ -116,7 +116,7 @@
     "provider": "OpenAI",
     "model": "o1-preview",
     "releaseDate": "2024-09-12",
-    "notes": "First preview of a new reasoning model series designed to spend more time thinking before responding. Solves harder problems in science, coding, and math than previous models. 30 messages/week rate limit at launch.",
+    "notes": "OpenAI's first model designed to slow down and think before answering. Better than previous models at hard science, math, and coding problems. An early preview with limited availability at launch.",
     "link": "https://openai.com/blog/learning-to-reason-with-llms"
   },
   {
@@ -124,7 +124,7 @@
     "provider": "OpenAI",
     "model": "o1-mini",
     "releaseDate": "2024-09-12",
-    "notes": "Smaller, faster counterpart to o1-preview. Cost-effective for coding and STEM tasks. 50 messages/week rate limit at launch. Paired with o1-preview as the first of OpenAI's reasoning model series.",
+    "notes": "A smaller, faster, more affordable version of o1-preview. Best suited for coding and technical tasks where deep reasoning matters but speed is also important.",
     "link": "https://openai.com/blog/openai-o1-mini-advancing-cost-efficient-reasoning"
   },
   {
@@ -140,7 +140,7 @@
     "provider": "Google",
     "model": "Gemini 1.5 Flash-8B",
     "releaseDate": "2024-10-03",
-    "notes": "Smallest Gemini model for high-frequency, low-latency tasks. 1M token context. Generally available via API.",
+    "notes": "Google's smallest and fastest Gemini model. Built for apps that need quick responses at high volume without breaking the budget. Handles very long documents and conversations.",
     "link": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
   },
   {
@@ -148,7 +148,7 @@
     "provider": "Anthropic",
     "model": "Claude 3.5 Sonnet (v2)",
     "releaseDate": "2024-10-22",
-    "notes": "Upgraded Sonnet with improved coding (SWE-bench 49%), vision, and computer use capability (beta).",
+    "notes": "Upgraded Sonnet with meaningfully better coding skills and a new ability to control a computer — click buttons, fill forms, navigate a browser — making it one of the first models capable of acting as a true computer-use agent.",
     "link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
   },
   {
@@ -156,7 +156,7 @@
     "provider": "Anthropic",
     "model": "Claude 3.5 Haiku",
     "releaseDate": "2024-11-04",
-    "notes": "Fastest Claude model. Matches Claude 3 Opus on many benchmarks. 200K context. API and Bedrock availability.",
+    "notes": "The fastest Claude model at the time — surprisingly capable for its speed, matching Claude 3 Opus on many tasks. Great for real-time apps or anything where waiting isn't an option.",
     "link": "https://www.anthropic.com/news/claude-3-5-haiku"
   },
   {
@@ -164,7 +164,7 @@
     "provider": "OpenAI",
     "model": "o1",
     "releaseDate": "2024-12-05",
-    "notes": "Full reasoning model release. Includes vision support, 200K context. Available in ChatGPT and API.",
+    "notes": "The full release of OpenAI's reasoning model, adding image understanding and availability in both ChatGPT and the API. Builds on the o1-preview with more capabilities and fewer restrictions.",
     "link": "https://openai.com/blog/o1-and-new-tools-for-developers"
   },
   {
@@ -172,7 +172,7 @@
     "provider": "Google",
     "model": "Gemini 2.0 Flash (Experimental)",
     "releaseDate": "2024-12-11",
-    "notes": "First Gemini 2.0 model. Multimodal I/O, native tool use, 1M context. Faster than 1.5 Pro. Agentic capabilities.",
+    "notes": "The first Gemini 2.0 model — faster than its predecessor while adding the ability to understand and generate images, audio, and text together. Early preview of Google's new generation of AI.",
     "link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
   },
   {
@@ -180,7 +180,7 @@
     "provider": "Meta",
     "model": "Llama 3.3",
     "releaseDate": "2024-12-06",
-    "notes": "Punches well above its size — matches the performance of Meta's previous flagship model at a fraction of the compute cost. A more practical choice for teams that want top-tier results without the infrastructure overhead. Free to download and modify.",
+    "notes": "Punches well above its size — matches the performance of Meta's previous flagship model while being significantly cheaper to run. A more practical choice for teams that want top-tier results without heavy infrastructure. Free to download and modify.",
     "link": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/"
   },
   {
@@ -188,7 +188,7 @@
     "provider": "OpenAI",
     "model": "o3-mini",
     "releaseDate": "2025-01-31",
-    "notes": "Cost-efficient reasoning model optimized for coding, math, and science. Three adjustable effort levels (low/medium/high). Delivers results on par with o1 at lower latency. Expert evaluators preferred o3-mini over o1-mini 56% of the time, citing improved clarity and fewer critical errors.",
+    "notes": "A faster, cheaper reasoning model for coding, math, and science. You can dial up or down how much it thinks before answering — useful when you want speed over depth, or vice versa. Matches o1 quality at lower cost.",
     "link": "https://openai.com/blog/openai-o3-mini"
   },
   {
@@ -196,7 +196,7 @@
     "provider": "Anthropic",
     "model": "Claude 3.7 Sonnet",
     "releaseDate": "2025-02-24",
-    "notes": "First hybrid reasoning model. Switchable extended thinking mode. Top scores on SWE-bench Verified (70.3%).",
+    "notes": "Anthropic's first model with a switchable 'extended thinking' mode — you can ask it to reason through a problem deeply before responding, or get a fast answer when you don't need it. Topped coding leaderboards at launch.",
     "link": "https://www.anthropic.com/news/claude-3-7-sonnet"
   },
   {
@@ -204,7 +204,7 @@
     "provider": "Google",
     "model": "Gemini 2.0 Flash",
     "releaseDate": "2025-02-05",
-    "notes": "Generally available release. Upgraded image generation, improved multilingual audio. 1M context. Free tier available.",
+    "notes": "The full public release of Gemini 2.0 Flash. Faster responses, better image generation, improved support for multiple languages and audio. Available for free.",
     "link": "https://blog.google/products/gemini/gemini-2-flash-family/"
   },
   {
@@ -212,7 +212,7 @@
     "provider": "Google",
     "model": "Gemini 2.0 Pro (Experimental)",
     "releaseDate": "2025-02-05",
-    "notes": "Most capable Gemini 2.0 model for complex tasks. 2M context window. Code execution and Google Search grounding.",
+    "notes": "Google's most capable Gemini 2.0 model. Handles very long, complex tasks and can read extremely lengthy documents. Connects to Google Search and can run code directly.",
     "link": "https://blog.google/products/gemini/gemini-2-flash-family/"
   },
   {
@@ -220,7 +220,7 @@
     "provider": "OpenAI",
     "model": "GPT-4.5",
     "releaseDate": "2025-02-27",
-    "notes": "Research preview of OpenAI's largest chat model. Scales unsupervised learning to improve pattern recognition and creative insight. Feels more natural to interact with, with improved EQ, intent-following, and fewer hallucinations. Launched for Pro users; eventually expanded to all paid plans.",
+    "notes": "OpenAI's largest and most knowledgeable chat model. Conversations feel more natural and emotionally aware. Better at understanding what you actually mean, not just what you literally typed. Fewer incorrect answers. Released as a research preview for Pro users first.",
     "link": "https://openai.com/blog/gpt-4-5"
   },
   {
@@ -228,7 +228,7 @@
     "provider": "Google",
     "model": "Gemini 2.5 Pro (Preview)",
     "releaseDate": "2025-03-25",
-    "notes": "State-of-the-art reasoning model. 1M context, native audio/video/image understanding. Top LMArena scores.",
+    "notes": "Google's most advanced reasoning model at the time. Natively understands text, images, audio, and video together. Topped independent AI leaderboards shortly after release.",
     "link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
   },
   {
@@ -236,7 +236,7 @@
     "provider": "OpenAI",
     "model": "o3",
     "releaseDate": "2025-04-16",
-    "notes": "Most powerful reasoning model. Sets new SOTA on Codeforces, SWE-bench, and MMMU. Makes 20% fewer major errors than o1 on difficult real-world tasks. Especially strong at visual tasks, programming, business analysis, and creative ideation.",
+    "notes": "OpenAI's most powerful reasoning model. Makes 20% fewer major errors than o1 on difficult real-world tasks. Especially strong at visual problem-solving, programming, business analysis, and generating novel ideas in science and engineering.",
     "link": "https://openai.com/blog/introducing-o3-and-o4-mini"
   },
   {
@@ -244,7 +244,7 @@
     "provider": "OpenAI",
     "model": "o4-mini",
     "releaseDate": "2025-04-16",
-    "notes": "Smaller reasoning model optimized for speed and cost. Best benchmark performance on AIME 2024 and 2025. Outperforms o3-mini on non-STEM tasks and data science. Supports significantly higher usage limits than o3.",
+    "notes": "A smaller, faster reasoning model that punches above its weight. Exceptional at math, coding, and visual tasks. Supports much higher usage volumes than o3, making it the go-to for teams with high throughput needs.",
     "link": "https://openai.com/blog/introducing-o3-and-o4-mini"
   },
   {
@@ -260,7 +260,7 @@
     "provider": "OpenAI",
     "model": "GPT-4.1",
     "releaseDate": "2025-04-14",
-    "notes": "Specialized for coding and precise instruction-following. Stronger than GPT-4o at web development tasks. Launched API-only in April 2025, then added to ChatGPT for paid users in May 2025. Same rate limits as GPT-4o.",
+    "notes": "A model purpose-built for coding and following detailed instructions precisely. Stronger than GPT-4o at web development tasks. Launched for developers first, then rolled out to all paid ChatGPT users in May 2025.",
     "link": "https://openai.com/blog/gpt-4-1"
   },
   {
@@ -268,7 +268,7 @@
     "provider": "OpenAI",
     "model": "GPT-4.1 mini",
     "releaseDate": "2025-04-14",
-    "notes": "Replaces GPT-4o mini across ChatGPT. Significant improvements in instruction-following, coding, and overall intelligence. Serves as the fallback model for free users once they reach GPT-4o usage limits.",
+    "notes": "Replaced GPT-4o mini as the default small model in ChatGPT. Noticeably better at following instructions and coding tasks, while staying fast and affordable.",
     "link": "https://openai.com/blog/gpt-4-1"
   },
   {
@@ -276,7 +276,7 @@
     "provider": "Google",
     "model": "Gemini 2.5 Flash",
     "releaseDate": "2025-06-17",
-    "notes": "Efficient version of Gemini 2.5 (GA). Controllable thinking budget. Best price-performance in Gemini family.",
+    "notes": "The everyday workhorse of the Gemini 2.5 family. Fast, affordable, and capable. You can control how much it reasons before answering — useful when you want to trade a little speed for a better answer.",
     "link": "https://developers.googleblog.com/en/gemini-2-5-flash-updates/"
   },
   {
@@ -284,7 +284,7 @@
     "provider": "Google",
     "model": "Gemini 2.5 Flash-Lite",
     "releaseDate": "2025-06-17",
-    "notes": "Ultra-efficient Gemini 2.5 variant optimized for speed and cost. Lowest latency in the Gemini 2.5 family.",
+    "notes": "Google's fastest and cheapest Gemini 2.5 option. Designed for high-volume applications where response speed matters most.",
     "link": "https://ai.google.dev/gemini-api/docs/models"
   },
   {
@@ -292,7 +292,7 @@
     "provider": "OpenAI",
     "model": "o3-pro",
     "releaseDate": "2025-06-10",
-    "notes": "Version of o3 that thinks longer for the most reliable responses. Expert evaluators prefer it over o3 in every tested category including science, education, programming, business, and writing. Replaced o1-pro for Pro and Team users. Supports web search, file analysis, Python, and visual reasoning.",
+    "notes": "A version of o3 that takes more time to think, producing more reliable answers on the hardest questions. Expert reviewers preferred it over standard o3 across every category tested — science, education, coding, business, and writing. Replaced o1-pro for Pro and Team users.",
     "link": "https://openai.com/blog/o3-pro"
   },
   {
@@ -300,7 +300,7 @@
     "provider": "Anthropic",
     "model": "Claude Sonnet 4",
     "releaseDate": "2025-07-09",
-    "notes": "Next generation Claude model. Enhanced coding, reasoning, and agentic task performance.",
+    "notes": "The next generation of Claude's mid-tier model. Noticeably better at coding, reasoning through complex problems, and completing multi-step tasks with less hand-holding.",
     "link": "https://www.anthropic.com/news/claude-sonnet-4"
   },
   {
@@ -308,7 +308,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4",
     "releaseDate": "2025-07-09",
-    "notes": "Most intelligent Claude model. Designed for complex, long-horizon tasks and deep reasoning.",
+    "notes": "Anthropic's most capable model at release. Designed for tasks that require deep thinking over a long session — research, complex analysis, or projects that unfold over many steps.",
     "link": "https://www.anthropic.com/news/claude-opus-4"
   },
   {
@@ -316,7 +316,7 @@
     "provider": "OpenAI",
     "model": "GPT-5",
     "releaseDate": "2025-08-07",
-    "notes": "Next flagship model and new default for all logged-in ChatGPT users. Combines fast and deep thinking into a single auto-switching system. Available across all tiers; Pro users get GPT-5 Thinking Pro for complex tasks.",
+    "notes": "OpenAI's new flagship and the default model for all logged-in ChatGPT users. Automatically switches between fast responses and deeper thinking depending on what the question needs — no manual model selection required.",
     "link": "https://openai.com/blog/gpt-5"
   },
   {
@@ -324,7 +324,7 @@
     "provider": "Google",
     "model": "Gemini 2.5 Flash Image",
     "releaseDate": "2025-08-26",
-    "notes": "Dedicated image generation model from Google. Better instruction following and text rendering than previous image models.",
+    "notes": "Google's dedicated image generation model. Better at following detailed visual instructions and accurately rendering text inside images than previous Google image models.",
     "link": "https://blog.google/products/gemini/"
   },
   {
@@ -332,7 +332,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4.1",
     "releaseDate": "2025-08-05",
-    "notes": "Drop-in replacement for Opus 4 with superior performance. Handles complex multi-step agentic tasks with more rigor.",
+    "notes": "A stronger replacement for Opus 4. Better at complex, multi-step tasks that require careful planning — like autonomous workflows, detailed research, or involved coding projects.",
     "link": "https://www.anthropic.com/news/claude-opus-4-1"
   },
   {
@@ -340,7 +340,7 @@
     "provider": "Anthropic",
     "model": "Claude Sonnet 4.5",
     "releaseDate": "2025-09-29",
-    "notes": "Best coding model at launch with 77.2% on SWE-bench Verified. 30+ hour autonomous task horizon.",
+    "notes": "Top-ranked coding model at launch. Can work autonomously on tasks for over 30 hours without human check-ins. Released alongside Anthropic's Agent SDK and Claude Code 2.0.",
     "link": "https://www.anthropic.com/news/claude-sonnet-4-5"
   },
   {
@@ -348,7 +348,7 @@
     "provider": "Anthropic",
     "model": "Claude Haiku 4.5",
     "releaseDate": "2025-10-15",
-    "notes": "Fast and affordable Claude 4 family model. Targets latency-sensitive applications. Available on Claude.ai and mobile.",
+    "notes": "The fast, lightweight option in the Claude 4 family. Built for real-time apps and high-volume use cases where speed matters more than depth. Available on Claude.ai and mobile.",
     "link": "https://www.anthropic.com/news/claude-haiku-4-5"
   },
   {
@@ -356,7 +356,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.1",
     "releaseDate": "2025-11-12",
-    "notes": "Warmer personality and improved instruction-following. Available in Instant, Thinking, and Pro variants. Retired March 11, 2026 — existing conversations automatically continued on GPT-5.3 Instant or GPT-5.4 Thinking.",
+    "notes": "A more personable GPT-5 update with a warmer tone and better instruction-following. Available in Instant, Thinking, and Pro variants. Retired March 11, 2026 and replaced by GPT-5.3 Instant and GPT-5.4 Thinking.",
     "link": "https://openai.com/index/gpt-5-1/"
   },
   {
@@ -364,7 +364,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4.5",
     "releaseDate": "2025-11-24",
-    "notes": "Most robustly aligned Claude model. Reclaimed coding crown with 80.9% SWE-bench Verified. Significantly reduced pricing.",
+    "notes": "Reclaimed the top spot on coding leaderboards at launch. Significantly more affordable than its predecessor while being more capable — a rare combination of better performance and lower cost.",
     "link": "https://www.anthropic.com/news/claude-opus-4-5"
   },
   {
@@ -372,7 +372,7 @@
     "provider": "Google",
     "model": "Gemini 3 Pro",
     "releaseDate": "2025-11-18",
-    "notes": "Best multimodal understanding model. Most powerful agentic and coding model from Google. Replaces Gemini 2.5 Pro.",
+    "notes": "Google's most powerful model at release. Understands text, images, audio, and video. Leads Google's lineup for complex reasoning, coding, and autonomous tasks. Replaces Gemini 2.5 Pro.",
     "link": "https://blog.google/products/gemini/gemini-3/"
   },
   {
@@ -380,7 +380,7 @@
     "provider": "Google",
     "model": "Gemini 3 Deep Think",
     "releaseDate": "2025-12-04",
-    "notes": "Extended-thinking version of Gemini 3 Pro. Rolled out to Ultra subscribers. Designed for the hardest reasoning tasks.",
+    "notes": "A version of Gemini 3 Pro that spends extra time working through the hardest problems before responding. Available to Gemini Ultra subscribers. Best used when accuracy matters more than speed.",
     "link": "https://deepmind.google/models/gemini/"
   },
   {
@@ -388,7 +388,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.2",
     "releaseDate": "2025-12-11",
-    "notes": "Smarter and more capable GPT-5 upgrade. 400K context, 128K output. Available in Instant, Thinking, and Pro variants. Updated February 2026 for more measured, grounded tone and clearer answers to advice and how-to questions.",
+    "notes": "A smarter, more capable GPT-5 upgrade. Available in Instant, Thinking, and Pro variants. Updated in February 2026 to respond with a more grounded, measured tone and give clearer answers to practical questions.",
     "link": "https://openai.com/index/introducing-gpt-5-2/"
   },
   {
@@ -396,7 +396,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.2-Codex",
     "releaseDate": "2025-12-18",
-    "notes": "Agentic coding model for long-horizon task completion. Uses context compaction to work coherently across multiple context windows. 56.4% on SWE-Bench Pro, 64.0% on Terminal-Bench 2.0.",
+    "notes": "An agentic coding model built to work through large, long-running projects independently. Can maintain context across multiple sessions, making it suited for real-world software engineering tasks.",
     "link": "https://openai.com/index/introducing-gpt-5-2-codex/"
   },
   {
@@ -404,7 +404,7 @@
     "provider": "Google",
     "model": "Gemini 3 Flash",
     "releaseDate": "2025-12-17",
-    "notes": "Efficient Gemini 3 model. Includes Gemini 3 Pro reasoning in a faster, cheaper package. Default model in the Gemini app.",
+    "notes": "Gemini 3 Pro's reasoning capabilities in a faster, cheaper package. Became the default model in the Gemini app — Google's answer to making advanced AI accessible for everyday use.",
     "link": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/"
   },
   {
@@ -412,7 +412,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.3-Codex",
     "releaseDate": "2026-02-05",
-    "notes": "First model combining Codex and GPT-5 training stacks. ~25% faster than GPT-5.2-Codex. Brings together best-in-class code generation, reasoning, and general intelligence. Sets new highs on SWE-Bench Pro and Terminal-Bench.",
+    "notes": "OpenAI's most capable coding agent — the first to combine their general intelligence and specialized coding capabilities in one model. About 25% faster than its predecessor, and notably the first OpenAI model that played a role in building itself.",
     "link": "https://openai.com/index/introducing-gpt-5-3-codex/"
   },
   {
@@ -420,7 +420,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4.6",
     "releaseDate": "2026-02-05",
-    "notes": "1M token context window. 14.5-hour task completion horizon. Top Finance Agent benchmark. Stronger coding and planning.",
+    "notes": "Built for very long, complex projects. Can work autonomously for over 14 hours straight and handle extremely lengthy documents in a single session. Topped finance industry AI benchmarks at launch.",
     "link": "https://www.anthropic.com/news/claude-opus-4-6"
   },
   {
@@ -428,7 +428,7 @@
     "provider": "Anthropic",
     "model": "Claude Sonnet 4.6",
     "releaseDate": "2026-02-17",
-    "notes": "Default model for free and Pro users. 1M token context (beta). Improved computer use, coding, and large-scale data processing.",
+    "notes": "The default model for free and Pro Claude users. Better at controlling computers, writing and reviewing code, and processing very large documents. Long-context support available in beta.",
     "link": "https://www.anthropic.com/news/claude-sonnet-4-6"
   },
   {
@@ -436,7 +436,7 @@
     "provider": "Google",
     "model": "Gemini 3.1 Pro",
     "releaseDate": "2026-02-19",
-    "notes": "Advanced reasoning over complex problems. 77.1% on ARC-AGI-2. Available via Gemini API, Vertex AI, and NotebookLM.",
+    "notes": "Google's strongest reasoning model. Excels at problems that require careful multi-step thinking. Available across Google's developer tools, Vertex AI, and NotebookLM.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
   },
   {
@@ -444,7 +444,7 @@
     "provider": "Google",
     "model": "Gemini 3.1 Flash Image",
     "releaseDate": "2026-02-26",
-    "notes": "Faster image generation with 4K resolution, improved text rendering, and multi-language support. #1 on Artificial Analysis Image Arena at launch.",
+    "notes": "Faster image generation with 4K resolution, improved text rendering inside images, and multi-language support. Ranked #1 on independent image generation leaderboards at launch. Default image model in the Gemini app, Google Search, and Lens.",
     "link": "https://techcrunch.com/2026/02/26/google-launches-nano-banana-2-model-with-faster-image-generation/"
   },
   {
@@ -452,7 +452,7 @@
     "provider": "Google",
     "model": "Gemini 3.1 Flash Lite",
     "releaseDate": "2026-03-03",
-    "notes": "Ultra-efficient Gemini 3.1 model for developers. Fast and cost-effective for high-volume API workloads.",
+    "notes": "Google's fastest and most affordable Gemini 3.1 model. Designed for developers building high-volume apps where speed and cost efficiency are the top priorities.",
     "link": "https://ai.google.dev/gemini-api/docs/models"
   },
   {
@@ -460,7 +460,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.3 Instant",
     "releaseDate": "2026-03-03",
-    "notes": "Focuses on tone, relevance, and conversational flow. More accurate answers and richer web search results. Reduces unnecessary caveats and overly declarative phrasing. Updated March 16, 2026 to further reduce teaser-style phrasing.",
+    "notes": "Focused on making everyday ChatGPT conversations feel better — more accurate answers, richer web search results, and a cleaner conversational tone with fewer unnecessary caveats. Updated March 16 to reduce overly dramatic phrasing.",
     "link": "https://openai.com/index/gpt-5-3-instant/"
   },
   {
@@ -468,7 +468,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.4",
     "releaseDate": "2026-03-05",
-    "notes": "Unifies reasoning, coding, and agentic workflows into one frontier model. Incorporates GPT-5.3-Codex capabilities. Provides upfront thinking plans in ChatGPT so users can adjust mid-response. Improved deep web research and context window management.",
+    "notes": "Brings together OpenAI's best advances in reasoning, coding, and autonomous task completion into one model. Shows you its thinking plan upfront in ChatGPT so you can course-correct before it finishes. Better at complex research and longer tasks.",
     "link": "https://openai.com/index/introducing-gpt-5-4/"
   },
   {
@@ -476,7 +476,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.4 mini",
     "releaseDate": "2026-03-17",
-    "notes": "Available to Free and Go users via the Thinking feature. Acts as a rate limit fallback for GPT-5.4 Thinking for paid users. Not a selectable model in the picker — GPT-5 Thinking mini retired as a separate option 30 days after launch.",
+    "notes": "Available to Free and Go users via the Thinking feature in ChatGPT. Serves as a backup for paid users when GPT-5.4 Thinking reaches capacity — keeping reasoning features accessible during peak usage.",
     "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
   },
   {
@@ -484,7 +484,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.4 nano",
     "releaseDate": "2026-03-17",
-    "notes": "Smallest and cheapest OpenAI model. Optimized for classification, data extraction, ranking, and coding subagents.",
+    "notes": "OpenAI's smallest and most affordable model. Built for specific, high-volume tasks like sorting and categorizing content, pulling structured data from text, and powering sub-tasks inside larger AI workflows.",
     "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
   }
 ]
