@@ -1,5 +1,101 @@
 [
   {
+    "id": "deepseek-coder-2023",
+    "provider": "DeepSeek",
+    "model": "DeepSeek Coder",
+    "releaseDate": "2023-11-02",
+    "notes": "DeepSeek's first model. Code-focused, trained on 2T tokens of code and natural language. Available in 1B, 6.7B, 33B sizes. State-of-the-art on code benchmarks at release.",
+    "link": "https://github.com/deepseek-ai/DeepSeek-Coder"
+  },
+  {
+    "id": "deepseek-llm-2023",
+    "provider": "DeepSeek",
+    "model": "DeepSeek LLM",
+    "releaseDate": "2023-11-29",
+    "notes": "General-purpose LLM series in 7B and 67B sizes. Trained on 2T tokens. Competitive with LLaMA 2 70B on reasoning and coding benchmarks.",
+    "link": "https://github.com/deepseek-ai/DeepSeek-LLM"
+  },
+  {
+    "id": "deepseek-v2-2024",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-V2",
+    "releaseDate": "2024-05-07",
+    "notes": "236B MoE model with only 21B active parameters. 128K context. Outperforms GPT-4 Turbo on several benchmarks at a fraction of the inference cost.",
+    "link": "https://github.com/deepseek-ai/DeepSeek-V2"
+  },
+  {
+    "id": "deepseek-coderv2-2024",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-Coder V2",
+    "releaseDate": "2024-06-17",
+    "notes": "236B MoE code model. Surpasses GPT-4 Turbo on coding benchmarks. Supports 338 programming languages, 128K context. Open-source under DeepSeek license.",
+    "link": "https://github.com/deepseek-ai/DeepSeek-Coder-V2"
+  },
+  {
+    "id": "deepseek-v25-2024",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-V2.5",
+    "releaseDate": "2024-09-05",
+    "notes": "Merged upgrade combining V2-Chat and V2-Coder. Improved alignment, instruction following, and writing quality. 128K context, API available.",
+    "link": "https://github.com/deepseek-ai/DeepSeek-V2.5"
+  },
+  {
+    "id": "deepseek-r1lite-2024",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-R1-Lite Preview",
+    "releaseDate": "2024-11-20",
+    "notes": "First preview of DeepSeek's reasoning model with chain-of-thought capabilities. Available via chat interface only. Precursor to the full R1 release.",
+    "link": "https://www.deepseek.com"
+  },
+  {
+    "id": "deepseek-v3-2024",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-V3",
+    "releaseDate": "2024-12-26",
+    "notes": "671B MoE model, 37B active parameters. Trained for just $6M. Matches GPT-4o and Claude 3.5 Sonnet on benchmarks. MIT license. Caused significant industry attention.",
+    "link": "https://github.com/deepseek-ai/DeepSeek-V3"
+  },
+  {
+    "id": "deepseek-r1-2025",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-R1",
+    "releaseDate": "2025-01-20",
+    "notes": "Open-source reasoning model matching OpenAI o1 performance. MIT license. Trained with pure RL (no supervised fine-tuning). Triggered broad industry discussion on AI cost efficiency.",
+    "link": "https://github.com/deepseek-ai/DeepSeek-R1"
+  },
+  {
+    "id": "deepseek-v3-0324-2025",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-V3-0324",
+    "releaseDate": "2025-03-24",
+    "notes": "Updated V3 with improved post-training using RL techniques from R1. Better reasoning, coding, and tool-use. Same base architecture as V3.",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+  },
+  {
+    "id": "deepseek-r1-0528-2025",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-R1-0528",
+    "releaseDate": "2025-05-28",
+    "notes": "Major upgrade to R1 with stronger reasoning and inference via more compute and advanced post-training. Built on V3 base. Significantly improved math and coding scores.",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+  },
+  {
+    "id": "deepseek-v31-2025",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-V3.1",
+    "releaseDate": "2025-08-14",
+    "notes": "Hybrid model combining V3 and R1 into one. Switches between thinking (chain-of-thought) and non-thinking modes via chat template. 671B total / 37B active params, 128K context.",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+  },
+  {
+    "id": "deepseek-v32-2025",
+    "provider": "DeepSeek",
+    "model": "DeepSeek-V3.2",
+    "releaseDate": "2025-12-10",
+    "notes": "Successor to V3.1 with architectural improvements. Stronger benchmark performance across reasoning, math, and coding. Open weights released alongside API.",
+    "link": "https://huggingface.co/deepseek-ai"
+  },
+  {
     "id": "openai-gpt4o-mini-2024",
     "provider": "OpenAI",
     "model": "GPT-4o mini",

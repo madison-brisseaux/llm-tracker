@@ -7,7 +7,7 @@ export interface Model {
   link?: string;
 }
 
-export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta'] as const;
+export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'DeepSeek'] as const;
 export type Provider = (typeof PROVIDERS)[number];
 
 // Evertune brand palette — product usage colors
@@ -16,7 +16,7 @@ export const PROVIDER_COLORS: Record<string, { bg: string; text: string; dot: st
   Anthropic: { bg: 'bg-[#F7594E]/10', text: 'text-[#B21B59]', dot: 'bg-[#F7594E]' },   // Coral Compass
   Google:    { bg: 'bg-[#214FD1]/10', text: 'text-[#022460]', dot: 'bg-[#214FD1]' },   // Blue Vision
   Meta:      { bg: 'bg-[#022460]/10', text: 'text-[#022460]', dot: 'bg-[#022460]' },   // Midnight Observatory
-  Mistral:   { bg: 'bg-[#FC9F29]/15', text: 'text-[#905101]', dot: 'bg-[#FC9F29]' },   // Gold Horizon
+  DeepSeek:  { bg: 'bg-[#A78FFF]/15', text: 'text-[#5B3FD1]', dot: 'bg-[#A78FFF]' },   // Lavender
 };
 
 export type SortField = 'releaseDate' | 'provider' | 'model';
