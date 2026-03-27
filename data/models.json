@@ -108,7 +108,7 @@
     "provider": "Meta",
     "model": "Llama 3.1",
     "releaseDate": "2024-07-23",
-    "notes": "Open-weights models: 8B, 70B, 405B. 128K context window. First open model competitive with frontier closed models.",
+    "notes": "The moment open-source AI caught up to the big players. For the first time, a freely available model could go toe-to-toe with GPT-4 and Claude on real tasks. Comes in small, medium, and large sizes so teams can pick the right fit for their hardware.",
     "link": "https://ai.meta.com/blog/meta-llama-3-1/"
   },
   {
@@ -132,7 +132,7 @@
     "provider": "Meta",
     "model": "Llama 3.2",
     "releaseDate": "2024-09-25",
-    "notes": "Multimodal models (11B, 90B) with vision. Lightweight text models (1B, 3B) for edge deployment. Open weights.",
+    "notes": "Meta's first Llama that can see. Larger versions understand images and answer questions about them. Smaller versions are designed to run directly on phones and laptops — no internet or cloud required. All free and open to use.",
     "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
   },
   {
@@ -178,9 +178,9 @@
   {
     "id": "meta-llama33-2024",
     "provider": "Meta",
-    "model": "Llama 3.3 70B",
+    "model": "Llama 3.3",
     "releaseDate": "2024-12-06",
-    "notes": "Updated 70B model with performance matching Llama 3.1 405B. More compute-efficient. Open weights.",
+    "notes": "Punches well above its size — matches the performance of Meta's previous flagship model at a fraction of the compute cost. A more practical choice for teams that want top-tier results without the infrastructure overhead. Free to download and modify.",
     "link": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/"
   },
   {
@@ -252,7 +252,7 @@
     "provider": "Meta",
     "model": "Llama 4",
     "releaseDate": "2025-04-05",
-    "notes": "MoE architecture models: Scout (17Bx16E) and Maverick (17Bx128E). Native multimodal, 10M context window.",
+    "notes": "Meta's biggest leap yet — natively understands text, images, video, and audio together. Can hold an exceptionally long conversation (equivalent to roughly 7,500 pages of text). Two versions: Scout for everyday use, Maverick for more demanding tasks. Free and open-source.",
     "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
   },
   {
