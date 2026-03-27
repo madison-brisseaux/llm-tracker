@@ -100,7 +100,7 @@
     "provider": "OpenAI",
     "model": "GPT-4o mini",
     "releaseDate": "2024-07-18",
-    "notes": "Affordable, fast frontier model. 128K context, supports vision. Lower cost alternative to GPT-4o.",
+    "notes": "Most capable and cost-efficient small model at release. Surpasses GPT-3.5 Turbo on academic benchmarks across textual intelligence and multimodal reasoning. Supports vision, function calling, and long-context tasks across the same languages as GPT-4o.",
     "link": "https://openai.com/blog/gpt-4o-mini-advancing-cost-efficient-intelligence"
   },
   {
@@ -116,7 +116,7 @@
     "provider": "OpenAI",
     "model": "o1-preview",
     "releaseDate": "2024-09-12",
-    "notes": "Early access reasoning model with extended chain-of-thought. Designed for complex science, coding, and math tasks.",
+    "notes": "First preview of a new reasoning model series designed to spend more time thinking before responding. Solves harder problems in science, coding, and math than previous models. 30 messages/week rate limit at launch.",
     "link": "https://openai.com/blog/learning-to-reason-with-llms"
   },
   {
@@ -124,7 +124,7 @@
     "provider": "OpenAI",
     "model": "o1-mini",
     "releaseDate": "2024-09-12",
-    "notes": "Smaller, faster reasoning model. Cost-effective for coding and STEM tasks without broad world knowledge needs.",
+    "notes": "Smaller, faster counterpart to o1-preview. Cost-effective for coding and STEM tasks. 50 messages/week rate limit at launch. Paired with o1-preview as the first of OpenAI's reasoning model series.",
     "link": "https://openai.com/blog/openai-o1-mini-advancing-cost-efficient-reasoning"
   },
   {
@@ -188,7 +188,7 @@
     "provider": "OpenAI",
     "model": "o3-mini",
     "releaseDate": "2025-01-31",
-    "notes": "Cost-efficient small reasoning model. Three effort levels (low/medium/high). Outperforms o1 on AIME and SWE-bench.",
+    "notes": "Cost-efficient reasoning model optimized for coding, math, and science. Three adjustable effort levels (low/medium/high). Delivers results on par with o1 at lower latency. Expert evaluators preferred o3-mini over o1-mini 56% of the time, citing improved clarity and fewer critical errors.",
     "link": "https://openai.com/blog/openai-o3-mini"
   },
   {
@@ -220,7 +220,7 @@
     "provider": "OpenAI",
     "model": "GPT-4.5",
     "releaseDate": "2025-02-27",
-    "notes": "Largest and most capable GPT model. Improved emotional intelligence and world knowledge. 128K context.",
+    "notes": "Research preview of OpenAI's largest chat model. Scales unsupervised learning to improve pattern recognition and creative insight. Feels more natural to interact with, with improved EQ, intent-following, and fewer hallucinations. Launched for Pro users; eventually expanded to all paid plans.",
     "link": "https://openai.com/blog/gpt-4-5"
   },
   {
@@ -236,7 +236,7 @@
     "provider": "OpenAI",
     "model": "o3",
     "releaseDate": "2025-04-16",
-    "notes": "Flagship reasoning model. Top ARC-AGI scores. Available in API with high/medium/low reasoning effort settings.",
+    "notes": "Most powerful reasoning model. Sets new SOTA on Codeforces, SWE-bench, and MMMU. Makes 20% fewer major errors than o1 on difficult real-world tasks. Especially strong at visual tasks, programming, business analysis, and creative ideation.",
     "link": "https://openai.com/blog/introducing-o3-and-o4-mini"
   },
   {
@@ -244,7 +244,7 @@
     "provider": "OpenAI",
     "model": "o4-mini",
     "releaseDate": "2025-04-16",
-    "notes": "Cost-efficient reasoning model with vision. Faster than o3, strong coding performance. Tool use support.",
+    "notes": "Smaller reasoning model optimized for speed and cost. Best benchmark performance on AIME 2024 and 2025. Outperforms o3-mini on non-STEM tasks and data science. Supports significantly higher usage limits than o3.",
     "link": "https://openai.com/blog/introducing-o3-and-o4-mini"
   },
   {
@@ -260,7 +260,7 @@
     "provider": "OpenAI",
     "model": "GPT-4.1",
     "releaseDate": "2025-04-14",
-    "notes": "Specialized for coding and instruction-following. Stronger than GPT-4o at precise web dev tasks. API-only release.",
+    "notes": "Specialized for coding and precise instruction-following. Stronger than GPT-4o at web development tasks. Launched API-only in April 2025, then added to ChatGPT for paid users in May 2025. Same rate limits as GPT-4o.",
     "link": "https://openai.com/blog/gpt-4-1"
   },
   {
@@ -268,7 +268,7 @@
     "provider": "OpenAI",
     "model": "GPT-4.1 mini",
     "releaseDate": "2025-04-14",
-    "notes": "Fast, capable small model. Replaces GPT-4o mini for paid users. Significant improvements in coding and instruction-following.",
+    "notes": "Replaces GPT-4o mini across ChatGPT. Significant improvements in instruction-following, coding, and overall intelligence. Serves as the fallback model for free users once they reach GPT-4o usage limits.",
     "link": "https://openai.com/blog/gpt-4-1"
   },
   {
@@ -292,7 +292,7 @@
     "provider": "OpenAI",
     "model": "o3-pro",
     "releaseDate": "2025-06-10",
-    "notes": "Extended-thinking version of o3. Thinks longer for more reliable responses on the hardest tasks. ChatGPT Pro and API.",
+    "notes": "Version of o3 that thinks longer for the most reliable responses. Expert evaluators prefer it over o3 in every tested category including science, education, programming, business, and writing. Replaced o1-pro for Pro and Team users. Supports web search, file analysis, Python, and visual reasoning.",
     "link": "https://openai.com/blog/o3-pro"
   },
   {
@@ -316,7 +316,7 @@
     "provider": "OpenAI",
     "model": "GPT-5",
     "releaseDate": "2025-08-07",
-    "notes": "Unifies reasoning and standard model capabilities. Automatically switches between fast and deep thinking modes based on task needs.",
+    "notes": "Next flagship model and new default for all logged-in ChatGPT users. Combines fast and deep thinking into a single auto-switching system. Available across all tiers; Pro users get GPT-5 Thinking Pro for complex tasks.",
     "link": "https://openai.com/blog/gpt-5"
   },
   {
@@ -356,7 +356,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.1",
     "releaseDate": "2025-11-12",
-    "notes": "Warmer personality, improved instruction-following. Adds shopping research and 8 personality options. Retired March 2026.",
+    "notes": "Warmer personality and improved instruction-following. Available in Instant, Thinking, and Pro variants. Retired March 11, 2026 — existing conversations automatically continued on GPT-5.3 Instant or GPT-5.4 Thinking.",
     "link": "https://openai.com/index/gpt-5-1/"
   },
   {
@@ -388,7 +388,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.2",
     "releaseDate": "2025-12-11",
-    "notes": "Next upgrade to the GPT-5 series. Smarter and more useful for work and learning. 400K context, 128K output.",
+    "notes": "Smarter and more capable GPT-5 upgrade. 400K context, 128K output. Available in Instant, Thinking, and Pro variants. Updated February 2026 for more measured, grounded tone and clearer answers to advice and how-to questions.",
     "link": "https://openai.com/index/introducing-gpt-5-2/"
   },
   {
@@ -396,7 +396,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.2-Codex",
     "releaseDate": "2025-12-18",
-    "notes": "Agentic coding model optimized for long-horizon task completion. 56.4% on SWE-Bench Pro, 64.0% on Terminal-Bench 2.0.",
+    "notes": "Agentic coding model for long-horizon task completion. Uses context compaction to work coherently across multiple context windows. 56.4% on SWE-Bench Pro, 64.0% on Terminal-Bench 2.0.",
     "link": "https://openai.com/index/introducing-gpt-5-2-codex/"
   },
   {
@@ -412,7 +412,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.3-Codex",
     "releaseDate": "2026-02-05",
-    "notes": "Most capable agentic coding model to date. 25% faster than GPT-5.2-Codex. State-of-the-art on SWE-Bench Pro and Terminal-Bench.",
+    "notes": "First model combining Codex and GPT-5 training stacks. ~25% faster than GPT-5.2-Codex. Brings together best-in-class code generation, reasoning, and general intelligence. Sets new highs on SWE-Bench Pro and Terminal-Bench.",
     "link": "https://openai.com/index/introducing-gpt-5-3-codex/"
   },
   {
@@ -460,7 +460,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.3 Instant",
     "releaseDate": "2026-03-03",
-    "notes": "Smoother, more helpful everyday conversations. 400K context. 26.8% fewer hallucinations than GPT-5.2 with web search.",
+    "notes": "Focuses on tone, relevance, and conversational flow. More accurate answers and richer web search results. Reduces unnecessary caveats and overly declarative phrasing. Updated March 16, 2026 to further reduce teaser-style phrasing.",
     "link": "https://openai.com/index/gpt-5-3-instant/"
   },
   {
@@ -468,7 +468,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.4",
     "releaseDate": "2026-03-05",
-    "notes": "Most capable frontier model for professional work. Native computer use, 1M context, consolidated coding+reasoning. 33% fewer hallucinations vs GPT-5.2.",
+    "notes": "Unifies reasoning, coding, and agentic workflows into one frontier model. Incorporates GPT-5.3-Codex capabilities. Provides upfront thinking plans in ChatGPT so users can adjust mid-response. Improved deep web research and context window management.",
     "link": "https://openai.com/index/introducing-gpt-5-4/"
   },
   {
@@ -476,7 +476,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.4 mini",
     "releaseDate": "2026-03-17",
-    "notes": "Most capable small OpenAI model. 2x faster than GPT-5.4. Strong on coding, reasoning, and computer use. Free and Go users.",
+    "notes": "Available to Free and Go users via the Thinking feature. Acts as a rate limit fallback for GPT-5.4 Thinking for paid users. Not a selectable model in the picker — GPT-5 Thinking mini retired as a separate option 30 days after launch.",
     "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
   },
   {
