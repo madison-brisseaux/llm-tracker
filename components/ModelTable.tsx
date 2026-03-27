@@ -228,7 +228,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
           {filtered.length > 0 && (
             <div className="px-6 py-3 bg-[#F6F6F6] border-t border-[#DFD8D8] flex items-center justify-end">
               <span className="text-xs text-[#7F7F7F]">
-                Updated daily · Sources: official provider blogs &amp; changelogs
+                Sources: official provider blogs &amp; changelogs
               </span>
             </div>
           )}
