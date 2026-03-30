@@ -68,30 +68,30 @@ export default function ModelTable({ models, lastUpdated }: Props) {
 
       {/* Header */}
       <div className="bg-white border-b border-[#DFD8D8]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
-          <div className="flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
+          <div className="flex items-center justify-between gap-3">
             {/* Logo + title */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 min-w-0">
               <Image
                 src="/evertune-logo-black.png"
                 alt="Evertune"
-                width={120}
-                height={32}
-                className="object-contain"
+                width={100}
+                height={28}
+                className="object-contain shrink-0 sm:w-[120px]"
                 priority
               />
-              <div className="w-px h-8 bg-[#DFD8D8]" />
-              <div>
-                <h1 className="text-xl font-semibold text-[#000000] tracking-tight leading-tight">
+              <div className="w-px h-8 bg-[#DFD8D8] shrink-0" />
+              <div className="min-w-0">
+                <h1 className="text-base sm:text-xl font-semibold text-[#000000] tracking-tight leading-tight">
                   AI Model Release Dashboard
                 </h1>
-                <p className="text-xs text-[#595959] mt-0.5 font-normal">
+                <p className="text-xs text-[#595959] mt-0.5 font-normal hidden sm:block">
                   Tracking releases from leading AI providers
                 </p>
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 shrink-0">
               {/* RSS feed link */}
               <a
                 href="/feed.xml"
@@ -103,10 +103,10 @@ export default function ModelTable({ models, lastUpdated }: Props) {
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
                 </svg>
-                RSS
+                <span className="hidden sm:inline">RSS</span>
               </a>
 
-              {/* Last updated — only shown once live storage is active */}
+              {/* Last updated */}
               {lastUpdated && (
                 <div className="text-right text-xs text-[#7F7F7F]">
                   <div className="font-medium text-[#595959]">Last updated</div>
@@ -115,15 +115,14 @@ export default function ModelTable({ models, lastUpdated }: Props) {
               )}
             </div>
           </div>
-
         </div>
       </div>
 
       {/* Filters + table */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-3">
-        <div className="flex flex-col sm:flex-row gap-3 mb-5">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <div className="flex flex-col gap-3 mb-4 sm:mb-5">
           {/* Search */}
-          <div className="relative max-w-xs">
+          <div className="relative">
             <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#7F7F7F]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
@@ -132,7 +131,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
               placeholder="Search models..."
               value={search}
               onChange={e => setSearch(e.target.value)}
-              className="pl-9 pr-3 py-2 w-full bg-white border border-[#DFD8D8] rounded-lg text-sm text-[#000000] placeholder-[#7F7F7F] focus:outline-none focus:border-[#F7594E] focus:ring-1 focus:ring-[#F7594E]"
+              className="pl-9 pr-3 py-2.5 w-full sm:max-w-xs bg-white border border-[#DFD8D8] rounded-lg text-sm text-[#000000] placeholder-[#7F7F7F] focus:outline-none focus:border-[#F7594E] focus:ring-1 focus:ring-[#F7594E]"
             />
           </div>
 
@@ -158,8 +157,8 @@ export default function ModelTable({ models, lastUpdated }: Props) {
 
         </div>
 
-        {/* Table */}
-        <div className="bg-white rounded-xl border border-[#DFD8D8] overflow-hidden shadow-sm">
+        {/* Desktop table */}
+        <div className="hidden sm:block bg-white rounded-xl border border-[#DFD8D8] overflow-hidden shadow-sm">
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-[#DFD8D8]">
               <thead>
@@ -240,6 +239,83 @@ export default function ModelTable({ models, lastUpdated }: Props) {
             </div>
           )}
         </div>
+
+        {/* Mobile cards */}
+        <div className="sm:hidden">
+          {filtered.length === 0 ? (
+            <div className="bg-white rounded-xl border border-[#DFD8D8] px-4 py-12 text-center text-[#7F7F7F] text-sm shadow-sm">
+              No models match your search.
+            </div>
+          ) : (
+            <div className="flex flex-col gap-2.5">
+              {/* Sort row */}
+              <div className="flex items-center gap-2 px-1">
+                <span className="text-xs text-[#7F7F7F] font-medium">Sort:</span>
+                {([
+                  { label: 'Date', field: 'releaseDate' as SortField },
+                  { label: 'Provider', field: 'provider' as SortField },
+                  { label: 'Model', field: 'model' as SortField },
+                ] as const).map(col => (
+                  <button
+                    key={col.field}
+                    onClick={() => handleSort(col.field)}
+                    className={`px-2.5 py-1 rounded-md text-xs font-semibold transition-all ${
+                      sortField === col.field
+                        ? 'bg-[#F7594E] text-white'
+                        : 'bg-white text-[#595959] border border-[#DFD8D8]'
+                    }`}
+                  >
+                    {col.label}
+                    {sortField === col.field && (
+                      <span className="ml-1">{sortDir === 'asc' ? '↑' : '↓'}</span>
+                    )}
+                  </button>
+                ))}
+              </div>
+
+              {filtered.map(model => (
+                <div key={model.id} className="bg-white rounded-xl border border-[#DFD8D8] p-4 shadow-sm">
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <ProviderBadge provider={model.provider} />
+                    <span className="text-xs text-[#7F7F7F] font-medium tabular-nums shrink-0 pt-0.5">
+                      {formatDate(model.releaseDate)}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2 flex-wrap mb-2">
+                    <span className="text-sm font-semibold text-[#000000]">{model.model}</span>
+                    {model.freeDefault && (
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 whitespace-nowrap">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                        Free default
+                      </span>
+                    )}
+                    {model.link && (
+                      <a
+                        href={model.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#F7594E]"
+                        title="View announcement"
+                      >
+                        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </a>
+                    )}
+                  </div>
+                  <p className="text-sm text-[#595959] leading-relaxed">{model.notes}</p>
+                </div>
+              ))}
+
+              <div className="px-1 py-2 text-center">
+                <span className="text-xs text-[#7F7F7F]">
+                  Sources: official provider blogs &amp; changelogs
+                </span>
+              </div>
+            </div>
+          )}
+        </div>
+
       </div>
     </div>
   );
