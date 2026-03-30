@@ -5,6 +5,7 @@ export interface Model {
   releaseDate: string; // ISO date string YYYY-MM-DD
   notes: string;
   link?: string;
+  freeDefault?: boolean; // true if this is the current free-tier default for its provider
 }
 
 export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'DeepSeek'] as const;

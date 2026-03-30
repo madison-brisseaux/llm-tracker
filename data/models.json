@@ -405,7 +405,8 @@
     "model": "Gemini 3 Flash",
     "releaseDate": "2025-12-17",
     "notes": "Gemini 3 Pro's reasoning capabilities in a faster, cheaper package. Became the default model in the Gemini app — Google's answer to making advanced AI accessible for everyday use.",
-    "link": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/"
+    "link": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/",
+    "freeDefault": true
   },
   {
     "id": "openai-gpt53codex-2026",
@@ -429,7 +430,8 @@
     "model": "Claude Sonnet 4.6",
     "releaseDate": "2026-02-17",
     "notes": "The default model for free and Pro Claude users. Better at controlling computers, writing and reviewing code, and processing very large documents. Long-context support available in beta.",
-    "link": "https://www.anthropic.com/news/claude-sonnet-4-6"
+    "link": "https://www.anthropic.com/news/claude-sonnet-4-6",
+    "freeDefault": true
   },
   {
     "id": "google-gemini31pro-2026",
@@ -477,7 +479,8 @@
     "model": "GPT-5.4 mini",
     "releaseDate": "2026-03-17",
     "notes": "Available to Free and Go users via the Thinking feature in ChatGPT. Serves as a backup for paid users when GPT-5.4 Thinking reaches capacity — keeping reasoning features accessible during peak usage.",
-    "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+    "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+    "freeDefault": true
   },
   {
     "id": "openai-gpt54nano-2026",
