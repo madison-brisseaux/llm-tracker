@@ -489,5 +489,45 @@
     "releaseDate": "2026-03-17",
     "notes": "OpenAI's smallest and most affordable model. Built for specific, high-volume tasks like sorting and categorizing content, pulling structured data from text, and powering sub-tasks inside larger AI workflows.",
     "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+  },
+  {
+    "id": "google-search-ai-overviews-2024",
+    "provider": "Google Search",
+    "model": "AI Overviews",
+    "releaseDate": "2024-05-14",
+    "notes": "Google replaced its experimental Search Generative Experience (SGE) with AI Overviews — AI-generated summaries that appear at the top of search results. Rolled out to all US users at Google I/O 2024, marking the biggest change to Google Search in years.",
+    "link": "https://blog.google/products/search/generative-ai-google-search-may-2024/"
+  },
+  {
+    "id": "google-search-ai-mode-2025",
+    "provider": "Google Search",
+    "model": "AI Mode",
+    "releaseDate": "2025-05-20",
+    "notes": "A fully conversational search experience built on Gemini 2.5. Instead of a list of links, you get a detailed, cited answer — and can ask follow-up questions in the same session. Launched at Google I/O 2025 and opened to all US users with no sign-up required.",
+    "link": "https://blog.google/products/search/ai-mode-search/"
+  },
+  {
+    "id": "google-search-ai-mode-global-2025",
+    "provider": "Google Search",
+    "model": "AI Mode (Global)",
+    "releaseDate": "2025-12-01",
+    "notes": "AI Mode expanded from the US to 180+ countries, making Google's conversational search experience available worldwide. Advanced features like Deep Search and personal Gmail/Photos integration require a Google AI Pro subscription.",
+    "link": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/"
+  },
+  {
+    "id": "google-search-ai-overviews-gmail-2026",
+    "provider": "Google Search",
+    "model": "AI Overviews in Gmail",
+    "releaseDate": "2026-02-01",
+    "notes": "AI Overviews expanded beyond Search into Gmail — summarizing long email threads and answering questions about your inbox using natural language. Part of Google's broader push to bring Gemini into its core productivity apps.",
+    "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/"
+  },
+  {
+    "id": "google-search-search-live-global-2026",
+    "provider": "Google Search",
+    "model": "Search Live (Global)",
+    "releaseDate": "2026-03-26",
+    "notes": "Google's camera-powered AI search went global — available in 200+ countries. Point your phone at anything and have a real-time back-and-forth conversation about what the camera sees. Powered by Gemini 3.1 Flash Live for natural, fluid voice responses.",
+    "link": "https://techcrunch.com/2026/03/26/google-is-launching-search-live-globally/"
   }
 ]
