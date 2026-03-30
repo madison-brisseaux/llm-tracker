@@ -8,7 +8,7 @@ export interface Model {
   freeDefault?: boolean; // true if this is the current free-tier default for its provider
 }
 
-export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'DeepSeek', 'Google Search'] as const;
+export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Google Search', 'Meta', 'DeepSeek'] as const;
 export type Provider = (typeof PROVIDERS)[number];
 
 // Evertune brand palette — product usage colors
