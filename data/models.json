@@ -463,7 +463,8 @@
     "model": "GPT-5.3 Instant",
     "releaseDate": "2026-03-03",
     "notes": "The default model for free ChatGPT users. Focused on making everyday conversations feel better — more accurate answers, richer web search results, and a cleaner tone with fewer unnecessary caveats. Updated March 16 to reduce overly dramatic phrasing.",
-    "link": "https://openai.com/index/gpt-5-3-instant/"
+    "link": "https://openai.com/index/gpt-5-3-instant/",
+    "freeDefault": true
   },
   {
     "id": "openai-gpt54-2026",
