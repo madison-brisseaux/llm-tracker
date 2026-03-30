@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Image from 'next/image';
-import { Model, PROVIDERS, PROVIDER_COLORS, SortField, SortDir, sortModels, formatDate, AccessType, ACCESS_LABELS, ACCESS_COLORS } from '@/lib/models';
+import { Model, PROVIDERS, PROVIDER_COLORS, SortField, SortDir, sortModels, formatDate } from '@/lib/models';
 
 interface Props {
   models: Model[];
@@ -31,7 +31,6 @@ function SortIcon({ field, current, dir }: { field: SortField; current: SortFiel
 export default function ModelTable({ models, lastUpdated }: Props) {
   const [search, setSearch] = useState('');
   const [providerFilter, setProviderFilter] = useState<string>('All');
-  const [accessFilter, setAccessFilter] = useState<AccessType | 'All'>('All');
   const [sortField, setSortField] = useState<SortField>('releaseDate');
   const [sortDir, setSortDir] = useState<SortDir>('desc');
 
@@ -47,7 +46,6 @@ export default function ModelTable({ models, lastUpdated }: Props) {
   const filtered = useMemo(() => {
     let result = models;
     if (providerFilter !== 'All') result = result.filter(m => m.provider === providerFilter);
-    if (accessFilter !== 'All') result = result.filter(m => m.access?.includes(accessFilter));
     if (search.trim()) {
       const q = search.toLowerCase();
       result = result.filter(
@@ -57,7 +55,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
       );
     }
     return sortModels(result, sortField, sortDir);
-  }, [models, providerFilter, accessFilter, search, sortField, sortDir]);
+  }, [models, providerFilter, search, sortField, sortDir]);
 
 
   return (
@@ -158,26 +156,6 @@ export default function ModelTable({ models, lastUpdated }: Props) {
             })}
           </div>
 
-          {/* Access filters */}
-          <div className="flex flex-wrap gap-2">
-            {(['All', 'consumer', 'api', 'open-source'] as const).map(a => {
-              const active = accessFilter === a;
-              const label = a === 'All' ? 'All Access' : ACCESS_LABELS[a];
-              return (
-                <button
-                  key={a}
-                  onClick={() => setAccessFilter(a)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
-                    active
-                      ? 'bg-[#F7594E] text-white shadow-sm'
-                      : 'bg-white text-[#595959] border border-[#DFD8D8] hover:border-[#F7594E] hover:text-[#F7594E]'
-                  }`}
-                >
-                  {label}
-                </button>
-              );
-            })}
-          </div>
         </div>
 
         {/* Table */}
@@ -200,9 +178,6 @@ export default function ModelTable({ models, lastUpdated }: Props) {
                       <SortIcon field={col.field} current={sortField} dir={sortDir} />
                     </th>
                   ))}
-                  <th className="px-6 py-3 text-left text-xs font-bold text-[#595959] uppercase tracking-wider whitespace-nowrap">
-                    Access
-                  </th>
                   <th className="px-6 py-3 text-left text-xs font-bold text-[#595959] uppercase tracking-wider">
                     Notes
                   </th>
@@ -211,7 +186,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
               <tbody className="divide-y divide-[#DFD8D8]">
                 {filtered.length === 0 ? (
                   <tr>
-                    <td colSpan={5} className="px-6 py-12 text-center text-[#7F7F7F] text-sm">
+                    <td colSpan={4} className="px-6 py-12 text-center text-[#7F7F7F] text-sm">
                       No models match your search.
                     </td>
                   </tr>
@@ -247,18 +222,6 @@ export default function ModelTable({ models, lastUpdated }: Props) {
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <span className="text-sm text-[#595959] font-medium tabular-nums">{formatDate(model.releaseDate)}</span>
-                      </td>
-                      <td className="px-6 py-4">
-                        <div className="flex flex-col gap-1">
-                          {(model.access ?? []).map(a => {
-                            const c = ACCESS_COLORS[a];
-                            return (
-                              <span key={a} className={`inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold whitespace-nowrap ${c.bg} ${c.text}`}>
-                                {ACCESS_LABELS[a]}
-                              </span>
-                            );
-                          })}
-                        </div>
                       </td>
                       <td className="px-6 py-4">
                         <p className="text-sm text-[#595959] max-w-xl leading-relaxed">{model.notes}</p>
