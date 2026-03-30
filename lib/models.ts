@@ -8,16 +8,17 @@ export interface Model {
   freeDefault?: boolean; // true if this is the current free-tier default for its provider
 }
 
-export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'DeepSeek'] as const;
+export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'DeepSeek', 'Google Search'] as const;
 export type Provider = (typeof PROVIDERS)[number];
 
 // Evertune brand palette — product usage colors
 export const PROVIDER_COLORS: Record<string, { bg: string; text: string; dot: string }> = {
-  OpenAI:    { bg: 'bg-[#00DEE6]/15', text: 'text-[#005B5B]', dot: 'bg-[#00DEE6]' },   // Teal Insight
-  Anthropic: { bg: 'bg-[#F7594E]/10', text: 'text-[#B21B59]', dot: 'bg-[#F7594E]' },   // Coral Compass
-  Google:    { bg: 'bg-[#214FD1]/10', text: 'text-[#022460]', dot: 'bg-[#214FD1]' },   // Blue Vision
-  Meta:      { bg: 'bg-[#022460]/10', text: 'text-[#022460]', dot: 'bg-[#022460]' },   // Midnight Observatory
-  DeepSeek:  { bg: 'bg-[#A78FFF]/15', text: 'text-[#5B3FD1]', dot: 'bg-[#A78FFF]' },   // Lavender
+  OpenAI:         { bg: 'bg-[#00DEE6]/15', text: 'text-[#005B5B]', dot: 'bg-[#00DEE6]' },
+  Anthropic:      { bg: 'bg-[#F7594E]/10', text: 'text-[#B21B59]', dot: 'bg-[#F7594E]' },
+  Google:         { bg: 'bg-[#214FD1]/10', text: 'text-[#022460]', dot: 'bg-[#214FD1]' },
+  Meta:           { bg: 'bg-[#022460]/10', text: 'text-[#022460]', dot: 'bg-[#022460]' },
+  DeepSeek:       { bg: 'bg-[#A78FFF]/15', text: 'text-[#5B3FD1]', dot: 'bg-[#A78FFF]' },
+  'Google Search':{ bg: 'bg-[#34A853]/10', text: 'text-[#1A5C2E]', dot: 'bg-[#34A853]' },
 };
 
 export type SortField = 'releaseDate' | 'provider' | 'model';
