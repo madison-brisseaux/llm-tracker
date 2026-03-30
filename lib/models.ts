@@ -1,3 +1,17 @@
+export type AccessType = 'consumer' | 'api' | 'open-source';
+
+export const ACCESS_LABELS: Record<AccessType, string> = {
+  consumer: 'Consumer App',
+  api: 'API',
+  'open-source': 'Open Source',
+};
+
+export const ACCESS_COLORS: Record<AccessType, { bg: string; text: string }> = {
+  consumer:      { bg: 'bg-[#FC9F29]/15', text: 'text-[#7A4A00]' },
+  api:           { bg: 'bg-[#214FD1]/10', text: 'text-[#022460]' },
+  'open-source': { bg: 'bg-[#A78FFF]/15', text: 'text-[#5B3FD1]' },
+};
+
 export interface Model {
   id: string;
   provider: string;
@@ -6,6 +20,7 @@ export interface Model {
   notes: string;
   link?: string;
   freeDefault?: boolean; // true if this is the current free-tier default for its provider
+  access?: AccessType[]; // how this model is available
 }
 
 export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Google Search', 'Meta', 'DeepSeek'] as const;
