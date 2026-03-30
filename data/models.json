@@ -462,7 +462,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.3 Instant",
     "releaseDate": "2026-03-03",
-    "notes": "Focused on making everyday ChatGPT conversations feel better — more accurate answers, richer web search results, and a cleaner conversational tone with fewer unnecessary caveats. Updated March 16 to reduce overly dramatic phrasing.",
+    "notes": "The default model for free ChatGPT users. Focused on making everyday conversations feel better — more accurate answers, richer web search results, and a cleaner tone with fewer unnecessary caveats. Updated March 16 to reduce overly dramatic phrasing.",
     "link": "https://openai.com/index/gpt-5-3-instant/"
   },
   {
@@ -478,9 +478,8 @@
     "provider": "OpenAI",
     "model": "GPT-5.4 mini",
     "releaseDate": "2026-03-17",
-    "notes": "Available to Free and Go users via the Thinking feature in ChatGPT. Serves as a backup for paid users when GPT-5.4 Thinking reaches capacity — keeping reasoning features accessible during peak usage.",
-    "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
-    "freeDefault": true
+    "notes": "A lighter reasoning model, not the default free model. Free users can access it via the Thinking toggle in ChatGPT's + menu. For paid users, it serves as an automatic fallback when GPT-5.4 Thinking hits capacity.",
+    "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
   },
   {
     "id": "openai-gpt54nano-2026",
