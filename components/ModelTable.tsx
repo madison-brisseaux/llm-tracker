@@ -317,6 +317,16 @@ export default function ModelTable({ models, lastUpdated }: Props) {
         </div>
 
       </div>
+
+      {/* Footer */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
+        <p className="text-xs text-[#7F7F7F]">
+          Have feedback on this dashboard? Please email{' '}
+          <a href="mailto:madison@evertune.ai" className="text-[#F7594E] hover:underline">
+            madison@evertune.ai
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
