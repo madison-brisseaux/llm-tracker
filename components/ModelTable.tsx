@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import Image from 'next/image';
 import { Model, PROVIDERS, PROVIDER_COLORS, SortField, SortDir, sortModels, formatDate } from '@/lib/models';
 
 interface Props {
@@ -71,16 +70,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
           <div className="flex items-center justify-between gap-3">
             {/* Logo + title */}
-            <div className="flex items-center gap-3 min-w-0">
-              <Image
-                src="/evertune-logo-black.png"
-                alt="Evertune"
-                width={100}
-                height={28}
-                className="object-contain shrink-0 sm:w-[120px]"
-                priority
-              />
-              <div className="w-px h-8 bg-[#DFD8D8] shrink-0" />
+            <div className="flex items-center min-w-0">
               <div className="min-w-0">
                 <h1 className="text-base sm:text-xl font-semibold text-[#000000] tracking-tight leading-tight">
                   AI Model Release Dashboard
