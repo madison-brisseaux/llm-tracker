@@ -40,7 +40,7 @@ export async function GET(request: Request) {
   <channel>
     <title>AI Model Release Dashboard</title>
     <link>${baseUrl}</link>
-    <description>Daily updates on the latest LLM model releases from OpenAI, Anthropic, Google, Meta, Mistral, and more.</description>
+    <description>Daily updates on the latest AI model releases from OpenAI, Anthropic, Google, Meta, DeepSeek, and more.</description>
     <language>en-us</language>
     <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
