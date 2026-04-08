@@ -545,5 +545,13 @@
     "releaseDate": "2026-04-02",
     "notes": "Google's most capable open-source model family yet, built for advanced reasoning and agentic workflows. Released under Apache 2.0 in four sizes (2B, 4B, 26B, and 31B) so it can run on everything from a phone to a server without needing a cloud connection.",
     "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+  },
+  {
+    "id": "anthropic-claude-mythos-preview-2026",
+    "provider": "Anthropic",
+    "model": "Claude Mythos Preview",
+    "releaseDate": "2026-04-07",
+    "notes": "Anthropic's most powerful model — currently in limited testing, not publicly available. Early access is restricted to ~40 partner organizations through Project Glasswing for defensive cybersecurity work. Anthropic plans to expand access once new safety measures are in place.",
+    "link": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
   }
 ]
