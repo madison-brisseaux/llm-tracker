@@ -191,7 +191,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
                           {model.freeDefault && (
                             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 whitespace-nowrap">
                               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                              Free default
+                              Default model for free users
                             </span>
                           )}
                           {model.link && (
@@ -276,7 +276,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
                     {model.freeDefault && (
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 whitespace-nowrap">
                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                        Free default
+                        Default model for free users
                       </span>
                     )}
                     {model.link && (
