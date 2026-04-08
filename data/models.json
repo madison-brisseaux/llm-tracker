@@ -529,5 +529,21 @@
     "releaseDate": "2026-03-26",
     "notes": "Google's camera-powered AI search went global — available in 200+ countries. Point your phone at anything and have a real-time back-and-forth conversation about what the camera sees. Powered by Gemini 3.1 Flash Live for natural, fluid voice responses.",
     "link": "https://techcrunch.com/2026/03/26/google-is-launching-search-live-globally/"
+  },
+  {
+    "id": "google-gemini31flashlive-2026",
+    "provider": "Google",
+    "model": "Gemini 3.1 Flash-Live",
+    "releaseDate": "2026-03-26",
+    "notes": "Google's dedicated real-time audio and voice model, powering Search Live and Gemini Live. Designed for low-latency back-and-forth conversations — you speak, it responds fluidly, with support for video input and tool use for AI agents.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+  },
+  {
+    "id": "google-gemma4-2026",
+    "provider": "Google",
+    "model": "Gemma 4",
+    "releaseDate": "2026-04-02",
+    "notes": "Google's most capable open-source model family yet, built for advanced reasoning and agentic workflows. Released under Apache 2.0 in four sizes (2B, 4B, 26B, and 31B) so it can run on everything from a phone to a server without needing a cloud connection.",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
   }
 ]
