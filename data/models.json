@@ -553,5 +553,21 @@
     "releaseDate": "2026-04-07",
     "notes": "Anthropic's most powerful model — currently in limited testing, not publicly available. Early access is restricted to ~40 partner organizations through Project Glasswing for defensive cybersecurity work. Anthropic plans to expand access once new safety measures are in place.",
     "link": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
+  },
+  {
+    "id": "meta-llama5-2026",
+    "provider": "Meta",
+    "model": "Llama 5",
+    "releaseDate": "2026-04-08",
+    "notes": "Meta's newest open-source flagship model, featuring over 600 billion parameters and 'Recursive Self-Improvement' capabilities that let it refine its own reasoning and generate synthetic training data. Designed for complex multi-step problems that previously required human oversight.",
+    "link": "https://www.financialcontent.com/article/marketminute-2026-4-8-meta-unleashes-llama-5-zuckerbergs-open-source-gambit-challenges-proprietary-ai-dominance"
+  },
+  {
+    "id": "meta-muse-spark-2026",
+    "provider": "Meta",
+    "model": "Muse Spark",
+    "releaseDate": "2026-04-08",
+    "notes": "Meta's first proprietary (closed-source) AI model, developed by its new Superintelligence Labs under chief AI officer Alexandr Wang. Competitive on multimodal, reasoning, health, and agentic tasks — Meta says it hopes to open-source future versions of the Muse series.",
+    "link": "https://venturebeat.com/technology/goodbye-llama-meta-launches-new-proprietary-ai-model-muse-spark-first-since"
   }
 ]
