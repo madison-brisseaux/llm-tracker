@@ -458,6 +458,14 @@
     "link": "https://ai.google.dev/gemini-api/docs/models"
   },
   {
+    "id": "openai-gpt53instantmini-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.3 Instant mini",
+    "releaseDate": "2026-03-03",
+    "notes": "A smaller, faster version of GPT-5.3 Instant. Available in ChatGPT for quick, everyday tasks where speed matters more than depth.",
+    "link": "https://openai.com/index/gpt-5-3-instant/"
+  },
+  {
     "id": "openai-gpt53instant-2026",
     "provider": "OpenAI",
     "model": "GPT-5.3 Instant",
