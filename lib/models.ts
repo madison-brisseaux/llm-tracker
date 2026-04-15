@@ -6,6 +6,7 @@ export interface Model {
   notes: string;
   link?: string;
   freeDefault?: boolean; // true if this is the current free-tier default for its provider
+  analysisLink?: string; // URL to an Evertune analysis post for this entry
 }
 
 export const PROVIDERS = ['OpenAI', 'Anthropic', 'Google', 'Google Search', 'Meta', 'DeepSeek'] as const;
