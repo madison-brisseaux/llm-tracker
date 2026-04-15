@@ -577,5 +577,13 @@
     "releaseDate": "2026-04-08",
     "notes": "Meta's first proprietary (closed-source) AI model, developed by its new Superintelligence Labs under chief AI officer Alexandr Wang. Competitive on multimodal, reasoning, health, and agentic tasks — Meta says it hopes to open-source future versions of the Muse series.",
     "link": "https://venturebeat.com/technology/goodbye-llama-meta-launches-new-proprietary-ai-model-muse-spark-first-since"
+  },
+  {
+    "id": "openai-gpt54cyber-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.4-Cyber",
+    "releaseDate": "2026-04-14",
+    "notes": "A specialized model for cybersecurity tasks, released to a limited group through OpenAI's Trusted Access for Cyber program. Approved users get fewer restrictions on sensitive tasks like vulnerability research and analysis, and can access it through ChatGPT.",
+    "link": "https://www.axios.com/2026/04/14/openai-model-cyber-program-release"
   }
 ]
