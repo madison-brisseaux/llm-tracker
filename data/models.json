@@ -585,5 +585,45 @@
     "releaseDate": "2026-04-14",
     "notes": "A specialized model for cybersecurity tasks, released to a limited group through OpenAI's Trusted Access for Cyber program. Approved users get fewer restrictions on sensitive tasks like vulnerability research and analysis, and can access it through ChatGPT.",
     "link": "https://www.axios.com/2026/04/14/openai-model-cyber-program-release"
+  },
+  {
+    "id": "google-search-march-2025-core-update",
+    "provider": "Google Search",
+    "model": "March 2025 Core Update",
+    "releaseDate": "2025-03-27",
+    "notes": "Broad core update that began rolling out on March 13, 2025 and completed on March 27 — a relatively quick 14-day rollout. Focused on continuing Google's ongoing effort to surface more helpful, high-quality content and reduce the visibility of low-quality, unoriginal pages.",
+    "link": "https://developers.google.com/search/docs/appearance/core-updates"
+  },
+  {
+    "id": "google-search-june-2025-core-update",
+    "provider": "Google Search",
+    "model": "June 2025 Core Update",
+    "releaseDate": "2025-07-17",
+    "notes": "Core update that started June 30, 2025 and finished rolling out on July 17 — a 17-day rollout spanning two months. Sites that had previously seen ranking drops from earlier core updates reported notable recoveries during this update.",
+    "link": "https://developers.google.com/search/docs/appearance/core-updates"
+  },
+  {
+    "id": "google-search-december-2025-core-update",
+    "provider": "Google Search",
+    "model": "December 2025 Core Update",
+    "releaseDate": "2025-12-29",
+    "notes": "Year-end core update that started December 12, 2025 and completed December 29 — a 17-day rollout. Google also confirmed around this time that smaller, unannounced 'continuous' core updates now run in the background between major named updates.",
+    "link": "https://developers.google.com/search/docs/appearance/core-updates"
+  },
+  {
+    "id": "google-search-february-2026-discover-update",
+    "provider": "Google Search",
+    "model": "February 2026 Discover Update",
+    "releaseDate": "2026-02-19",
+    "notes": "A targeted update focused on Google Discover (the personalized content feed on mobile) rather than traditional search results. Began February 5, 2026 and rolled out over roughly two weeks to English-language U.S. users. Aimed at improving the quality and relevance of Discover content recommendations.",
+    "link": "https://developers.google.com/search/docs/appearance/core-updates"
+  },
+  {
+    "id": "google-search-march-2026-core-update",
+    "provider": "Google Search",
+    "model": "March 2026 Core Update",
+    "releaseDate": "2026-04-08",
+    "notes": "Broad core update that began March 27, 2026 and completed April 8 — a fast 12-day rollout. SEOs reported significant ranking volatility during the rollout, particularly for content-heavy and affiliate sites.",
+    "link": "https://searchengineland.com/google-march-2026-core-update-rollout-is-now-complete-473883"
   }
 ]
