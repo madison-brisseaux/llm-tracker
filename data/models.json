@@ -587,6 +587,14 @@
     "link": "https://www.axios.com/2026/04/14/openai-model-cyber-program-release"
   },
   {
+    "id": "openai-chatgpt-shopping-revamp-2026",
+    "provider": "OpenAI",
+    "model": "ChatGPT Shopping Experience Revamp",
+    "releaseDate": "2026-03-24",
+    "notes": "Revamped shopping experience across ChatGPT free, Go, Plus, and Pro. Introduced a product comparison table, which replaces the previous widget that usually showed three or four product images with price and star-ratings. ChatGPT Shopping now often picks overall winners by value and price and evaluates products head-to-head on several product-specific attributes. Check out our analysis on this change: https://www.evertune.ai/resources/insights-on-ai/the-new-face-of-chatgpt-shopping-ai-product-comparisons",
+    "link": "https://www.evertune.ai/resources/insights-on-ai/the-new-face-of-chatgpt-shopping-ai-product-comparisons"
+  },
+  {
     "id": "google-search-march-2025-core-update",
     "provider": "Google Search",
     "model": "March 2025 Core Update",
