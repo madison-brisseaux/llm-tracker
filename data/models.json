@@ -1,5 +1,37 @@
 [
   {
+    "id": "anthropic-claude-opus47-2026",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.7",
+    "releaseDate": "2026-04-16",
+    "notes": "Anthropic's most capable model, with major improvements in advanced software engineering. Handles the hardest coding tasks with confidence, supports a 1 million token context window, and processes high-resolution images. Available via Claude, API, Amazon Bedrock, Google Vertex AI, and Microsoft Foundry.",
+    "link": "https://www.anthropic.com/news/claude-opus-4-7"
+  },
+  {
+    "id": "meta-llama4-scout-2026",
+    "provider": "Meta",
+    "model": "Llama 4 Scout",
+    "releaseDate": "2026-04-05",
+    "notes": "Meta's open-weight multimodal model with a 10 million token context window — one of the largest available. Built on a mixture-of-experts architecture, processing text, images, and video across 200 languages. Runs on consumer hardware.",
+    "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  },
+  {
+    "id": "meta-llama4-maverick-2026",
+    "provider": "Meta",
+    "model": "Llama 4 Maverick",
+    "releaseDate": "2026-04-05",
+    "notes": "Meta's larger multimodal reasoning model with 128 expert layers and a 1 million token context window. Built for complex tasks requiring deep reasoning across text, images, and video. Can run on a single H100 server.",
+    "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+  },
+  {
+    "id": "google-gemma4-2026",
+    "provider": "Google",
+    "model": "Gemma 4",
+    "releaseDate": "2026-04-02",
+    "notes": "Google DeepMind's open-weight model family built on the same research as Gemini 3. Four sizes available, with up to 256K context, native vision and audio, and support for 140+ languages. Designed to run fully offline on phones and edge devices. Apache 2.0 license.",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+  },
+  {
     "id": "deepseek-coder-2023",
     "provider": "DeepSeek",
     "model": "DeepSeek Coder",
