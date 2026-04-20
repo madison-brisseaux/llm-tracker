@@ -667,5 +667,13 @@
     "notes": "Broad core update that began March 27, 2026 and completed April 8 — a fast 12-day rollout. SEOs reported significant ranking volatility during the rollout, particularly for content-heavy and affiliate sites.",
     "link": "https://searchengineland.com/google-march-2026-core-update-rollout-is-now-complete-473883",
     "analysisLink": "https://www.evertune.ai/resources/insights-on-ai/googles-march-2026-core-update-a-content-best-practices-guide-for-seo-and-ai-search"
+  },
+  {
+    "id": "anthropic-claude-design-2026",
+    "provider": "Anthropic",
+    "model": "Claude Design",
+    "releaseDate": "2026-04-17",
+    "notes": "A new Anthropic Labs product that lets you collaborate with Claude to create polished visuals — prototypes, slides, one-pagers, and design mockups — without starting from a design tool. Powered by Opus 4.7, it can apply a team's existing design system for consistent results. Available in research preview for Pro, Max, Team, and Enterprise subscribers.",
+    "link": "https://www.anthropic.com/news/claude-design-anthropic-labs"
   }
 ]
