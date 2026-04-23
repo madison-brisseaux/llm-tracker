@@ -677,6 +677,14 @@
     "link": "https://www.anthropic.com/news/claude-design-anthropic-labs"
   },
   {
+    "id": "openai-gpt55-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.5",
+    "releaseDate": "2026-04-23",
+    "notes": "OpenAI's latest flagship, codenamed \"Spud\" — stronger than GPT-5.4 at analyzing data, writing and debugging code, operating software directly, online research, and creating documents autonomously. Rolling out to Plus, Pro, Business, and Enterprise users in ChatGPT and Codex, with API access coming soon.",
+    "link": "https://openai.com/index/introducing-gpt-5-5/"
+  },
+  {
     "id": "openai-chatgpt-for-clinicians-2026",
     "provider": "OpenAI",
     "model": "ChatGPT for Clinicians",
