@@ -689,7 +689,7 @@
     "provider": "Google Search",
     "model": "AI Mode & AI Overviews — Gemini Upgrade",
     "releaseDate": "2026-04-21",
-    "notes": "Google upgraded AI Mode in Search and AI Overviews with Gemini 3.1 Pro capabilities. Users can now jump directly from an AI Overview into a full AI Mode conversation on mobile, available globally.",
+    "notes": "Google upgraded AI Mode in Search and AI Overviews with Gemini 3.1 Pro — making Gemini 3 the new default model powering AI Overviews globally. Users can also now jump directly from an AI Overview into a full AI Mode conversation on mobile.",
     "link": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/"
   }
 ]
