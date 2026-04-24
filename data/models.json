@@ -699,5 +699,21 @@
     "releaseDate": "2026-01-27",
     "notes": "Gemini 3 is now the default model powering AI Overviews globally. Users can also now jump directly from an AI Overview into a full AI Mode conversation on mobile.",
     "link": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/"
+  },
+  {
+    "id": "deepseek-v4-2026",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4",
+    "releaseDate": "2026-04-24",
+    "notes": "DeepSeek's biggest model yet — two variants: V4-Flash (284B parameters) and V4-Pro (1.6T parameters), both with a 1 million token context window. Open-source, with a new Hybrid Attention Architecture that improves recall across very long conversations.",
+    "link": "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html"
+  },
+  {
+    "id": "google-search-ai-mode-shopping-2026",
+    "provider": "Google Search",
+    "model": "AI Mode — Shopping Upgrades",
+    "releaseDate": "2026-04-17",
+    "notes": "AI Mode can now check whether specific products are in stock at nearby stores and track hotel prices directly in Search. Part of Google's push to make AI Mode an agentic real-world shopping assistant.",
+    "link": "https://techcrunch.com/2026/04/17/googles-ai-mode-can-now-help-you-find-products-in-stock-nearby/"
   }
 ]
