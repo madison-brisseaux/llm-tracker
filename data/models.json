@@ -579,14 +579,6 @@
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
   },
   {
-    "id": "google-gemma4-2026",
-    "provider": "Google",
-    "model": "Gemma 4",
-    "releaseDate": "2026-04-02",
-    "notes": "Google's most capable open-source model family yet, built for advanced reasoning and agentic workflows. Released under Apache 2.0 in four sizes (2B, 4B, 26B, and 31B) so it can run on everything from a phone to a server without needing a cloud connection.",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
-  },
-  {
     "id": "anthropic-claude-mythos-preview-2026",
     "provider": "Anthropic",
     "model": "Claude Mythos Preview",
