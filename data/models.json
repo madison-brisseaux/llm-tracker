@@ -680,7 +680,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.5 Instant",
     "releaseDate": "2026-05-05",
-    "notes": "The new default model for all ChatGPT users, replacing GPT-5.3 Instant. Gives more accurate, concise answers across everyday tasks — better at photos, STEM questions, and knowing when to search the web. Can draw on past conversations, files, and Gmail for more personally relevant responses.",
+    "notes": "The new default model for all ChatGPT users, replacing GPT-5.3 Instant. Produces 52% fewer hallucinations than its predecessor and gives more accurate, concise answers across everyday tasks — better at photos, STEM questions, and knowing when to search the web. Can draw on past conversations, files, and Gmail for more personally relevant responses.",
     "link": "https://openai.com/index/gpt-5-5-instant/",
     "freeDefault": true
   },
