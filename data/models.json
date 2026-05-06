@@ -503,8 +503,7 @@
     "model": "GPT-5.3 Instant",
     "releaseDate": "2026-03-03",
     "notes": "The default model for free ChatGPT users. Focused on making everyday conversations feel better — more accurate answers, richer web search results, and a cleaner tone with fewer unnecessary caveats. Updated March 16 to reduce overly dramatic phrasing.",
-    "link": "https://openai.com/index/gpt-5-3-instant/",
-    "freeDefault": true
+    "link": "https://openai.com/index/gpt-5-3-instant/"
   },
   {
     "id": "openai-gpt54-2026",
@@ -675,6 +674,15 @@
     "releaseDate": "2026-04-23",
     "notes": "OpenAI's latest flagship, codenamed \"Spud\" — stronger than GPT-5.4 at analyzing data, writing and debugging code, operating software directly, online research, and creating documents autonomously. A faster, sharper thinker for fewer tokens, it handles multi-step workflows more autonomously with less user input. Rolling out to Plus, Pro, Business, and Enterprise users in ChatGPT and Codex, with API access coming soon.",
     "link": "https://openai.com/index/introducing-gpt-5-5/"
+  },
+  {
+    "id": "openai-gpt55instant-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.5 Instant",
+    "releaseDate": "2026-05-05",
+    "notes": "The new default model for all ChatGPT users, replacing GPT-5.3 Instant. Gives more accurate, concise answers across everyday tasks — better at photos, STEM questions, and knowing when to search the web. Can draw on past conversations, files, and Gmail for more personally relevant responses.",
+    "link": "https://openai.com/index/gpt-5-5-instant/",
+    "freeDefault": true
   },
   {
     "id": "openai-chatgpt-for-clinicians-2026",
