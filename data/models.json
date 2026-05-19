@@ -731,7 +731,7 @@
     "model": "Gemini Omni Flash",
     "releaseDate": "2026-05-19",
     "notes": "Google's new multimodal video generation model. Takes any combination of text, images, audio, and video as input and generates or edits video output — with further edits via back-and-forth conversation. First model in the Gemini Omni family.",
-    "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
   },
   {
     "id": "google-search-redesigned-search-box-2026",
