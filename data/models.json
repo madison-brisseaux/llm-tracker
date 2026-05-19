@@ -722,7 +722,8 @@
     "model": "Gemini 3.5 Flash",
     "releaseDate": "2026-05-19",
     "notes": "Google's newest Flash-tier model, announced at Google I/O 2026. Designed for complex, long-horizon agent and coding tasks — delivers frontier-level performance at Flash speed. Now the default model powering AI Mode in Search. Gemini 3.5 Pro is in internal use with a broader rollout planned.",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+    "aiModeDefault": true
   },
   {
     "id": "google-gemini-omni-flash-2026",

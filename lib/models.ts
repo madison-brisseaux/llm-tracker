@@ -6,6 +6,7 @@ export interface Model {
   notes: string;
   link?: string;
   freeDefault?: boolean; // true if this is the current free-tier default for its provider
+  aiModeDefault?: boolean; // true if this is the current default model powering Google AI Mode
   analysisLink?: string; // URL to an Evertune analysis post for this entry
 }
 

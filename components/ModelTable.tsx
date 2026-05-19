@@ -194,6 +194,12 @@ export default function ModelTable({ models, lastUpdated }: Props) {
                               Default model for free users
                             </span>
                           )}
+                          {model.aiModeDefault && (
+                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[#214FD1]/10 text-[#022460] border border-[#214FD1]/20 whitespace-nowrap">
+                              <span className="w-1.5 h-1.5 rounded-full bg-[#214FD1]" />
+                              Default for AI Mode
+                            </span>
+                          )}
                           {model.link && (
                             <a
                               href={model.link}
@@ -237,7 +243,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
           {filtered.length > 0 && (
             <div className="px-6 py-3 bg-[#F6F6F6] border-t border-[#DFD8D8] flex items-center justify-end">
               <span className="text-xs text-[#7F7F7F]">
-                Sources: official provider blogs &amp; changelogs
+                Sources: official announcements, blogs &amp; press coverage
               </span>
             </div>
           )}
@@ -292,6 +298,12 @@ export default function ModelTable({ models, lastUpdated }: Props) {
                         Default model for free users
                       </span>
                     )}
+                    {model.aiModeDefault && (
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[#214FD1]/10 text-[#022460] border border-[#214FD1]/20 whitespace-nowrap">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#214FD1]" />
+                        Default for AI Mode
+                      </span>
+                    )}
                     {model.link && (
                       <a
                         href={model.link}
@@ -325,7 +337,7 @@ export default function ModelTable({ models, lastUpdated }: Props) {
 
               <div className="px-1 py-2 text-center">
                 <span className="text-xs text-[#7F7F7F]">
-                  Sources: official provider blogs &amp; changelogs
+                  Sources: official announcements, blogs &amp; press coverage
                 </span>
               </div>
             </div>
