@@ -1,10 +1,18 @@
 [
   {
-    "id": "google-search-ai-mode-link-updates-may2026",
+    "id": "google-gemini-spark-2026",
+    "provider": "Google",
+    "model": "Gemini Spark",
+    "releaseDate": "2026-05-19",
+    "notes": "Google's new personal AI agent, announced at Google I/O 2026. Handles long-running tasks autonomously — you can email it directly, and it will browse the web, pull from your Gmail and Workspace apps, and work in the background around the clock. Beta launching for Google AI Ultra subscribers in the US.",
+    "link": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/"
+  },
+  {
+    "id": "google-search-information-agents-2026",
     "provider": "Google Search",
-    "model": "AI Mode & AI Overviews — May 2026 Link Updates",
-    "releaseDate": "2026-05-06",
-    "notes": "Google updated how links appear inside AI Mode and AI Overviews answers. New features include: suggested topic angles at the end of responses, highlighted links from your news subscriptions, direct inline links next to specific sentences, and hover preview cards for any inline link on desktop.",
-    "link": "https://searchengineland.com/google-updates-links-within-ai-overviews-ai-mode-476571"
+    "model": "Search Information Agents",
+    "releaseDate": "2026-05-19",
+    "notes": "Google Search now supports persistent AI agents that monitor the web 24/7 on your behalf. Set up an agent in AI Mode with a natural-language prompt — like tracking nearby movie tickets or apartment listings — and it sends push notifications whenever it finds something relevant. Rolling out to Google AI Pro and Ultra subscribers this summer.",
+    "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
   }
 ]

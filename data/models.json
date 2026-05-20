@@ -723,7 +723,8 @@
     "releaseDate": "2026-05-19",
     "notes": "Google's newest Flash-tier model. Designed for complex, long-horizon agent and coding tasks — delivers frontier-level performance at Flash speed. Now the default model powering AI Mode in Search. Gemini 3.5 Pro is in internal use with a broader rollout planned.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-    "aiModeDefault": true
+    "aiModeDefault": true,
+    "analysisLink": "https://www.evertune.ai/resources/ai-model-tracker"
   },
   {
     "id": "google-gemini-omni-flash-2026",
@@ -731,7 +732,8 @@
     "model": "Gemini Omni Flash",
     "releaseDate": "2026-05-19",
     "notes": "Google's new multimodal video generation model. Takes any combination of text, images, audio, and video as input and generates or edits video output — with further edits via back-and-forth conversation. First model in the Gemini Omni family.",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+    "analysisLink": "https://www.evertune.ai/resources/ai-model-tracker"
   },
   {
     "id": "google-search-redesigned-search-box-2026",
@@ -739,7 +741,8 @@
     "model": "Redesigned Search Box",
     "releaseDate": "2026-05-19",
     "notes": "Google's biggest Search box redesign in over 25 years. The box dynamically expands for detailed queries, accepts text, images, files, videos, and Chrome tabs as input, and offers AI-powered suggestions beyond traditional autocomplete.",
-    "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+    "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+    "analysisLink": "https://www.evertune.ai/resources/ai-model-tracker"
   },
   {
     "id": "google-search-enhanced-conversational-search-2026",
@@ -747,6 +750,7 @@
     "model": "Enhanced Conversational Search",
     "releaseDate": "2026-05-19",
     "notes": "Google Search now lets you ask follow-up questions directly from AI Overviews, turning a single search into a continuous back-and-forth conversation with full context preserved across desktop and mobile.",
-    "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+    "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+    "analysisLink": "https://www.evertune.ai/resources/ai-model-tracker"
   }
 ]
