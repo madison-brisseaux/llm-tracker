@@ -23,5 +23,13 @@
   "anthropic-claude-platform-aws-2026",
   "anthropic-claude-small-business-2026",
   "google-gemini32flash-2026",
-  "google-search-ai-mode-link-updates-may2026"
+  "google-search-ai-mode-link-updates-may2026",
+  "google-gemini-spark-2026",
+  "google-search-information-agents-2026",
+  "google-search-ai-overviews-subscription-sources-2026",
+  "google-search-agentic-booking-2026",
+  "google-search-generative-ui-coding-2026",
+  "google-search-may-2026-core-update",
+  "anthropic-claude-self-hosted-sandboxes-2026",
+  "openai-chatgpt-codex-mobile-2026"
 ]

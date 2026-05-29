@@ -752,5 +752,21 @@
     "notes": "Google Search now lets you ask follow-up questions directly from AI Overviews, turning a single search into a continuous back-and-forth conversation with full context preserved across desktop and mobile.",
     "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
     "analysisLink": "https://www.evertune.ai/resources/insights-on-ai/what-googles-ai-search-changes-mean-for-brand-visibility"
+  },
+  {
+    "id": "google-search-preferred-sources-highly-cited-2026",
+    "provider": "Google Search",
+    "model": "AI Overviews & AI Mode — Preferred Sources & Highly Cited",
+    "releaseDate": "2026-05-27",
+    "notes": "Google brought its Preferred Sources feature to AI Overviews and AI Mode globally — links from sites you've saved as preferred now get a badge inside AI-generated answers. Also added 'Highly Cited' labels to highlight primary source reporting, and a new perspectives carousel surfacing relevant discussions from forums and social media.",
+    "link": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/"
+  },
+  {
+    "id": "anthropic-claude-opus48-2026",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.8",
+    "releaseDate": "2026-05-28",
+    "notes": "Anthropic's latest flagship model, with notably better judgment in agentic tasks — roughly 4x less likely than Opus 4.7 to let code flaws pass without flagging them. Ships with two new features: dynamic workflows in Claude Code that orchestrate hundreds of parallel subagents for large-scale projects like codebase migrations, and effort control so users can dial how deeply Claude engages on any task.",
+    "link": "https://www.anthropic.com/news/claude-opus-4-8"
   }
 ]
