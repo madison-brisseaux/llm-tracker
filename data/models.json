@@ -759,7 +759,8 @@
     "model": "AI Overviews & AI Mode — Preferred Sources & Highly Cited",
     "releaseDate": "2026-05-27",
     "notes": "Google brought its Preferred Sources feature to AI Overviews and AI Mode globally — links from sites you've saved as preferred now get a badge inside AI-generated answers. Also added 'Highly Cited' labels to highlight primary source reporting, and a new perspectives carousel surfacing relevant discussions from forums and social media.",
-    "link": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/"
+    "link": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/",
+    "analysisLink": "https://www.evertune.ai/resources/insights-on-ai/googles-ai-search-updates-opt-out-toggle-preferred-sources-and-the-highly-cited-badge-explained"
   },
   {
     "id": "anthropic-claude-opus48-2026",
@@ -768,5 +769,13 @@
     "releaseDate": "2026-05-28",
     "notes": "Anthropic's latest flagship model, with notably better judgment in agentic tasks — roughly 4x less likely than Opus 4.7 to let code flaws pass without flagging them. Ships with two new features: dynamic workflows in Claude Code that orchestrate hundreds of parallel subagents for large-scale projects like codebase migrations, and effort control so users can dial how deeply Claude engages on any task.",
     "link": "https://www.anthropic.com/news/claude-opus-4-8"
+  },
+  {
+    "id": "openai-codex-every-role-sites-2026",
+    "provider": "OpenAI",
+    "model": "Codex for Every Role + Codex Sites",
+    "releaseDate": "2026-06-02",
+    "notes": "OpenAI expanded Codex far beyond coding — six role-specific plugins now make it useful for analysts, marketers, designers, and finance professionals, bundling relevant apps and workflows into one place. Also launched Codex Sites in preview, a tool that turns ideas and analysis into shareable, hosted interactive apps and dashboards for Business and Enterprise users.",
+    "link": "https://openai.com/index/codex-for-every-role-tool-workflow/"
   }
 ]
