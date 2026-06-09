@@ -777,5 +777,13 @@
     "releaseDate": "2026-06-02",
     "notes": "OpenAI expanded Codex far beyond coding — six role-specific plugins now make it useful for analysts, marketers, designers, and finance professionals, bundling relevant apps and workflows into one place. Also launched Codex Sites in preview, a tool that turns ideas and analysis into shareable, hosted interactive apps and dashboards for Business and Enterprise users.",
     "link": "https://openai.com/index/codex-for-every-role-tool-workflow/"
+  },
+  {
+    "id": "google-search-console-genai-reports-2026",
+    "provider": "Google Search",
+    "model": "Search Console Generative AI Performance Reports",
+    "releaseDate": "2026-06-03",
+    "notes": "Google launched dedicated generative AI performance reports in Search Console, showing how often pages appear in AI Overviews and AI Mode across Search and Discover. Publishers can now measure their AI search visibility and traffic alongside conventional organic results.",
+    "link": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"
   }
 ]
