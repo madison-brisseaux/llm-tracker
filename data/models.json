@@ -785,5 +785,13 @@
     "releaseDate": "2026-06-03",
     "notes": "Google launched dedicated generative AI performance reports in Search Console, showing how often pages appear in AI Overviews and AI Mode across Search and Discover. Publishers can now measure their AI search visibility and traffic alongside conventional organic results.",
     "link": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"
+  },
+  {
+    "id": "anthropic-claude-fable5-2026",
+    "provider": "Anthropic",
+    "model": "Claude Fable 5",
+    "releaseDate": "2026-06-09",
+    "notes": "Anthropic's first publicly available Mythos-class model — the most capable Claude ever released to the general public. Built for advanced software engineering, complex knowledge work, vision, and scientific research; high-risk topic areas fall back to Claude Opus 4.8 as a safety measure.",
+    "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
   }
 ]
