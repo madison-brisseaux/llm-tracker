@@ -793,5 +793,29 @@
     "releaseDate": "2026-06-09",
     "notes": "Anthropic's first publicly available Mythos-class model — the most capable Claude ever released to the general public. Built for advanced software engineering, complex knowledge work, vision, and scientific research; high-risk topic areas fall back to Claude Opus 4.8 as a safety measure.",
     "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+  },
+  {
+    "id": "google-search-ai-mode-visuals-free-summer-2026",
+    "provider": "Google Search",
+    "model": "AI Mode — Pro Visuals Free for Summer",
+    "releaseDate": "2026-06-09",
+    "notes": "Google announced that Generative UI visual capabilities in AI Mode — previously limited to Pro and Ultra subscribers — will be free for all Search users this summer. The rollout launches alongside the 2026 FIFA World Cup, bringing interactive match stats, live visualizations, and dynamic AI-powered sports features to all users at no cost.",
+    "link": "https://9to5google.com/2026/06/09/google-ai-mode-pro-visuals-free-during-2026-world-cup/"
+  },
+  {
+    "id": "openai-chatgpt-memory-upgrade-2026",
+    "provider": "OpenAI",
+    "model": "ChatGPT Enhanced Memory System",
+    "releaseDate": "2026-06-05",
+    "notes": "OpenAI upgraded ChatGPT's memory system with better context retention, improved preference-following across sessions, and a new reviewable memory summary page. The upgrade makes ChatGPT noticeably more consistent and personalized over time. Rolling out to Plus and Pro users in the US.",
+    "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "id": "openai-chatgpt-enterprise-workspace-agents-2026",
+    "provider": "OpenAI",
+    "model": "ChatGPT Enterprise Workspace Agents",
+    "releaseDate": "2026-06-05",
+    "notes": "ChatGPT for Enterprise and EDU gained workspace agents — AI agents that can be shared across teams, own entire workflows independently, and run in the background across connected tools. Designed to reduce repetitive coordination work for large organizations.",
+    "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
   }
 ]
