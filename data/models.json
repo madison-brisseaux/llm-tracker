@@ -582,7 +582,7 @@
     "provider": "Anthropic",
     "model": "Claude Mythos Preview",
     "releaseDate": "2026-04-07",
-    "notes": "Anthropic's most powerful model — currently in limited testing, not publicly available. Early access is restricted to ~40 partner organizations through Project Glasswing for defensive cybersecurity work. Anthropic plans to expand access once new safety measures are in place.",
+    "notes": "Anthropic's most powerful model, in limited testing via Project Glasswing for ~40 partner organizations doing defensive cybersecurity work. Never publicly released. Suspended June 12, 2026: Anthropic shut down Mythos 5 and Fable 5 for all users to comply with a US government export control directive.",
     "link": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/"
   },
   {
@@ -791,7 +791,7 @@
     "provider": "Anthropic",
     "model": "Claude Fable 5",
     "releaseDate": "2026-06-09",
-    "notes": "Anthropic's first publicly available Mythos-class model — the most capable Claude ever released to the general public. Built for advanced software engineering, complex knowledge work, vision, and scientific research; high-risk topic areas fall back to Claude Opus 4.8 as a safety measure.",
+    "notes": "Anthropic's first publicly available Mythos-class model — the most capable Claude ever released to the general public. Built for advanced software engineering, complex knowledge work, vision, and scientific research. Suspended June 12, 2026: Anthropic shut down Fable 5 and Mythos 5 for all users to comply with a US government export control directive.",
     "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
   },
   {
