@@ -817,5 +817,13 @@
     "releaseDate": "2026-06-05",
     "notes": "ChatGPT for Enterprise and EDU gained workspace agents — AI agents that can be shared across teams, own entire workflows independently, and run in the background across connected tools. Designed to reduce repetitive coordination work for large organizations.",
     "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "id": "anthropic-claude-enterprise-mcp-okta-2026",
+    "provider": "Anthropic",
+    "model": "Claude Enterprise-Managed MCP Authorization",
+    "releaseDate": "2026-06-18",
+    "notes": "Enterprise IT admins can now provision MCP connector access for their entire organization through Okta once, and employees automatically inherit zero-touch access on first login — no individual OAuth screens required. Seven MCP providers supported at launch: Asana, Atlassian, Canva, Figma, Granola, Linear, and Supabase.",
+    "link": "https://claude.com/blog/enterprise-managed-auth"
   }
 ]
