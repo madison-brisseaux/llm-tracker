@@ -33,5 +33,8 @@
   "anthropic-claude-self-hosted-sandboxes-2026",
   "openai-chatgpt-codex-mobile-2026",
   "google-search-ai-publisher-optout-2026",
-  "anthropic-claude-mythos-glasswing-expansion-2026"
+  "anthropic-claude-mythos-glasswing-expansion-2026",
+  "google-search-information-agents-expansion-2026",
+  "anthropic-claude-code-artifacts-2026",
+  "openai-codex-record-replay-2026"
 ]
