@@ -8,13 +8,33 @@ const dmSans = DM_Sans({
   weight: ["300", "400", "500", "600", "700", "800"],
 });
 
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://models.evertune.ai';
+
 export const metadata: Metadata = {
-  title: "AI Model Release Dashboard — Evertune",
-  description: "Track major language model releases from OpenAI, Anthropic, Google, Meta, Mistral and more.",
+  title: "AI Model Release Tracker — Evertune",
+  description: "Track every major AI model release from OpenAI, Anthropic, Google, Meta, DeepSeek, and more. Updated daily with release dates, descriptions, and official announcements.",
+  metadataBase: new URL(BASE_URL),
   alternates: {
+    canonical: BASE_URL,
     types: {
       'application/rss+xml': '/feed.xml',
     },
+  },
+  openGraph: {
+    title: "AI Model Release Tracker — Evertune",
+    description: "Track every major AI model release from OpenAI, Anthropic, Google, Meta, DeepSeek, and more. Updated daily.",
+    url: BASE_URL,
+    siteName: "Evertune AI Model Tracker",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "AI Model Release Tracker — Evertune",
+    description: "Track every major AI model release from OpenAI, Anthropic, Google, Meta, DeepSeek, and more. Updated daily.",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
