@@ -825,5 +825,13 @@
     "releaseDate": "2026-06-26",
     "notes": "OpenAI previewed its next model family as three tiers instead of one flagship: Sol (most capable), Terra (balanced, everyday use), and Luna (fastest and cheapest). Access is currently limited to a small set of trusted partners via the API and Codex, with broader availability planned in the coming weeks.",
     "link": "https://openai.com/index/previewing-gpt-5-6-sol/"
+  },
+  {
+    "id": "anthropic-claude-sonnet5-2026",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 5",
+    "releaseDate": "2026-06-30",
+    "notes": "Anthropic's most agentic Sonnet model yet, with performance close to Opus 4.8 at a much lower price. Now the default model for Free and Pro plans, and available to Max, Team, Enterprise, and API users.",
+    "link": "https://www.anthropic.com/news/claude-sonnet-5"
   }
 ]
