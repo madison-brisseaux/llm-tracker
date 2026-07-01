@@ -817,5 +817,13 @@
     "releaseDate": "2026-06-05",
     "notes": "ChatGPT for Enterprise and EDU gained workspace agents — AI agents that can be shared across teams, own entire workflows independently, and run in the background across connected tools. Designed to reduce repetitive coordination work for large organizations.",
     "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "id": "openai-gpt56-sol-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 (Sol, Terra, Luna)",
+    "releaseDate": "2026-06-26",
+    "notes": "OpenAI previewed its next model family as three tiers instead of one flagship: Sol (most capable), Terra (balanced, everyday use), and Luna (fastest and cheapest). Access is currently limited to a small set of trusted partners via the API and Codex, with broader availability planned in the coming weeks.",
+    "link": "https://openai.com/index/previewing-gpt-5-6-sol/"
   }
 ]
