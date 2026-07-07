@@ -12,7 +12,7 @@
     "provider": "Meta",
     "model": "Llama 4 Scout",
     "releaseDate": "2026-04-05",
-    "notes": "Meta's open-weight multimodal model with a 10 million token context window — one of the largest available. Built on a mixture-of-experts architecture, processing text, images, and video across 200 languages. Runs on consumer hardware.",
+    "notes": "Meta's open-weight multimodal model with a 10 million token context window \u2014 one of the largest available. Built on a mixture-of-experts architecture, processing text, images, and video across 200 languages. Runs on consumer hardware.",
     "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
   },
   {
@@ -52,7 +52,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V2",
     "releaseDate": "2024-05-07",
-    "notes": "A much more efficient model — delivers GPT-4 Turbo-level performance at a fraction of the running cost. Significant milestone for affordable, high-quality AI.",
+    "notes": "A much more efficient model \u2014 delivers GPT-4 Turbo-level performance at a fraction of the running cost. Significant milestone for affordable, high-quality AI.",
     "link": "https://github.com/deepseek-ai/DeepSeek-V2"
   },
   {
@@ -76,7 +76,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-R1-Lite Preview",
     "releaseDate": "2024-11-20",
-    "notes": "An early preview of DeepSeek's first reasoning model — one that shows its work step-by-step before giving a final answer. Available in the chat interface only. A teaser of the full R1 release.",
+    "notes": "An early preview of DeepSeek's first reasoning model \u2014 one that shows its work step-by-step before giving a final answer. Available in the chat interface only. A teaser of the full R1 release.",
     "link": "https://www.deepseek.com"
   },
   {
@@ -84,7 +84,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V3",
     "releaseDate": "2024-12-26",
-    "notes": "The model that shocked the industry — trained for just $6M yet matched GPT-4o and Claude 3.5 Sonnet on real-world tasks. Fully open-source under MIT license. Sparked a global conversation about the true cost of building AI.",
+    "notes": "The model that shocked the industry \u2014 trained for just $6M yet matched GPT-4o and Claude 3.5 Sonnet on real-world tasks. Fully open-source under MIT license. Sparked a global conversation about the true cost of building AI.",
     "link": "https://github.com/deepseek-ai/DeepSeek-V3"
   },
   {
@@ -100,7 +100,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V3-0324",
     "releaseDate": "2025-03-24",
-    "notes": "An updated version of V3 that borrowed reasoning techniques from R1. Noticeably better at logic, coding, and using tools — without changing the core model architecture.",
+    "notes": "An updated version of V3 that borrowed reasoning techniques from R1. Noticeably better at logic, coding, and using tools \u2014 without changing the core model architecture.",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
   },
   {
@@ -116,7 +116,7 @@
     "provider": "DeepSeek",
     "model": "DeepSeek-V3.1",
     "releaseDate": "2025-08-14",
-    "notes": "First DeepSeek model that combines fast chat and deep reasoning in one. You can ask it to think through a problem carefully or just get a quick answer — same model, your choice. Fully open-source.",
+    "notes": "First DeepSeek model that combines fast chat and deep reasoning in one. You can ask it to think through a problem carefully or just get a quick answer \u2014 same model, your choice. Fully open-source.",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
   },
   {
@@ -132,7 +132,7 @@
     "provider": "OpenAI",
     "model": "GPT-4o mini",
     "releaseDate": "2024-07-18",
-    "notes": "A smaller, faster, cheaper version of GPT-4o — without a big drop in quality. Understands images as well as text, supports many languages, and is designed for apps that need quick, cost-efficient responses.",
+    "notes": "A smaller, faster, cheaper version of GPT-4o \u2014 without a big drop in quality. Understands images as well as text, supports many languages, and is designed for apps that need quick, cost-efficient responses.",
     "link": "https://openai.com/blog/gpt-4o-mini-advancing-cost-efficient-intelligence"
   },
   {
@@ -164,7 +164,7 @@
     "provider": "Meta",
     "model": "Llama 3.2",
     "releaseDate": "2024-09-25",
-    "notes": "Meta's first Llama that can see. Larger versions understand images and answer questions about them. Smaller versions are designed to run directly on phones and laptops — no internet or cloud required. All free and open to use.",
+    "notes": "Meta's first Llama that can see. Larger versions understand images and answer questions about them. Smaller versions are designed to run directly on phones and laptops \u2014 no internet or cloud required. All free and open to use.",
     "link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/"
   },
   {
@@ -180,7 +180,7 @@
     "provider": "Anthropic",
     "model": "Claude 3.5 Sonnet (v2)",
     "releaseDate": "2024-10-22",
-    "notes": "Upgraded Sonnet with meaningfully better coding skills and a new ability to control a computer — click buttons, fill forms, navigate a browser — making it one of the first models capable of acting as a true computer-use agent.",
+    "notes": "Upgraded Sonnet with meaningfully better coding skills and a new ability to control a computer \u2014 click buttons, fill forms, navigate a browser \u2014 making it one of the first models capable of acting as a true computer-use agent.",
     "link": "https://www.anthropic.com/news/3-5-models-and-computer-use"
   },
   {
@@ -188,7 +188,7 @@
     "provider": "Anthropic",
     "model": "Claude 3.5 Haiku",
     "releaseDate": "2024-11-04",
-    "notes": "The fastest Claude model at the time — surprisingly capable for its speed, matching Claude 3 Opus on many tasks. Great for real-time apps or anything where waiting isn't an option.",
+    "notes": "The fastest Claude model at the time \u2014 surprisingly capable for its speed, matching Claude 3 Opus on many tasks. Great for real-time apps or anything where waiting isn't an option.",
     "link": "https://www.anthropic.com/news/claude-3-5-haiku"
   },
   {
@@ -204,7 +204,7 @@
     "provider": "Google",
     "model": "Gemini 2.0 Flash (Experimental)",
     "releaseDate": "2024-12-11",
-    "notes": "The first Gemini 2.0 model — faster than its predecessor while adding the ability to understand and generate images, audio, and text together. Early preview of Google's new generation of AI.",
+    "notes": "The first Gemini 2.0 model \u2014 faster than its predecessor while adding the ability to understand and generate images, audio, and text together. Early preview of Google's new generation of AI.",
     "link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"
   },
   {
@@ -212,7 +212,7 @@
     "provider": "Meta",
     "model": "Llama 3.3",
     "releaseDate": "2024-12-06",
-    "notes": "Punches well above its size — matches the performance of Meta's previous flagship model while being significantly cheaper to run. A more practical choice for teams that want top-tier results without heavy infrastructure. Free to download and modify.",
+    "notes": "Punches well above its size \u2014 matches the performance of Meta's previous flagship model while being significantly cheaper to run. A more practical choice for teams that want top-tier results without heavy infrastructure. Free to download and modify.",
     "link": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/"
   },
   {
@@ -220,7 +220,7 @@
     "provider": "OpenAI",
     "model": "o3-mini",
     "releaseDate": "2025-01-31",
-    "notes": "A faster, cheaper reasoning model for coding, math, and science. You can dial up or down how much it thinks before answering — useful when you want speed over depth, or vice versa. Matches o1 quality at lower cost.",
+    "notes": "A faster, cheaper reasoning model for coding, math, and science. You can dial up or down how much it thinks before answering \u2014 useful when you want speed over depth, or vice versa. Matches o1 quality at lower cost.",
     "link": "https://openai.com/blog/openai-o3-mini"
   },
   {
@@ -228,7 +228,7 @@
     "provider": "Anthropic",
     "model": "Claude 3.7 Sonnet",
     "releaseDate": "2025-02-24",
-    "notes": "Anthropic's first model with a switchable 'extended thinking' mode — you can ask it to reason through a problem deeply before responding, or get a fast answer when you don't need it. Topped coding leaderboards at launch.",
+    "notes": "Anthropic's first model with a switchable 'extended thinking' mode \u2014 you can ask it to reason through a problem deeply before responding, or get a fast answer when you don't need it. Topped coding leaderboards at launch.",
     "link": "https://www.anthropic.com/news/claude-3-7-sonnet"
   },
   {
@@ -284,7 +284,7 @@
     "provider": "Meta",
     "model": "Llama 4",
     "releaseDate": "2025-04-05",
-    "notes": "Meta's biggest leap yet — natively understands text, images, video, and audio together. Can hold an exceptionally long conversation (equivalent to roughly 7,500 pages of text). Two versions: Scout for everyday use, Maverick for more demanding tasks. Free and open-source.",
+    "notes": "Meta's biggest leap yet \u2014 natively understands text, images, video, and audio together. Can hold an exceptionally long conversation (equivalent to roughly 7,500 pages of text). Two versions: Scout for everyday use, Maverick for more demanding tasks. Free and open-source.",
     "link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
   },
   {
@@ -308,7 +308,7 @@
     "provider": "Google",
     "model": "Gemini 2.5 Flash",
     "releaseDate": "2025-06-17",
-    "notes": "The everyday workhorse of the Gemini 2.5 family. Fast, affordable, and capable. You can control how much it reasons before answering — useful when you want to trade a little speed for a better answer.",
+    "notes": "The everyday workhorse of the Gemini 2.5 family. Fast, affordable, and capable. You can control how much it reasons before answering \u2014 useful when you want to trade a little speed for a better answer.",
     "link": "https://developers.googleblog.com/en/gemini-2-5-flash-updates/"
   },
   {
@@ -324,7 +324,7 @@
     "provider": "OpenAI",
     "model": "o3-pro",
     "releaseDate": "2025-06-10",
-    "notes": "A version of o3 that takes more time to think, producing more reliable answers on the hardest questions. Expert reviewers preferred it over standard o3 across every category tested — science, education, coding, business, and writing. Replaced o1-pro for Pro and Team users.",
+    "notes": "A version of o3 that takes more time to think, producing more reliable answers on the hardest questions. Expert reviewers preferred it over standard o3 across every category tested \u2014 science, education, coding, business, and writing. Replaced o1-pro for Pro and Team users.",
     "link": "https://openai.com/blog/o3-pro"
   },
   {
@@ -340,7 +340,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4",
     "releaseDate": "2025-07-09",
-    "notes": "Anthropic's most capable model at release. Designed for tasks that require deep thinking over a long session — research, complex analysis, or projects that unfold over many steps.",
+    "notes": "Anthropic's most capable model at release. Designed for tasks that require deep thinking over a long session \u2014 research, complex analysis, or projects that unfold over many steps.",
     "link": "https://www.anthropic.com/news/claude-opus-4"
   },
   {
@@ -348,7 +348,7 @@
     "provider": "OpenAI",
     "model": "GPT-5",
     "releaseDate": "2025-08-07",
-    "notes": "OpenAI's new flagship and the default model for all logged-in ChatGPT users. Automatically switches between fast responses and deeper thinking depending on what the question needs — no manual model selection required.",
+    "notes": "OpenAI's new flagship and the default model for all logged-in ChatGPT users. Automatically switches between fast responses and deeper thinking depending on what the question needs \u2014 no manual model selection required.",
     "link": "https://openai.com/blog/gpt-5"
   },
   {
@@ -364,7 +364,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4.1",
     "releaseDate": "2025-08-05",
-    "notes": "A stronger replacement for Opus 4. Better at complex, multi-step tasks that require careful planning — like autonomous workflows, detailed research, or involved coding projects.",
+    "notes": "A stronger replacement for Opus 4. Better at complex, multi-step tasks that require careful planning \u2014 like autonomous workflows, detailed research, or involved coding projects.",
     "link": "https://www.anthropic.com/news/claude-opus-4-1"
   },
   {
@@ -396,7 +396,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4.5",
     "releaseDate": "2025-11-24",
-    "notes": "Reclaimed the top spot on coding leaderboards at launch. Significantly more affordable than its predecessor while being more capable — a rare combination of better performance and lower cost.",
+    "notes": "Reclaimed the top spot on coding leaderboards at launch. Significantly more affordable than its predecessor while being more capable \u2014 a rare combination of better performance and lower cost.",
     "link": "https://www.anthropic.com/news/claude-opus-4-5"
   },
   {
@@ -436,7 +436,7 @@
     "provider": "Google",
     "model": "Gemini 3 Flash",
     "releaseDate": "2025-12-17",
-    "notes": "Gemini 3 Pro's reasoning capabilities in a faster, cheaper package. Became the default model in the Gemini app — Google's answer to making advanced AI accessible for everyday use.",
+    "notes": "Gemini 3 Pro's reasoning capabilities in a faster, cheaper package. Became the default model in the Gemini app \u2014 Google's answer to making advanced AI accessible for everyday use.",
     "link": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/",
     "freeDefault": true
   },
@@ -445,7 +445,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.3-Codex",
     "releaseDate": "2026-02-05",
-    "notes": "OpenAI's most capable coding agent — the first to combine their general intelligence and specialized coding capabilities in one model. About 25% faster than its predecessor, and notably the first OpenAI model that played a role in building itself.",
+    "notes": "OpenAI's most capable coding agent \u2014 the first to combine their general intelligence and specialized coding capabilities in one model. About 25% faster than its predecessor, and notably the first OpenAI model that played a role in building itself.",
     "link": "https://openai.com/index/introducing-gpt-5-3-codex/"
   },
   {
@@ -502,7 +502,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.3 Instant",
     "releaseDate": "2026-03-03",
-    "notes": "The default model for free ChatGPT users. Focused on making everyday conversations feel better — more accurate answers, richer web search results, and a cleaner tone with fewer unnecessary caveats. Updated March 16 to reduce overly dramatic phrasing.",
+    "notes": "The default model for free ChatGPT users. Focused on making everyday conversations feel better \u2014 more accurate answers, richer web search results, and a cleaner tone with fewer unnecessary caveats. Updated March 16 to reduce overly dramatic phrasing.",
     "link": "https://openai.com/index/gpt-5-3-instant/"
   },
   {
@@ -534,7 +534,7 @@
     "provider": "Google Search",
     "model": "AI Overviews",
     "releaseDate": "2024-05-14",
-    "notes": "Google replaced its experimental Search Generative Experience (SGE) with AI Overviews — AI-generated summaries that appear at the top of search results. Rolled out to all US users at Google I/O 2024, marking the biggest change to Google Search in years.",
+    "notes": "Google replaced its experimental Search Generative Experience (SGE) with AI Overviews \u2014 AI-generated summaries that appear at the top of search results. Rolled out to all US users at Google I/O 2024, marking the biggest change to Google Search in years.",
     "link": "https://blog.google/products/search/generative-ai-google-search-may-2024/"
   },
   {
@@ -542,7 +542,7 @@
     "provider": "Google Search",
     "model": "AI Mode",
     "releaseDate": "2025-05-20",
-    "notes": "A fully conversational search experience built on Gemini 2.5. Instead of a list of links, you get a detailed, cited answer — and can ask follow-up questions in the same session. Launched at Google I/O 2025 and opened to all US users with no sign-up required.",
+    "notes": "A fully conversational search experience built on Gemini 2.5. Instead of a list of links, you get a detailed, cited answer \u2014 and can ask follow-up questions in the same session. Launched at Google I/O 2025 and opened to all US users with no sign-up required.",
     "link": "https://blog.google/products/search/ai-mode-search/"
   },
   {
@@ -558,7 +558,7 @@
     "provider": "Google Search",
     "model": "AI Overviews in Gmail",
     "releaseDate": "2026-02-01",
-    "notes": "AI Overviews expanded beyond Search into Gmail — summarizing long email threads and answering questions about your inbox using natural language. Part of Google's broader push to bring Gemini into its core productivity apps.",
+    "notes": "AI Overviews expanded beyond Search into Gmail \u2014 summarizing long email threads and answering questions about your inbox using natural language. Part of Google's broader push to bring Gemini into its core productivity apps.",
     "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/"
   },
   {
@@ -566,7 +566,7 @@
     "provider": "Google Search",
     "model": "Search Live (Global)",
     "releaseDate": "2026-03-26",
-    "notes": "Google's camera-powered AI search went global — available in 200+ countries. Point your phone at anything and have a real-time back-and-forth conversation about what the camera sees. Powered by Gemini 3.1 Flash Live for natural, fluid voice responses.",
+    "notes": "Google's camera-powered AI search went global \u2014 available in 200+ countries. Point your phone at anything and have a real-time back-and-forth conversation about what the camera sees. Powered by Gemini 3.1 Flash Live for natural, fluid voice responses.",
     "link": "https://techcrunch.com/2026/03/26/google-is-launching-search-live-globally/"
   },
   {
@@ -574,7 +574,7 @@
     "provider": "Google",
     "model": "Gemini 3.1 Flash-Live",
     "releaseDate": "2026-03-26",
-    "notes": "Google's dedicated real-time audio and voice model, powering Search Live and Gemini Live. Designed for low-latency back-and-forth conversations — you speak, it responds fluidly, with support for video input and tool use for AI agents.",
+    "notes": "Google's dedicated real-time audio and voice model, powering Search Live and Gemini Live. Designed for low-latency back-and-forth conversations \u2014 you speak, it responds fluidly, with support for video input and tool use for AI agents.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
   },
   {
@@ -598,7 +598,7 @@
     "provider": "Meta",
     "model": "Muse Spark",
     "releaseDate": "2026-04-08",
-    "notes": "Meta's first proprietary (closed-source) AI model, developed by its new Superintelligence Labs under chief AI officer Alexandr Wang. Competitive on multimodal, reasoning, health, and agentic tasks — Meta says it hopes to open-source future versions of the Muse series.",
+    "notes": "Meta's first proprietary (closed-source) AI model, developed by its new Superintelligence Labs under chief AI officer Alexandr Wang. Competitive on multimodal, reasoning, health, and agentic tasks \u2014 Meta says it hopes to open-source future versions of the Muse series.",
     "link": "https://venturebeat.com/technology/goodbye-llama-meta-launches-new-proprietary-ai-model-muse-spark-first-since"
   },
   {
@@ -623,7 +623,7 @@
     "provider": "Google Search",
     "model": "March 2025 Core Update",
     "releaseDate": "2025-03-27",
-    "notes": "Broad core update that began rolling out on March 13, 2025 and completed on March 27 — a relatively quick 14-day rollout. Focused on continuing Google's ongoing effort to surface more helpful, high-quality content and reduce the visibility of low-quality, unoriginal pages.",
+    "notes": "Broad core update that began rolling out on March 13, 2025 and completed on March 27 \u2014 a relatively quick 14-day rollout. Focused on continuing Google's ongoing effort to surface more helpful, high-quality content and reduce the visibility of low-quality, unoriginal pages.",
     "link": "https://developers.google.com/search/docs/appearance/core-updates"
   },
   {
@@ -631,7 +631,7 @@
     "provider": "Google Search",
     "model": "June 2025 Core Update",
     "releaseDate": "2025-07-17",
-    "notes": "Core update that started June 30, 2025 and finished rolling out on July 17 — a 17-day rollout spanning two months. Sites that had previously seen ranking drops from earlier core updates reported notable recoveries during this update.",
+    "notes": "Core update that started June 30, 2025 and finished rolling out on July 17 \u2014 a 17-day rollout spanning two months. Sites that had previously seen ranking drops from earlier core updates reported notable recoveries during this update.",
     "link": "https://developers.google.com/search/docs/appearance/core-updates"
   },
   {
@@ -639,7 +639,7 @@
     "provider": "Google Search",
     "model": "December 2025 Core Update",
     "releaseDate": "2025-12-29",
-    "notes": "Year-end core update that started December 12, 2025 and completed December 29 — a 17-day rollout. Google also confirmed around this time that smaller, unannounced 'continuous' core updates now run in the background between major named updates.",
+    "notes": "Year-end core update that started December 12, 2025 and completed December 29 \u2014 a 17-day rollout. Google also confirmed around this time that smaller, unannounced 'continuous' core updates now run in the background between major named updates.",
     "link": "https://developers.google.com/search/docs/appearance/core-updates"
   },
   {
@@ -655,7 +655,7 @@
     "provider": "Google Search",
     "model": "March 2026 Core Update",
     "releaseDate": "2026-04-08",
-    "notes": "Broad core update that began March 27, 2026 and completed April 8 — a fast 12-day rollout. SEOs reported significant ranking volatility during the rollout, particularly for content-heavy and affiliate sites.",
+    "notes": "Broad core update that began March 27, 2026 and completed April 8 \u2014 a fast 12-day rollout. SEOs reported significant ranking volatility during the rollout, particularly for content-heavy and affiliate sites.",
     "link": "https://searchengineland.com/google-march-2026-core-update-rollout-is-now-complete-473883",
     "analysisLink": "https://www.evertune.ai/resources/insights-on-ai/googles-march-2026-core-update-a-content-best-practices-guide-for-seo-and-ai-search"
   },
@@ -664,7 +664,7 @@
     "provider": "Anthropic",
     "model": "Claude Design",
     "releaseDate": "2026-04-17",
-    "notes": "A new Anthropic Labs product that lets you collaborate with Claude to create polished visuals — prototypes, slides, one-pagers, and design mockups — without starting from a design tool. Powered by Opus 4.7, it can apply a team's existing design system for consistent results. Available in research preview for Pro, Max, Team, and Enterprise subscribers.",
+    "notes": "A new Anthropic Labs product that lets you collaborate with Claude to create polished visuals \u2014 prototypes, slides, one-pagers, and design mockups \u2014 without starting from a design tool. Powered by Opus 4.7, it can apply a team's existing design system for consistent results. Available in research preview for Pro, Max, Team, and Enterprise subscribers.",
     "link": "https://www.anthropic.com/news/claude-design-anthropic-labs"
   },
   {
@@ -672,7 +672,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.5",
     "releaseDate": "2026-04-23",
-    "notes": "OpenAI's latest flagship, codenamed \"Spud\" — stronger than GPT-5.4 at analyzing data, writing and debugging code, operating software directly, online research, and creating documents autonomously. A faster, sharper thinker for fewer tokens, it handles multi-step workflows more autonomously with less user input. Rolling out to Plus, Pro, Business, and Enterprise users in ChatGPT and Codex, with API access coming soon.",
+    "notes": "OpenAI's latest flagship, codenamed \"Spud\" \u2014 stronger than GPT-5.4 at analyzing data, writing and debugging code, operating software directly, online research, and creating documents autonomously. A faster, sharper thinker for fewer tokens, it handles multi-step workflows more autonomously with less user input. Rolling out to Plus, Pro, Business, and Enterprise users in ChatGPT and Codex, with API access coming soon.",
     "link": "https://openai.com/index/introducing-gpt-5-5/"
   },
   {
@@ -680,7 +680,7 @@
     "provider": "OpenAI",
     "model": "GPT-5.5 Instant",
     "releaseDate": "2026-05-05",
-    "notes": "The new default model for all ChatGPT users, replacing GPT-5.3 Instant. Produces 52% fewer hallucinations than its predecessor and gives more accurate, concise answers across everyday tasks — better at photos, STEM questions, and knowing when to search the web. Can draw on past conversations, files, and Gmail for more personally relevant responses.",
+    "notes": "The new default model for all ChatGPT users, replacing GPT-5.3 Instant. Produces 52% fewer hallucinations than its predecessor and gives more accurate, concise answers across everyday tasks \u2014 better at photos, STEM questions, and knowing when to search the web. Can draw on past conversations, files, and Gmail for more personally relevant responses.",
     "link": "https://openai.com/index/gpt-5-5-instant/",
     "freeDefault": true
   },
@@ -695,7 +695,7 @@
   {
     "id": "google-search-ai-mode-overviews-gemini-upgrade-2026",
     "provider": "Google Search",
-    "model": "AI Mode & AI Overviews — Gemini Upgrade",
+    "model": "AI Mode & AI Overviews \u2014 Gemini Upgrade",
     "releaseDate": "2026-01-27",
     "notes": "Gemini 3 is now the default model powering AI Overviews globally. Users can also now jump directly from an AI Overview into a full AI Mode conversation on mobile.",
     "link": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/"
@@ -705,13 +705,13 @@
     "provider": "DeepSeek",
     "model": "DeepSeek V4",
     "releaseDate": "2026-04-24",
-    "notes": "DeepSeek's biggest model yet — two variants: V4-Flash (284B parameters) and V4-Pro (1.6T parameters), both with a 1 million token context window. Open-source, with a new Hybrid Attention Architecture that improves recall across very long conversations.",
+    "notes": "DeepSeek's biggest model yet \u2014 two variants: V4-Flash (284B parameters) and V4-Pro (1.6T parameters), both with a 1 million token context window. Open-source, with a new Hybrid Attention Architecture that improves recall across very long conversations.",
     "link": "https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html"
   },
   {
     "id": "google-search-ai-mode-shopping-2026",
     "provider": "Google Search",
-    "model": "AI Mode — Shopping Upgrades",
+    "model": "AI Mode \u2014 Shopping Upgrades",
     "releaseDate": "2026-04-17",
     "notes": "AI Mode can now check whether specific products are in stock at nearby stores and track hotel prices directly in Search. Part of Google's push to make AI Mode an agentic real-world shopping assistant.",
     "link": "https://techcrunch.com/2026/04/17/googles-ai-mode-can-now-help-you-find-products-in-stock-nearby/"
@@ -721,7 +721,7 @@
     "provider": "Google",
     "model": "Gemini 3.5 Flash",
     "releaseDate": "2026-05-19",
-    "notes": "Google's newest Flash-tier model. Designed for complex, long-horizon agent and coding tasks — delivers frontier-level performance at Flash speed. Now the default model powering AI Mode in Search. Gemini 3.5 Pro is in internal use with a broader rollout planned.",
+    "notes": "Google's newest Flash-tier model. Designed for complex, long-horizon agent and coding tasks \u2014 delivers frontier-level performance at Flash speed. Now the default model powering AI Mode in Search. Gemini 3.5 Pro is in internal use with a broader rollout planned.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
     "aiModeDefault": true,
     "analysisLink": "https://www.evertune.ai/resources/insights-on-ai/what-googles-ai-search-changes-mean-for-brand-visibility"
@@ -731,7 +731,7 @@
     "provider": "Google",
     "model": "Gemini Omni Flash",
     "releaseDate": "2026-05-19",
-    "notes": "Google's new multimodal video generation model. Takes any combination of text, images, audio, and video as input and generates or edits video output — with further edits via back-and-forth conversation. First model in the Gemini Omni family.",
+    "notes": "Google's new multimodal video generation model. Takes any combination of text, images, audio, and video as input and generates or edits video output \u2014 with further edits via back-and-forth conversation. First model in the Gemini Omni family.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
     "analysisLink": "https://www.evertune.ai/resources/insights-on-ai/what-googles-ai-search-changes-mean-for-brand-visibility"
   },
@@ -756,9 +756,9 @@
   {
     "id": "google-search-preferred-sources-highly-cited-2026",
     "provider": "Google Search",
-    "model": "AI Overviews & AI Mode — Preferred Sources & Highly Cited",
+    "model": "AI Overviews & AI Mode \u2014 Preferred Sources & Highly Cited",
     "releaseDate": "2026-05-27",
-    "notes": "Google brought its Preferred Sources feature to AI Overviews and AI Mode globally — links from sites you've saved as preferred now get a badge inside AI-generated answers. Also added 'Highly Cited' labels to highlight primary source reporting, and a new perspectives carousel surfacing relevant discussions from forums and social media.",
+    "notes": "Google brought its Preferred Sources feature to AI Overviews and AI Mode globally \u2014 links from sites you've saved as preferred now get a badge inside AI-generated answers. Also added 'Highly Cited' labels to highlight primary source reporting, and a new perspectives carousel surfacing relevant discussions from forums and social media.",
     "link": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/",
     "analysisLink": "https://www.evertune.ai/resources/insights-on-ai/googles-ai-search-updates-opt-out-toggle-preferred-sources-and-the-highly-cited-badge-explained"
   },
@@ -767,7 +767,7 @@
     "provider": "Anthropic",
     "model": "Claude Opus 4.8",
     "releaseDate": "2026-05-28",
-    "notes": "Anthropic's latest flagship model, with notably better judgment in agentic tasks — roughly 4x less likely than Opus 4.7 to let code flaws pass without flagging them. Ships with two new features: dynamic workflows in Claude Code that orchestrate hundreds of parallel subagents for large-scale projects like codebase migrations, and effort control so users can dial how deeply Claude engages on any task.",
+    "notes": "Anthropic's latest flagship model, with notably better judgment in agentic tasks \u2014 roughly 4x less likely than Opus 4.7 to let code flaws pass without flagging them. Ships with two new features: dynamic workflows in Claude Code that orchestrate hundreds of parallel subagents for large-scale projects like codebase migrations, and effort control so users can dial how deeply Claude engages on any task.",
     "link": "https://www.anthropic.com/news/claude-opus-4-8"
   },
   {
@@ -775,7 +775,7 @@
     "provider": "OpenAI",
     "model": "Codex for Every Role + Codex Sites",
     "releaseDate": "2026-06-02",
-    "notes": "OpenAI expanded Codex far beyond coding — six role-specific plugins now make it useful for analysts, marketers, designers, and finance professionals, bundling relevant apps and workflows into one place. Also launched Codex Sites in preview, a tool that turns ideas and analysis into shareable, hosted interactive apps and dashboards for Business and Enterprise users.",
+    "notes": "OpenAI expanded Codex far beyond coding \u2014 six role-specific plugins now make it useful for analysts, marketers, designers, and finance professionals, bundling relevant apps and workflows into one place. Also launched Codex Sites in preview, a tool that turns ideas and analysis into shareable, hosted interactive apps and dashboards for Business and Enterprise users.",
     "link": "https://openai.com/index/codex-for-every-role-tool-workflow/"
   },
   {
@@ -791,15 +791,15 @@
     "provider": "Anthropic",
     "model": "Claude Fable 5",
     "releaseDate": "2026-06-09",
-    "notes": "Anthropic's first publicly available Mythos-class model — the most capable Claude ever released to the general public. Built for advanced software engineering, complex knowledge work, vision, and scientific research. Suspended June 12, 2026: Anthropic shut down Fable 5 and Mythos 5 for all users to comply with a US government export control directive.",
+    "notes": "Anthropic's first publicly available Mythos-class model \u2014 the most capable Claude ever released to the general public. Built for advanced software engineering, complex knowledge work, vision, and scientific research. Suspended June 12, 2026: Anthropic shut down Fable 5 and Mythos 5 for all users to comply with a US government export control directive.",
     "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
   },
   {
     "id": "google-search-ai-mode-visuals-free-summer-2026",
     "provider": "Google Search",
-    "model": "AI Mode — Pro Visuals Free for Summer",
+    "model": "AI Mode \u2014 Pro Visuals Free for Summer",
     "releaseDate": "2026-06-09",
-    "notes": "Google announced that Generative UI visual capabilities in AI Mode — previously limited to Pro and Ultra subscribers — will be free for all Search users this summer. The rollout launches alongside the 2026 FIFA World Cup, bringing interactive match stats, live visualizations, and dynamic AI-powered sports features to all users at no cost.",
+    "notes": "Google announced that Generative UI visual capabilities in AI Mode \u2014 previously limited to Pro and Ultra subscribers \u2014 will be free for all Search users this summer. The rollout launches alongside the 2026 FIFA World Cup, bringing interactive match stats, live visualizations, and dynamic AI-powered sports features to all users at no cost.",
     "link": "https://9to5google.com/2026/06/09/google-ai-mode-pro-visuals-free-during-2026-world-cup/"
   },
   {
@@ -815,7 +815,7 @@
     "provider": "OpenAI",
     "model": "ChatGPT Enterprise Workspace Agents",
     "releaseDate": "2026-06-05",
-    "notes": "ChatGPT for Enterprise and EDU gained workspace agents — AI agents that can be shared across teams, own entire workflows independently, and run in the background across connected tools. Designed to reduce repetitive coordination work for large organizations.",
+    "notes": "ChatGPT for Enterprise and EDU gained workspace agents \u2014 AI agents that can be shared across teams, own entire workflows independently, and run in the background across connected tools. Designed to reduce repetitive coordination work for large organizations.",
     "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
   },
   {
@@ -833,5 +833,29 @@
     "releaseDate": "2026-06-30",
     "notes": "Anthropic's most agentic Sonnet model yet, with performance close to Opus 4.8 at a much lower price. Now the default model for Free and Pro plans, and available to Max, Team, Enterprise, and API users.",
     "link": "https://www.anthropic.com/news/claude-sonnet-5"
+  },
+  {
+    "id": "openai-gpt56-terra-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Terra",
+    "releaseDate": "2026-06-26",
+    "notes": "The mid-tier model in OpenAI's new GPT-5.6 family, offering performance similar to GPT-5.5 at roughly half the cost. Currently in limited preview for a small group of partner organizations via the API and Codex.",
+    "link": "https://openai.com/index/previewing-gpt-5-6-sol/"
+  },
+  {
+    "id": "openai-gpt56-luna-2026",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Luna",
+    "releaseDate": "2026-06-26",
+    "notes": "The budget tier in OpenAI's new GPT-5.6 family, built for strong everyday performance at the lowest cost. Currently in limited preview for a small group of partner organizations via the API and Codex.",
+    "link": "https://openai.com/index/previewing-gpt-5-6-sol/"
+  },
+  {
+    "id": "anthropic-claude-mythos5-restored-2026",
+    "provider": "Anthropic",
+    "model": "Claude Mythos 5 (access restored)",
+    "releaseDate": "2026-07-01",
+    "notes": "Access to Claude Mythos 5 was restored for a set of approved US organizations after the US government lifted export controls that had briefly paused availability following the model's June launch.",
+    "link": "https://www.anthropic.com/news/redeploying-fable-5"
   }
 ]
