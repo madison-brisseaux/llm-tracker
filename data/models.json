@@ -857,5 +857,13 @@
     "releaseDate": "2026-07-01",
     "notes": "Access to Claude Mythos 5 was restored for a set of approved US organizations after the US government lifted export controls that had briefly paused availability following the model's June launch.",
     "link": "https://www.anthropic.com/news/redeploying-fable-5"
+  },
+  {
+    "id": "openai-gpt-realtime21-2026",
+    "provider": "OpenAI",
+    "model": "GPT-Realtime-2.1 & GPT-Realtime-2.1-mini",
+    "releaseDate": "2026-07-06",
+    "notes": "New Realtime API voice models with better handling of alphanumeric speech, background noise, and interruptions. The new mini version adds reasoning and tool use for voice agents at a much lower cost, and overall response latency dropped noticeably thanks to improved caching.",
+    "link": "https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896"
   }
 ]
