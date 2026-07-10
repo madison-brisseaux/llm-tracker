@@ -865,5 +865,21 @@
     "releaseDate": "2026-07-06",
     "notes": "New Realtime API voice models with better handling of alphanumeric speech, background noise, and interruptions. The new mini version adds reasoning and tool use for voice agents at a much lower cost, and overall response latency dropped noticeably thanks to improved caching.",
     "link": "https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896"
+  },
+  {
+    "id": "openai-gpt-live1-2026",
+    "provider": "OpenAI",
+    "model": "GPT-Live-1 & GPT-Live-1 mini",
+    "releaseDate": "2026-07-08",
+    "notes": "New full-duplex voice models that can speak and listen at the same time, enabling natural interruptions and live translation during conversations. GPT-Live-1 mini now powers ChatGPT's default voice mode, with the larger GPT-Live-1 available to paid users for longer, more complex conversations.",
+    "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
+  },
+  {
+    "id": "google-nanobanana2lite-2026",
+    "provider": "Google",
+    "model": "Nano Banana 2 Lite",
+    "releaseDate": "2026-06-30",
+    "notes": "Google's fastest and most affordable Gemini image generation model, built for high-volume, low-cost image creation. Available now in Google AI Studio and the Gemini API, and rolling out across Search and the Gemini app.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
   }
 ]
