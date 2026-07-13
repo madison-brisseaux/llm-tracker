@@ -1,5 +1,21 @@
 [
   {
+    "id": "openai-chatgpt-work-2026",
+    "provider": "OpenAI",
+    "model": "ChatGPT Work",
+    "releaseDate": "2026-07-09",
+    "notes": "A new ChatGPT agent, powered by GPT-5.6, that pulls context from a team's apps, files, and workflows to independently produce finished documents, spreadsheets, presentations, and reports, working continuously on complex projects for hours at a time.",
+    "link": "https://openai.com/chatgpt-work/"
+  },
+  {
+    "id": "anthropic-claude-monthly-recap-2026",
+    "provider": "Anthropic",
+    "model": "Claude Monthly Recap & Focus Settings",
+    "releaseDate": "2026-07-09",
+    "notes": "A new beta feature that summarizes what you worked on with Claude each month (topics, most active day/hour) plus optional break reminders and quiet hours to manage usage.",
+    "link": "https://www.anthropic.com/news/reflect-with-claude"
+  },
+  {
     "id": "anthropic-claude-opus47-2026",
     "provider": "Anthropic",
     "model": "Claude Opus 4.7",
