@@ -897,5 +897,21 @@
     "releaseDate": "2026-06-30",
     "notes": "Google's fastest and most affordable Gemini image generation model, built for high-volume, low-cost image creation. Available now in Google AI Studio and the Gemini API, and rolling out across Search and the Gemini app.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+  },
+  {
+    "id": "google-search-ai-mode-connected-apps-2026",
+    "provider": "Google Search",
+    "model": "AI Mode Connected Apps (Instacart, Canva, YouTube Music)",
+    "releaseDate": "2026-07-16",
+    "notes": "AI Mode can now connect to Instacart, Canva, and YouTube Music to take actions like adding groceries to a cart, drafting a design, or building a playlist, joining its existing Gmail, Photos, Drive, and Calendar connections.",
+    "link": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/"
+  },
+  {
+    "id": "google-search-ai-default-all-queries-2026",
+    "provider": "Google Search",
+    "model": "AI Overviews By Default (AI Answers for Every Query)",
+    "releaseDate": "2026-07-10",
+    "notes": "Gemini 3.5 Flash now writes an AI answer for every Google Search query by default worldwide, not just in the opt-in AI Mode tab, pushing the traditional list of ranked links further down the page. Completes the rollout Google announced at I/O in May.",
+    "link": "https://www.techtimes.com/articles/320298/20260713/google-replaced-its-default-search-ai-how-get-blue-links-back.htm"
   }
 ]

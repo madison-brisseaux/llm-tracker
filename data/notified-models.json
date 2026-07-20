@@ -40,5 +40,12 @@
   "anthropic-claude-enterprise-mcp-okta-2026",
   "anthropic-claude-fable5-restored-2026",
   "openai-chatgpt-scheduled-tasks-2026",
-  "anthropic-claude-tag-slack-2026"
+  "anthropic-claude-tag-slack-2026",
+  "anthropic-claude-science-2026",
+  "anthropic-claude-apps-gateway-2026",
+  "anthropic-claude-enterprise-analytics-2026",
+  "anthropic-claude-for-teachers-2026",
+  "google-search-ai-overviews-image-generation-2026",
+  "google-search-ai-mode-connected-apps-2026",
+  "google-search-ai-default-all-queries-2026"
 ]
