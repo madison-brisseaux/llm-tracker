@@ -913,5 +913,29 @@
     "releaseDate": "2026-07-10",
     "notes": "Gemini 3.5 Flash now writes an AI answer for every Google Search query by default worldwide, not just in the opt-in AI Mode tab, pushing the traditional list of ranked links further down the page. Completes the rollout Google announced at I/O in May.",
     "link": "https://www.techtimes.com/articles/320298/20260713/google-replaced-its-default-search-ai-how-get-blue-links-back.htm"
+  },
+  {
+    "id": "google-gemini36flash-2026",
+    "provider": "Google",
+    "model": "Gemini 3.6 Flash",
+    "releaseDate": "2026-07-21",
+    "notes": "Google's new workhorse model — cheaper and more efficient than its predecessor, with fewer wasted reasoning steps and tool calls on coding and multi-step tasks. Available now in the Gemini app, API, Google Antigravity, and enterprise platforms.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+  },
+  {
+    "id": "google-gemini35flashlite-2026",
+    "provider": "Google",
+    "model": "Gemini 3.5 Flash-Lite",
+    "releaseDate": "2026-07-21",
+    "notes": "Google's most budget-friendly Gemini model, built for high-volume, low-latency work like agentic search and document processing. Rolling out in the Gemini API and Google Search.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+  },
+  {
+    "id": "google-gemini35flashcyber-2026",
+    "provider": "Google",
+    "model": "Gemini 3.5 Flash Cyber",
+    "releaseDate": "2026-07-21",
+    "notes": "A specialized Gemini model fine-tuned to find and fix cybersecurity vulnerabilities. Limited to a pilot program for governments and trusted partners.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
   }
 ]
