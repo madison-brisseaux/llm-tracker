@@ -919,7 +919,7 @@
     "provider": "Google",
     "model": "Gemini 3.6 Flash",
     "releaseDate": "2026-07-21",
-    "notes": "Google's new workhorse model — cheaper and more efficient than its predecessor, with fewer wasted reasoning steps and tool calls on coding and multi-step tasks. Available now in the Gemini app, API, Google Antigravity, and enterprise platforms.",
+    "notes": "Google's new workhorse model \u2014 cheaper and more efficient than its predecessor, with fewer wasted reasoning steps and tool calls on coding and multi-step tasks. Available now in the Gemini app, API, Google Antigravity, and enterprise platforms.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
   },
   {
@@ -937,5 +937,21 @@
     "releaseDate": "2026-07-21",
     "notes": "A specialized Gemini model fine-tuned to find and fix cybersecurity vulnerabilities. Limited to a pilot program for governments and trusted partners.",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+  },
+  {
+    "id": "deepseek-v4-ga-2026",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4 (General Availability)",
+    "releaseDate": "2026-07-20",
+    "notes": "DeepSeek moved V4 out of preview into full general availability, adding stronger agentic capabilities, math reasoning, and code generation on top of the April preview. New peak/off-peak API pricing also took effect, and the legacy deepseek-chat and deepseek-reasoner endpoints were retired on July 24.",
+    "link": "https://tech-insider.org/au/deepseek-v4-general-availability-2026/"
+  },
+  {
+    "id": "anthropic-claude-opus5-2026",
+    "provider": "Anthropic",
+    "model": "Claude Opus 5",
+    "releaseDate": "2026-07-24",
+    "notes": "Anthropic's new flagship model, approaching Claude Fable 5-level intelligence at roughly half the price, now the default on Claude Max and the strongest option on Claude Pro. Includes a new effort dial letting users trade off cost and capability, plus stronger coding, agentic, and self-verification performance.",
+    "link": "https://www.anthropic.com/news/claude-opus-5"
   }
 ]
