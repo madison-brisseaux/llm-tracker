@@ -1,5 +1,6 @@
 import { Model } from './models';
 import seedData from '@/data/models.json';
+import lastUpdatedMeta from '@/data/last-updated.json';
 
 const BLOB_KEY = 'models-data.json';
 
@@ -27,8 +28,12 @@ export async function getModels(): Promise<{ models: Model[]; lastUpdated: strin
     }
   }
 
-  // Fall back to static seed data
-  return { models: seedData as Model[], lastUpdated: null };
+  // Fall back to static seed data. The daily routine stamps data/last-updated.json
+  // when it commits new models, so this reflects the last real data change.
+  return {
+    models: seedData as Model[],
+    lastUpdated: (lastUpdatedMeta as { lastUpdated?: string }).lastUpdated ?? null,
+  };
 }
 
 export async function saveModels(models: Model[]): Promise<void> {

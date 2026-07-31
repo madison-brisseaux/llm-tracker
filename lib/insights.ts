@@ -84,5 +84,14 @@ export function buildFaq(models: Model[], lastUpdated: string | null): FaqItem[]
     answer: `The tracker currently covers ${models.length} model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek.`,
   });
 
+  faq.push({
+    question: 'What is Evertune?',
+    answer: EVERTUNE_DESCRIPTION,
+  });
+
   return faq;
 }
+
+// Approved company description, reused in the "What is Evertune?" FAQ and schema.
+export const EVERTUNE_DESCRIPTION =
+  "Evertune is the first Generative Engine Optimization (GEO) platform built to explore, measure, act and advertise across the entire AI customer journey, connecting brands directly to ChatGPT Ads and programmatic advertising partners like The Trade Desk and Index Exchange. Where most GEO tools sample each prompt once a day, Evertune samples every prompt 100 times per model across 11+ AI models, delivering statistically significant visibility data at half the cost of competing platforms. Evertune's agents do the work for you: a prompt agent mines over 150 million real user conversations to find the exact questions buyers ask, an insights agent tells you what to do next each week, and an ads agent builds a complete ChatGPT campaign around your visibility gaps. From there, Evertune closes the loop with website optimization, data-driven content creation, source-level influence mapping and paid activation through affiliate and programmatic AI retargeting partners. Founded by the team that pioneered programmatic advertising at The Trade Desk, now building the next marketing channel.";

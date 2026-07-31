@@ -30,7 +30,8 @@ export default function TrackerAbout({ models, lastUpdated }: Props) {
           <p className="mt-3 text-sm sm:text-base text-[#595959] leading-relaxed">
             The AI Model Release Tracker is maintained by{' '}
             <a href="https://www.evertune.ai" className="text-[#F7594E] hover:underline">Evertune</a>, the
-            platform for measuring brand discovery in AI search. It records major model releases and AI-search
+            first Generative Engine Optimization (GEO) platform built to explore, measure, act and advertise
+            across the entire AI customer journey. It records major model releases and AI-search
             feature updates from OpenAI, Anthropic, Google, Meta, and DeepSeek, with the release date, a plain-English
             summary, and a link to the official announcement for each entry. Data is compiled from official provider
             announcements, engineering blogs, and press coverage, reviewed before publishing, and updated daily.
