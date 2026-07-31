@@ -64,15 +64,6 @@ export default async function Home() {
         contentUrl: `${BASE_URL}/feed.xml`,
       },
     ],
-    hasPart: models.map(m => ({
-      '@type': 'SoftwareApplication',
-      name: m.model,
-      applicationCategory: 'Artificial Intelligence',
-      creator: { '@type': 'Organization', name: m.provider },
-      datePublished: m.releaseDate,
-      description: m.notes,
-      ...(m.link ? { url: m.link } : {}),
-    })),
   };
 
   const faqLd = {
