@@ -171,7 +171,7 @@ function main() {
 <ul class="et-latest">${latestHtml}</ul>
 <h2>Frequently asked questions</h2>
 <dl>${faqHtml}</dl>
-<p class="et-links">Explore the full, searchable tracker at <a href="${DATA_URL}" rel="noopener">models.evertune.ai</a> &middot; Download the data: <a href="${DATA_URL}/ai-model-tracker.json" rel="noopener">JSON</a>, <a href="${DATA_URL}/ai-model-tracker.csv" rel="noopener">CSV</a>, <a href="${DATA_URL}/feed.xml" rel="noopener">RSS</a> &middot; Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.</p>
+<p class="et-links">Download the data: <a href="${DATA_URL}/ai-model-tracker.json" rel="noopener">JSON</a>, <a href="${DATA_URL}/ai-model-tracker.csv" rel="noopener">CSV</a>, <a href="${DATA_URL}/feed.xml" rel="noopener">RSS</a> &middot; Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.</p>
 <script type="application/ld+json">${JSON.stringify(datasetLd)}</script>
 <script type="application/ld+json">${JSON.stringify(faqLd)}</script>
 </div>`;
