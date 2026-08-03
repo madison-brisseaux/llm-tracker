@@ -1,5 +1,13 @@
 [
   {
+    "id": "deepseek-v4flash-0731-2026",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4-Flash (0731 Official Release)",
+    "releaseDate": "2026-07-31",
+    "notes": "DeepSeek retrained its V4-Flash model with an improved training pipeline focused on coding, AI agents, and tool use. The updated version now outperforms DeepSeek's own larger V4-Pro model on agent and coding tasks, with no price change for existing API users.",
+    "link": "https://api-docs.deepseek.com/updates/"
+  },
+  {
     "id": "openai-chatgpt-work-2026",
     "provider": "OpenAI",
     "model": "ChatGPT Work",
