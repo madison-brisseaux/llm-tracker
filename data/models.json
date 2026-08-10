@@ -961,5 +961,13 @@
     "releaseDate": "2026-07-24",
     "notes": "Anthropic's new flagship model, approaching Claude Fable 5-level intelligence at roughly half the price, now the default on Claude Max and the strongest option on Claude Pro. Includes a new effort dial letting users trade off cost and capability, plus stronger coding, agentic, and self-verification performance.",
     "link": "https://www.anthropic.com/news/claude-opus-5"
+  },
+  {
+    "id": "meta-muse-spark12-2026",
+    "provider": "Meta",
+    "model": "Muse Spark 1.2 & Muse Code (Beta)",
+    "releaseDate": "2026-08-05",
+    "notes": "Meta Superintelligence Labs released an updated coding-focused model plus Muse Code, a new beta terminal-based coding agent built to plan, execute, debug, and complete software projects with minimal human oversight. Pricing is unchanged from the prior version.",
+    "link": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
   }
 ]
