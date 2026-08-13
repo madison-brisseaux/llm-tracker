@@ -7,8 +7,8 @@
       "name": "AI Model Release Tracker",
       "description": "A comprehensive, daily-updated dataset of AI language model releases from OpenAI, Anthropic, Google, Meta, DeepSeek, and more.",
       "url": "https://www.evertune.ai/resources/ai-model-tracker",
-      "dateModified": "2026-08-10T00:00:00Z",
-      "temporalCoverage": "2023-11-02/2026-08-05",
+      "dateModified": "2026-08-13T00:00:00Z",
+      "temporalCoverage": "2023-11-02/2026-08-12",
       "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
@@ -67,7 +67,15 @@
           "name": "What is the most recent AI model release?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most recent tracked release is Meta Muse Spark 1.2 & Muse Code (Beta), released Aug 5, 2026. Meta Superintelligence Labs released an updated coding-focused model plus Muse Code, a new beta terminal-based coding agent built to plan, execute, debug, and complete software projects with minimal human oversight. Pricing is unchanged from the prior version."
+            "text": "The most recent tracked release is DeepSeek DeepSeek V4-Pro (0813 Official Release), released Aug 12, 2026. DeepSeek's flagship V4-Pro model graduated from preview to full production after a nearly four-month preview period, with no changes to API pricing or integration for existing users."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the latest AI model from DeepSeek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The latest DeepSeek release in this tracker is DeepSeek V4-Pro (0813 Official Release), released Aug 12, 2026. DeepSeek's flagship V4-Pro model graduated from preview to full production after a nearly four-month preview period, with no changes to API pricing or integration for existing users."
           }
         },
         {
@@ -76,14 +84,6 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The latest Meta release in this tracker is Muse Spark 1.2 & Muse Code (Beta), released Aug 5, 2026. Meta Superintelligence Labs released an updated coding-focused model plus Muse Code, a new beta terminal-based coding agent built to plan, execute, debug, and complete software projects with minimal human oversight. Pricing is unchanged from the prior version."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the latest AI model from DeepSeek?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The latest DeepSeek release in this tracker is DeepSeek V4-Flash (0731 Official Release), released Jul 31, 2026. DeepSeek retrained its V4-Flash model with an improved training pipeline focused on coding, AI agents, and tool use. The updated version now outperforms DeepSeek's own larger V4-Pro model on agent and coding tasks, with no price change for existing API users."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "How many AI models does the tracker cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The tracker currently covers 120 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
+            "text": "The tracker currently covers 121 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
           }
         },
         {

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "meta-muse-glimmer-2026",
+    "provider": "Meta",
+    "model": "Muse Glimmer",
+    "releaseDate": "2026-08-10",
+    "notes": "Meta's return to open-source with a 30B parameter multimodal model distilled from Muse Spark 1.2, optimized to run locally on a single consumer GPU or Mac. Released under an Apache 2.0 license with free weights on Hugging Face.",
+    "link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+  }
+]

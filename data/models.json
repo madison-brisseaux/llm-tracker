@@ -969,5 +969,13 @@
     "releaseDate": "2026-08-05",
     "notes": "Meta Superintelligence Labs released an updated coding-focused model plus Muse Code, a new beta terminal-based coding agent built to plan, execute, debug, and complete software projects with minimal human oversight. Pricing is unchanged from the prior version.",
     "link": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+  },
+  {
+    "id": "deepseek-v4pro-0813-2026",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4-Pro (0813 Official Release)",
+    "releaseDate": "2026-08-12",
+    "notes": "DeepSeek's flagship V4-Pro model graduated from preview to full production after a nearly four-month preview period, with no changes to API pricing or integration for existing users.",
+    "link": "https://www.unite.ai/deepseek-ships-v4-pro-as-its-flagship-model-leaves-preview/"
   }
 ]
