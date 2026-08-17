@@ -977,5 +977,21 @@
     "releaseDate": "2026-08-12",
     "notes": "DeepSeek's flagship V4-Pro model graduated from preview to full production after a nearly four-month preview period, with no changes to API pricing or integration for existing users.",
     "link": "https://www.unite.ai/deepseek-ships-v4-pro-as-its-flagship-model-leaves-preview/"
+  },
+  {
+    "id": "google-gemini37flash-2026",
+    "provider": "Google",
+    "model": "Gemini 3.7 Flash",
+    "releaseDate": "2026-08-13",
+    "notes": "Google's newest Flash-tier model, with notable gains in coding, debugging, and PDF/document understanding over its predecessor. Launched at half the introductory price of Gemini 3.6 Flash, with pricing set to rise at the start of 2027. Now powers Gemini Spark and is available to developers in AI Studio.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+  },
+  {
+    "id": "google-search-ai-overviews-save-simplify-2026",
+    "provider": "Google Search",
+    "model": "AI Overviews — Save & Simplify Language",
+    "releaseDate": "2026-08-15",
+    "notes": "Google added two new options inside AI Overviews for US English searches: a 'save' button that lets you revisit an overview's results later from your account, and a 'simplify language' button that rewrites a complex answer in plainer terms. Rolling out to testers enrolled in the 'AI Overviews and more' Labs experiment.",
+    "link": "https://www.androidcentral.com/apps-software/google-ai-overview-save-feature-expansion"
   }
 ]
