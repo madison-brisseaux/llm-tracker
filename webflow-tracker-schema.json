@@ -7,8 +7,8 @@
       "name": "AI Model Release Tracker",
       "description": "A comprehensive, daily-updated dataset of AI language model releases from OpenAI, Anthropic, Google, Meta, DeepSeek, and more.",
       "url": "https://www.evertune.ai/resources/ai-model-tracker",
-      "dateModified": "2026-08-17T00:00:00Z",
-      "temporalCoverage": "2023-11-02/2026-08-15",
+      "dateModified": "2026-08-26T00:00:00Z",
+      "temporalCoverage": "2023-11-02/2026-08-18",
       "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
@@ -67,7 +67,7 @@
           "name": "What is the most recent AI model release?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most recent tracked release is Google Search AI Overviews — Save & Simplify Language, released Aug 15, 2026. Google added two new options inside AI Overviews for US English searches: a 'save' button that lets you revisit an overview's results later from your account, and a 'simplify language' button that rewrites a complex answer in plainer terms. Rolling out to testers enrolled in the 'AI Overviews and more' Labs experiment."
+            "text": "The most recent tracked release is Google Search August 2026 Spam Update, released Aug 18, 2026. Google began rolling out its third spam update of 2026 on August 18, targeting sites that break its search spam policies. It applies worldwide and to all languages, with the rollout expected to take a few days."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "How many AI models does the tracker cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The tracker currently covers 123 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
+            "text": "The tracker currently covers 124 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
           }
         },
         {
