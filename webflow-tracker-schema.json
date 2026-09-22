@@ -7,8 +7,8 @@
       "name": "AI Model Release Tracker",
       "description": "A comprehensive, daily-updated dataset of AI language model releases from OpenAI, Anthropic, Google, Meta, DeepSeek, and more.",
       "url": "https://www.evertune.ai/resources/ai-model-tracker",
-      "dateModified": "2026-09-09T00:00:00Z",
-      "temporalCoverage": "2023-11-02/2026-09-02",
+      "dateModified": "2026-09-22T00:00:00Z",
+      "temporalCoverage": "2023-11-02/2026-09-21",
       "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
@@ -67,7 +67,7 @@
           "name": "What is the most recent AI model release?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most recent tracked release is Google Gemini 3.8 Flash, released Sep 2, 2026. Google's newest everyday workhorse model, arriving about three weeks after 3.7 Flash. It is better at software engineering, agent workflows and multi-step reasoning than the version it replaces, at a lower cost than frontier models. Available through the Gemini API, AI Studio, Antigravity, Android Studio and Stitch."
+            "text": "The most recent tracked release is Google Search AI Overviews in Gmail (Global), released Sep 21, 2026. Google finished taking AI Overviews in Gmail search worldwide, moving it past the earlier US-only launch to paid plans everywhere with Gmail set to English. The rollout reached Scheduled Release Workspace domains on September 21."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "How many AI models does the tracker cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The tracker currently covers 129 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
+            "text": "The tracker currently covers 130 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
           }
         },
         {

@@ -1041,5 +1041,13 @@
     "releaseDate": "2026-08-31",
     "notes": "Google began automatically fully expanding AI Overviews on some queries, so the AI answer fills the page instead of appearing as a collapsed snippet above the blue links. For publishers this pushes organic results further down on the affected searches.",
     "link": "https://9to5google.com/2026/08/31/google-search-ai-overviews-bigger/"
+  },
+  {
+    "id": "google-search-ai-overviews-gmail-global-2026",
+    "provider": "Google Search",
+    "model": "AI Overviews in Gmail (Global)",
+    "releaseDate": "2026-09-21",
+    "notes": "Google finished taking AI Overviews in Gmail search worldwide, moving it past the earlier US-only launch to paid plans everywhere with Gmail set to English. The rollout reached Scheduled Release Workspace domains on September 21.",
+    "link": "https://workspaceupdates.googleblog.com/2026/09/gmail-searchs-ai-overviews-now-available-globally.html"
   }
 ]
