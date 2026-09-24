@@ -7,8 +7,8 @@
       "name": "AI Model Release Tracker",
       "description": "A comprehensive, daily-updated dataset of AI language model releases from OpenAI, Anthropic, Google, Meta, DeepSeek, and more.",
       "url": "https://www.evertune.ai/resources/ai-model-tracker",
-      "dateModified": "2026-09-22T00:00:00Z",
-      "temporalCoverage": "2023-11-02/2026-09-21",
+      "dateModified": "2026-09-24T00:00:00Z",
+      "temporalCoverage": "2023-11-02/2026-09-22",
       "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
@@ -67,7 +67,23 @@
           "name": "What is the most recent AI model release?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most recent tracked release is Google Search AI Overviews in Gmail (Global), released Sep 21, 2026. Google finished taking AI Overviews in Gmail search worldwide, moving it past the earlier US-only launch to paid plans everywhere with Gmail set to English. The rollout reached Scheduled Release Workspace domains on September 21."
+            "text": "The most recent tracked release is Anthropic Claude Opus 5.5, released Sep 22, 2026. Anthropic's first model in the new 5.5 family, built for long-running agentic coding and knowledge work. It matches Claude Fable 5.1 on most tasks while costing meaningfully less to run and responding noticeably faster."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the latest AI model from OpenAI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The latest OpenAI release in this tracker is GPT-6 Sol, released Sep 22, 2026. A cheaper, faster sibling to GPT-6 Astra aimed at everyday professional work, coding and computer use. OpenAI cut API pricing roughly in half versus the GPT-5.6 generation and says it makes about half as many mistakes as GPT-5.6 Sol."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the latest AI model from Anthropic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The latest Anthropic release in this tracker is Claude Opus 5.5, released Sep 22, 2026. Anthropic's first model in the new 5.5 family, built for long-running agentic coding and knowledge work. It matches Claude Fable 5.1 on most tasks while costing meaningfully less to run and responding noticeably faster."
           }
         },
         {
@@ -88,26 +104,10 @@
         },
         {
           "@type": "Question",
-          "name": "What is the latest AI model from Anthropic?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The latest Anthropic release in this tracker is Claude Fable 5.1, released Sep 1, 2026. Anthropic's new top model for coding, knowledge work and long-running agent tasks, available to everyone. Cache reads cost a quarter of what Fable 5 charged, which meaningfully lowers the bill for agent-heavy workloads, and Claude Code users should see far fewer false cybersecurity flags."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "What is the latest AI model from DeepSeek?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "The latest DeepSeek release in this tracker is DeepSeek V4-Pro (0813 Official Release), released Aug 12, 2026. DeepSeek's flagship V4-Pro model graduated from preview to full production after a nearly four-month preview period, with no changes to API pricing or integration for existing users."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the latest AI model from OpenAI?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The latest OpenAI release in this tracker is ChatGPT Work, released Jul 9, 2026. A new ChatGPT agent, powered by GPT-5.6, that pulls context from a team's apps, files, and workflows to independently produce finished documents, spreadsheets, presentations, and reports, working continuously on complex projects for hours at a time."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "How many AI models does the tracker cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The tracker currently covers 130 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
+            "text": "The tracker currently covers 133 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
           }
         },
         {

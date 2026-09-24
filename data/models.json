@@ -1049,5 +1049,29 @@
     "releaseDate": "2026-09-21",
     "notes": "Google finished taking AI Overviews in Gmail search worldwide, moving it past the earlier US-only launch to paid plans everywhere with Gmail set to English. The rollout reached Scheduled Release Workspace domains on September 21.",
     "link": "https://workspaceupdates.googleblog.com/2026/09/gmail-searchs-ai-overviews-now-available-globally.html"
+  },
+  {
+    "id": "anthropic-claude-opus55-2026",
+    "provider": "Anthropic",
+    "model": "Claude Opus 5.5",
+    "releaseDate": "2026-09-22",
+    "notes": "Anthropic's first model in the new 5.5 family, built for long-running agentic coding and knowledge work. It matches Claude Fable 5.1 on most tasks while costing meaningfully less to run and responding noticeably faster.",
+    "link": "https://www.anthropic.com/claude-opus-5-5"
+  },
+  {
+    "id": "openai-gpt6-sol-2026",
+    "provider": "OpenAI",
+    "model": "GPT-6 Sol",
+    "releaseDate": "2026-09-22",
+    "notes": "A cheaper, faster sibling to GPT-6 Astra aimed at everyday professional work, coding and computer use. OpenAI cut API pricing roughly in half versus the GPT-5.6 generation and says it makes about half as many mistakes as GPT-5.6 Sol.",
+    "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+  },
+  {
+    "id": "openai-gpt6-luna-2026",
+    "provider": "OpenAI",
+    "model": "GPT-6 Luna",
+    "releaseDate": "2026-09-22",
+    "notes": "The lowest-cost model in the GPT-6 lineup, tuned for fast responses and high-volume use. It is available to ChatGPT Free and Go users and rolls out across Codex and the API alongside GPT-6 Sol.",
+    "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
   }
 ]
