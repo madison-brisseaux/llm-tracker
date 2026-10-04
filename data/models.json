@@ -1073,5 +1073,37 @@
     "releaseDate": "2026-09-22",
     "notes": "The lowest-cost model in the GPT-6 lineup, tuned for fast responses and high-volume use. It is available to ChatGPT Free and Go users and rolls out across Codex and the API alongside GPT-6 Sol.",
     "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+  },
+  {
+    "id": "anthropic-claude-sonnet55-2026",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 5.5",
+    "releaseDate": "2026-09-28",
+    "notes": "Anthropic's new mid-tier model in the 5.5 family, aimed at everyday work like coding fixes, documents, slides and spreadsheets. It runs noticeably faster and cheaper per task than Sonnet 5, and Anthropic says Haiku 5.5 will follow in the coming weeks.",
+    "link": "https://9to5mac.com/2026/09/28/anthropic-upgrades-claude-with-new-sonnet-5-5-model-details-here/"
+  },
+  {
+    "id": "openai-gpt61-sol-2026",
+    "provider": "OpenAI",
+    "model": "GPT-6.1 Sol",
+    "releaseDate": "2026-09-29",
+    "notes": "An upgraded GPT-6 Sol that OpenAI says comes close to its flagship GPT-6 Astra on coding, computer use and professional workflows at a fraction of the cost. Available in ChatGPT Work, Codex and the API, but not yet in the main ChatGPT chat.",
+    "link": "https://openai.com/index/introducing-gpt-6-1-sol/"
+  },
+  {
+    "id": "google-gemini4-argon-2026",
+    "provider": "Google",
+    "model": "Gemini 4 Argon",
+    "releaseDate": "2026-09-30",
+    "notes": "Google's first new frontier model in months, built for coding, enterprise knowledge work and cyber defense. It is initially rolling out only to vetted cybersecurity defenders through Google's Fairwind Program.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+  },
+  {
+    "id": "google-search-ai-mode-info-monitoring-global-2026",
+    "provider": "Google Search",
+    "model": "AI Mode Information Monitoring (Global Rollout)",
+    "releaseDate": "2026-09-28",
+    "notes": "Anyone can now ask AI Mode to keep watch on something — like new local restaurants, events, or back-in-stock and price-drop alerts — and Search will keep checking the web and notify them. Previously limited to Google AI Pro and Ultra subscribers.",
+    "link": "https://www.seroundtable.com/google-ai-mode-monitoring-capabilities-42179.html"
   }
 ]

@@ -7,8 +7,8 @@
       "name": "AI Model Release Tracker",
       "description": "A comprehensive, daily-updated dataset of AI language model releases from OpenAI, Anthropic, Google, Meta, DeepSeek, and more.",
       "url": "https://www.evertune.ai/resources/ai-model-tracker",
-      "dateModified": "2026-09-24T00:00:00Z",
-      "temporalCoverage": "2023-11-02/2026-09-22",
+      "dateModified": "2026-10-04T00:00:00Z",
+      "temporalCoverage": "2023-11-02/2026-09-30",
       "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
@@ -67,23 +67,7 @@
           "name": "What is the most recent AI model release?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most recent tracked release is Anthropic Claude Opus 5.5, released Sep 22, 2026. Anthropic's first model in the new 5.5 family, built for long-running agentic coding and knowledge work. It matches Claude Fable 5.1 on most tasks while costing meaningfully less to run and responding noticeably faster."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the latest AI model from OpenAI?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The latest OpenAI release in this tracker is GPT-6 Sol, released Sep 22, 2026. A cheaper, faster sibling to GPT-6 Astra aimed at everyday professional work, coding and computer use. OpenAI cut API pricing roughly in half versus the GPT-5.6 generation and says it makes about half as many mistakes as GPT-5.6 Sol."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the latest AI model from Anthropic?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The latest Anthropic release in this tracker is Claude Opus 5.5, released Sep 22, 2026. Anthropic's first model in the new 5.5 family, built for long-running agentic coding and knowledge work. It matches Claude Fable 5.1 on most tasks while costing meaningfully less to run and responding noticeably faster."
+            "text": "The most recent tracked release is Google Gemini 4 Argon, released Sep 30, 2026. Google's first new frontier model in months, built for coding, enterprise knowledge work and cyber defense. It is initially rolling out only to vetted cybersecurity defenders through Google's Fairwind Program."
           }
         },
         {
@@ -91,7 +75,23 @@
           "name": "What is the latest AI model from Google?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The latest Google release in this tracker is Gemini 3.8 Flash, released Sep 2, 2026. Google's newest everyday workhorse model, arriving about three weeks after 3.7 Flash. It is better at software engineering, agent workflows and multi-step reasoning than the version it replaces, at a lower cost than frontier models. Available through the Gemini API, AI Studio, Antigravity, Android Studio and Stitch."
+            "text": "The latest Google release in this tracker is Gemini 4 Argon, released Sep 30, 2026. Google's first new frontier model in months, built for coding, enterprise knowledge work and cyber defense. It is initially rolling out only to vetted cybersecurity defenders through Google's Fairwind Program."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the latest AI model from OpenAI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The latest OpenAI release in this tracker is GPT-6.1 Sol, released Sep 29, 2026. An upgraded GPT-6 Sol that OpenAI says comes close to its flagship GPT-6 Astra on coding, computer use and professional workflows at a fraction of the cost. Available in ChatGPT Work, Codex and the API, but not yet in the main ChatGPT chat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the latest AI model from Anthropic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The latest Anthropic release in this tracker is Claude Sonnet 5.5, released Sep 28, 2026. Anthropic's new mid-tier model in the 5.5 family, aimed at everyday work like coding fixes, documents, slides and spreadsheets. It runs noticeably faster and cheaper per task than Sonnet 5, and Anthropic says Haiku 5.5 will follow in the coming weeks."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "How many AI models does the tracker cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The tracker currently covers 133 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
+            "text": "The tracker currently covers 137 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
           }
         },
         {
