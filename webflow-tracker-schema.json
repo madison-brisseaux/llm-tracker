@@ -7,8 +7,8 @@
       "name": "AI Model Release Tracker",
       "description": "A comprehensive, daily-updated dataset of AI language model releases from OpenAI, Anthropic, Google, Meta, DeepSeek, and more.",
       "url": "https://www.evertune.ai/resources/ai-model-tracker",
-      "dateModified": "2026-10-04T00:00:00Z",
-      "temporalCoverage": "2023-11-02/2026-09-30",
+      "dateModified": "2026-10-08T00:00:00Z",
+      "temporalCoverage": "2023-11-02/2026-10-07",
       "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
@@ -67,15 +67,7 @@
           "name": "What is the most recent AI model release?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most recent tracked release is Google Gemini 4 Argon, released Sep 30, 2026. Google's first new frontier model in months, built for coding, enterprise knowledge work and cyber defense. It is initially rolling out only to vetted cybersecurity defenders through Google's Fairwind Program."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the latest AI model from Google?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The latest Google release in this tracker is Gemini 4 Argon, released Sep 30, 2026. Google's first new frontier model in months, built for coding, enterprise knowledge work and cyber defense. It is initially rolling out only to vetted cybersecurity defenders through Google's Fairwind Program."
+            "text": "The most recent tracked release is Anthropic Claude Haiku 5.5, released Oct 7, 2026. Anthropic's new small, fast model and the last of the 5.5 family, built for high-volume work like summaries, classification and live customer support, and costing far less than Haiku 4.5. It's the first Haiku with an adjustable effort setting, and it can act as a cheap helper agent alongside Opus 5.5 and Sonnet 5.5."
           }
         },
         {
@@ -83,7 +75,7 @@
           "name": "What is the latest AI model from OpenAI?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The latest OpenAI release in this tracker is GPT-6.1 Sol, released Sep 29, 2026. An upgraded GPT-6 Sol that OpenAI says comes close to its flagship GPT-6 Astra on coding, computer use and professional workflows at a fraction of the cost. Available in ChatGPT Work, Codex and the API, but not yet in the main ChatGPT chat."
+            "text": "The latest OpenAI release in this tracker is GPT-6 & Intelligent UI in ChatGPT (All Users), released Oct 7, 2026. GPT-6 is now the default in ChatGPT chat for everyone, with paid plans on GPT-6 Sol and Free and Go users on GPT-6 Luna. A new Intelligent UI lets answers mix text with charts, maps, buttons, forms and small on-the-spot tools like calculators, and web-search answers start noticeably faster."
           }
         },
         {
@@ -91,7 +83,15 @@
           "name": "What is the latest AI model from Anthropic?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The latest Anthropic release in this tracker is Claude Sonnet 5.5, released Sep 28, 2026. Anthropic's new mid-tier model in the 5.5 family, aimed at everyday work like coding fixes, documents, slides and spreadsheets. It runs noticeably faster and cheaper per task than Sonnet 5, and Anthropic says Haiku 5.5 will follow in the coming weeks."
+            "text": "The latest Anthropic release in this tracker is Claude Haiku 5.5, released Oct 7, 2026. Anthropic's new small, fast model and the last of the 5.5 family, built for high-volume work like summaries, classification and live customer support, and costing far less than Haiku 4.5. It's the first Haiku with an adjustable effort setting, and it can act as a cheap helper agent alongside Opus 5.5 and Sonnet 5.5."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the latest AI model from Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The latest Google release in this tracker is Gemini Nano Banana 2.1, released Oct 6, 2026. An updated version of Google's fast image generation and editing model, with better image quality, closer prompt following and cleaner text inside images at the same speed and cost. It's now generally available in the Gemini API and replaces Nano Banana 2."
           }
         },
         {
@@ -123,7 +123,7 @@
           "name": "How many AI models does the tracker cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The tracker currently covers 137 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
+            "text": "The tracker currently covers 140 model releases and AI-search updates from OpenAI, Anthropic, Google, Meta, and DeepSeek."
           }
         },
         {

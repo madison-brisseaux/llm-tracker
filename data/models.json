@@ -1105,5 +1105,29 @@
     "releaseDate": "2026-09-28",
     "notes": "Anyone can now ask AI Mode to keep watch on something — like new local restaurants, events, or back-in-stock and price-drop alerts — and Search will keep checking the web and notify them. Previously limited to Google AI Pro and Ultra subscribers.",
     "link": "https://www.seroundtable.com/google-ai-mode-monitoring-capabilities-42179.html"
+  },
+  {
+    "id": "anthropic-claude-haiku55-2026",
+    "provider": "Anthropic",
+    "model": "Claude Haiku 5.5",
+    "releaseDate": "2026-10-07",
+    "notes": "Anthropic's new small, fast model and the last of the 5.5 family, built for high-volume work like summaries, classification and live customer support, and costing far less than Haiku 4.5. It's the first Haiku with an adjustable effort setting, and it can act as a cheap helper agent alongside Opus 5.5 and Sonnet 5.5.",
+    "link": "https://www.anthropic.com/claude-haiku-5-5"
+  },
+  {
+    "id": "openai-gpt6-intelligent-ui-2026",
+    "provider": "OpenAI",
+    "model": "GPT-6 & Intelligent UI in ChatGPT (All Users)",
+    "releaseDate": "2026-10-07",
+    "notes": "GPT-6 is now the default in ChatGPT chat for everyone, with paid plans on GPT-6 Sol and Free and Go users on GPT-6 Luna. A new Intelligent UI lets answers mix text with charts, maps, buttons, forms and small on-the-spot tools like calculators, and web-search answers start noticeably faster.",
+    "link": "https://openai.com/index/gpt-6-for-everyone/"
+  },
+  {
+    "id": "google-nano-banana-21-2026",
+    "provider": "Google",
+    "model": "Gemini Nano Banana 2.1",
+    "releaseDate": "2026-10-06",
+    "notes": "An updated version of Google's fast image generation and editing model, with better image quality, closer prompt following and cleaner text inside images at the same speed and cost. It's now generally available in the Gemini API and replaces Nano Banana 2.",
+    "link": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1"
   }
 ]
