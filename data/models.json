@@ -1129,5 +1129,37 @@
     "releaseDate": "2026-10-06",
     "notes": "An updated version of Google's fast image generation and editing model, with better image quality, closer prompt following and cleaner text inside images at the same speed and cost. It's now generally available in the Gemini API and replaces Nano Banana 2.",
     "link": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1"
+  },
+  {
+    "id": "google-gemini4-argon-ga-2026",
+    "provider": "Google",
+    "model": "Gemini 4 Argon (General Availability)",
+    "releaseDate": "2026-10-13",
+    "notes": "Google's newest frontier model is now broadly available, after launching only to vetted cyber defenders. Developers and enterprises can use it through the paid Gemini API, AI Studio and Google Cloud, and Google AI Pro and Ultra subscribers get it in the Gemini app and AI Mode in Search.",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+  },
+  {
+    "id": "meta-muse-spark-open-2026",
+    "provider": "Meta",
+    "model": "Muse Spark Open",
+    "releaseDate": "2026-10-15",
+    "notes": "Meta's new open-weight model for coding and agent tasks, which Meta calls the most capable US open-weight model so far. The weights are free to download, and Meta worked with Apple so it can run locally on a pair of Mac Studios. Meta's top Muse Wonder models stay closed.",
+    "link": "https://research.meta.ai/blog/muse-spark-open"
+  },
+  {
+    "id": "google-search-ai-mode-overviews-links-oct2026",
+    "provider": "Google Search",
+    "model": "AI Mode & AI Overviews — More Prominent Links",
+    "releaseDate": "2026-10-15",
+    "notes": "AI Mode and AI Overviews now show more inline links, place them higher in responses, and give 'dive deeper' links thumbnails. Google is also testing a section for official websites at the top of some answers and clickable creator profiles, and is expanding news carousels and Preferred Sources to more countries.",
+    "link": "https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/"
+  },
+  {
+    "id": "meta-muse-wonder-2026",
+    "provider": "Meta",
+    "model": "Muse Wonder & Muse Wonder Full",
+    "releaseDate": "2026-10-12",
+    "notes": "Meta's first frontier-level models, built for AI agents and positioned to compete with the top OpenAI and Anthropic models. Muse Wonder is available to developers through the Meta Model API and Muse Code, Wonder Full is available to Muse Code subscribers, and both will come to the Muse app soon.",
+    "link": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
   }
 ]
