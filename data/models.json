@@ -1161,5 +1161,21 @@
     "releaseDate": "2026-10-12",
     "notes": "Meta's first frontier-level models, built for AI agents and positioned to compete with the top OpenAI and Anthropic models. Muse Wonder is available to developers through the Meta Model API and Muse Code, Wonder Full is available to Muse Code subscribers, and both will come to the Muse app soon.",
     "link": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+  },
+  {
+    "id": "openai-gpt6-pro-parallel-agents-2026",
+    "provider": "OpenAI",
+    "model": "GPT-6 Pro — Parallel Agents",
+    "releaseDate": "2026-10-16",
+    "notes": "GPT-6 Pro in ChatGPT now answers faster, uses plugins and tools better, and can split a task across several agents working at once. Users can follow each agent's progress and review finished subtasks.",
+    "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "id": "deepseek-v41flash-1017-2026",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4.1-Flash (1017 Update)",
+    "releaseDate": "2026-10-17",
+    "notes": "A refreshed version of V4.1-Flash that finishes tasks faster with shorter answers, at the same API price. It's live in DeepSeek's apps and API, with open weights under the MIT license.",
+    "link": "https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster/"
   }
 ]
