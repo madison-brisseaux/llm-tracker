@@ -1177,5 +1177,29 @@
     "releaseDate": "2026-10-17",
     "notes": "A refreshed version of V4.1-Flash that finishes tasks faster with shorter answers, at the same API price. It's live in DeepSeek's apps and API, with open weights under the MIT license.",
     "link": "https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster/"
+  },
+  {
+    "id": "anthropic-claude-duet-2026",
+    "provider": "Anthropic",
+    "model": "Claude Duet (Research Preview)",
+    "releaseDate": "2026-10-21",
+    "notes": "A new app where Claude works as a proactive agent in the background, watching your connected apps and asking for approval before important actions. Waitlist-based preview for US Pro and Max subscribers on iOS, Android, and claude.ai.",
+    "link": "https://claude.com/resources/articles/claude-duet"
+  },
+  {
+    "id": "anthropic-claude-code-review-ga-2026",
+    "provider": "Anthropic",
+    "model": "Claude Code Review (General Availability)",
+    "releaseDate": "2026-10-15",
+    "notes": "Claude's automated pull-request reviews leave research preview for Team and Enterprise plans, running about three times faster with Quick, Standard, or Deep review settings per repository.",
+    "link": "https://claude.com/blog/code-review-is-now-generally-available"
+  },
+  {
+    "id": "google-gemini-agent-for-work-2026",
+    "provider": "Google",
+    "model": "Gemini Agent for Work",
+    "releaseDate": "2026-10-08",
+    "notes": "A single Gemini agent for businesses that handles research, writing, and coding from one prompt box and keeps working in the cloud on long tasks. Works across Google Workspace, Microsoft 365, and Slack, starting in private preview for enterprise customers.",
+    "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
   }
 ]
